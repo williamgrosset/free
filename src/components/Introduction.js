@@ -4,9 +4,9 @@ import './Introduction.css';
 class Introduction extends Component {
   render() {
     return (
-      <div className="header">
+      <div>
         <h1 className="title">William</h1>
-        <h1 className="title">Grosset</h1>
+        <h1 className="title left-offset">Grosset.</h1>
       </div>
     );
   }
