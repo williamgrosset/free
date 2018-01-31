@@ -1,0 +1,13 @@
+.navigation {
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2em;
+}
+
+.list {
+  list-style: none;
+}
+
+.right-offset {
+  padding-right: 20em;
+}
