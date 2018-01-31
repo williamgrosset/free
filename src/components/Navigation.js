@@ -6,10 +6,10 @@ class Navigation extends Component {
     return (
       <div className="navigation right-offset">
         <ul className="list">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Writings</li>
-          <li>Contact</li>
+          <li>about</li>
+          <li>projects</li>
+          <li>writings</li>
+          <li>contact</li>
         </ul>
       </div>
     );

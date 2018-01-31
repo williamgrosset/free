@@ -1,9 +1,11 @@
-.title {
+.header {
   text-align: center;
   font-family: 'Source Serif Pro', serif;
   font-size: 10em;
+  margin-right: 1.5em;
 }
 
-.left-offset {
+.bottom-header {
   padding-left: 1.5em;
+  margin-bottom: 0;
 }
