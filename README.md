@@ -1,5 +1,13 @@
 # website
 
+### TODO
++ Clean-up boilerplate
++ Finish `<Welcome>` component
++ Start on `<About>` component
+  + yellow underline
+  + sans serif
++ Movable `<Navigation>` component
+
 ### Requirements
 + About
 + Projects
