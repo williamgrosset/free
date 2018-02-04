@@ -7,6 +7,7 @@
   + yellow underline
   + sans serif
 + Movable `<Navigation>` component
++ Stateless functional components
 
 ### Requirements
 + About
