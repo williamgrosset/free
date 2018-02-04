@@ -12,6 +12,7 @@ class App extends Component {
         <Navigation />
         <Spacer />
         <About />
+        <Spacer />
       </div>
     );
   }
