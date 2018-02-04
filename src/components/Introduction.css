@@ -2,12 +2,12 @@
   text-align: center;
   font-family: 'Source Serif Pro', serif;
   font-size: 10em;
-  margin-right: 1.5em;
   font-weight: normal;
+  top: 500px;
 }
 
 .bottom-header {
-  padding-left: 1.5em;
   margin-top: -0.5em;
   margin-bottom: -1.2em;
+  margin-left: 1.5em;
 }

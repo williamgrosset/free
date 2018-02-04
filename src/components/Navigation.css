@@ -1,18 +1,18 @@
 .navigation {
   text-align: center;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 2em;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.8em;
 }
 
 .list {
   list-style: none;
 }
 
+.right-offset {
+  padding-right: 20em;
+}
+
 li {
   margin: 0 0 0.5em 0;
   cursor: pointer;
-}
-
-.right-offset {
-  padding-right: 30em;
 }
