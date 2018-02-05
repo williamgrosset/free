@@ -9,11 +9,14 @@ class About extends Component {
     return (
       <div className="about">
         <p>
-          Hello, I’m William. I am currently studying Computer Science. I previously worked at <a href={changeLink}>Change.org</a> and as a
-          research assistant at the <a href={uvicLink}>University of Victoria</a>. My interests are in networks, , and building beautiful interfaces.
+          My name is William Hamilton Grosset. I am currently studying Computer Science at
+          the <a href={uvicLink}>University of Victoria</a>. I previously worked
+          at <a href={changeLink}>Change.org</a> and as a research assistant at the University.
+          My interests are in distributed systems, machine learning, and building beautiful interfaces.
         </p>
         <p>
-          I love to read, write, and stay active. I believe in hard work and never giving up.
+          I love to read, write, and stay active. I believe in hard work and persistence.
+          I believe in questioning the status quo.
         </p>
       </div>
     );

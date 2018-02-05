@@ -3,3 +3,11 @@
   margin-left: 40em;
   margin-right: 40em;
 }
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
