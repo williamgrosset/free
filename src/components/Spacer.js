@@ -1,5 +1,5 @@
 import React from 'react';
-import '../static/components/Spacer.css';
+import '../styles/components/Spacer.css';
 
 const Spacer = () => {
   return (

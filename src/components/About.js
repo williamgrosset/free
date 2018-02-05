@@ -1,5 +1,5 @@
 import React from 'react';
-import '../static/components/About.css';
+import '../styles/components/About.css';
 
 const About = () => { 
   const changeLink = "https://www.change.org";
