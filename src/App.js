@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Introduction />
         <Navigation />
+        <Introduction />
         <Spacer />
         <About />
         <Spacer />

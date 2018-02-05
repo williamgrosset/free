@@ -10,12 +10,12 @@ const About = () => {
       <p>
         My name is William Hamilton Grosset. I am currently studying Computer Science at
         the <a href={uvicLink}>University of Victoria</a>. I previously worked
-        at <a href={changeLink}>Change.org</a> and as a research assistant at the University.
-        My interests are in distributed systems, machine learning, and building beautiful interfaces.
+        at <a href={changeLink}>Change.org</a> as a software engineer intern and as a research assistant at the
+        University. My interests are in distributed systems, machine learning, and building beautiful interfaces.
       </p>
       <p>
         I love to read, write, and stay active. I believe in hard work and persistence.
-        I believe in questioning the status quo.
+        I believe in relentlessly pursuing your goals. I believe in questioning the status quo.
       </p>
     </div>
   );
