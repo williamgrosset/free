@@ -9,14 +9,14 @@ const Project = () => {
       </p>
       <div className="content">
         <p>
-          Blue = content card
+          Black = content card
         </p>
       </div>
       <div className="sub-content">
         <p>
           Yellow = sub-content card
         </p>
-        <p>
+        <p className="title">
           CHANGE
         </p>
         <hr />

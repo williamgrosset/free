@@ -1,23 +1,35 @@
 .project {
   background: green;
   line-height: 2em;
-  height: 40em;
+  height: 30em;
   margin-left: 20em;
   margin-right: 20em;
 }
 
 .content {
-  background: blue;
-  height: 60%;
-  width: 60%;
+  background: orange;
+  z-index: 1;
+  float: left;
+  height: 80%;
+  width: 55%;
+  margin-left: 5%;
 }
 
 .sub-content {
   background: yellow;
+  float: left;
   height: 40%;
-  width: 40%;
+  width: 30%;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0em;
 }
 
 .subtitle {
-  font-size: 1em;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.9em;
+  margin-top: 0em;
 }
