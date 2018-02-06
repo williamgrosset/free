@@ -18,9 +18,9 @@ const About = () => {
         at the <a href={uvicURL}>University of Victoria</a>. During 2017, I worked as a research assistant at the
         University and as a software engineer at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active. My interests are in distributed
         systems, machine learning, and building beautiful interfaces.
-        You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>LinkedIn</a>, <a href={githubURL}>GitHub</a>. Here is my <a href={resumeURL}>resume</a>.
+        You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>LinkedIn</a>, <a href={githubURL}>GitHub</a>, or you can take a look at my <a href={resumeURL}>resume</a>.
       </p>
-      <p className="sub-about">
+      <p className="sub-about code-font">
         I believe in hard work and persistence.<br />I believe in
         relentlessly pursuing your goals.<br />I believe in transforming everything around you.
       </p>
