@@ -8,7 +8,7 @@ const Project = () => {
       </div>
       <div className="sub-content">
         <p className="title">
-          C H A N G E
+          change.org 
         </p>
         <hr />
         <p className="subtitle">

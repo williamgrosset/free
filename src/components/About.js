@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="about">
       <p>
-        My name is William Hamilton Grosset. I am currently studying Computer Science
+        I am currently studying Computer Science
         at the <a href={uvicLink}>University of Victoria</a>. During 2017, I worked as a research assistant at the
         University and as a software engineer at <a href={changeLink}>Change.org</a>. I love to read, write, code, and stay active. My interests are in distributed
         systems, machine learning, and building beautiful interfaces.
