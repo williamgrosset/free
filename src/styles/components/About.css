@@ -1,12 +1,22 @@
 .about {
   text-align: left;
-  line-height: 2em;
+  line-height: 35px;
+  margin-top: 130px;
   margin-left: 400px;
   margin-right: 400px;
 }
 
+.sub-about {
+  margin-top: 50px;
+}
+
 .header {
   font-weight: normal;
+  font-size: 44px;
+}
+
+.code-font {
+  font-family: 'Cutive Mono', monospace;
 }
 
 a:link {
