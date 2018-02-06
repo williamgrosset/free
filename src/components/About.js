@@ -14,8 +14,8 @@ const About = () => {
         systems, machine learning, and building beautiful interfaces.
       </p>
       <p>
-        I love to read, write, code, and stay active. I believe in hard work and persistence. I believe in relentlessly
-        pursuing your goals with a focused vision. I believe in transforming those goals into reality.
+        I love to read, write, code, and stay active.<br />I believe in hard work and persistence.<br />I believe in
+        relentlessly pursuing your goals with a focused vision.<br />I believe in transforming those goals into reality.
       </p>
       <p>
         Links to Facebook, Twitter, LinkedIn, GitHub, HackerNews, Resume

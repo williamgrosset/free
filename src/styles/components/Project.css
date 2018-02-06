@@ -23,14 +23,13 @@
 }
 
 .title {
-  font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 0em;
 }
 
 .subtitle {
   font-family: 'Karla', sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   margin-top: 0em;
 }
 

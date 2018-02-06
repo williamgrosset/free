@@ -1,7 +1,8 @@
 .about {
+  text-align: left;
   line-height: 2em;
-  margin-left: 40em;
-  margin-right: 40em;
+  margin-left: 38em;
+  margin-right: 38em;
 }
 
 a:link {
