@@ -7,6 +7,7 @@ const About = () => {
 
   return (
     <div className="about">
+      <h2 className="header">My name is William Hamilton Grosset.</h2>
       <p>
         I am currently studying Computer Science
         at the <a href={uvicLink}>University of Victoria</a>. During 2017, I worked as a research assistant at the
@@ -18,7 +19,7 @@ const About = () => {
         relentlessly pursuing your goals.<br />I believe in transforming everything around you.
       </p>
       <p>
-        Links to Facebook, Twitter, LinkedIn, GitHub, HackerNews, Resume
+        You can find me on Facebook, Twitter, LinkedIn, GitHub, HackerNews, and here is my resume.
       </p>
     </div>
   );
