@@ -33,3 +33,10 @@
   font-size: 0.9em;
   margin-top: 0em;
 }
+
+hr {
+  background-color: black;
+  border-color: black;
+  border: none;
+  height: 1px;
+}

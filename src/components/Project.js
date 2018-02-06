@@ -21,7 +21,7 @@ const Project = () => {
         </p>
         <hr />
         <p className="subtitle">
-          Software Engineer Intern | 2017
+          software engineer intern — 2017
         </p>
       </div>
     </div>
