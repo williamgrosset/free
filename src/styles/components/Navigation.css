@@ -1,13 +1,10 @@
 .navigation {
   font-family: 'Karla', sans-serif;
   font-size: 1.8em;
+  list-style: none;
   position: fixed;
   bottom: 60px;
   left: 90px;
-}
-
-.list {
-  list-style: none;
 }
 
 .right-offset {
