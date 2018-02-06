@@ -4,20 +4,11 @@ import '../styles/components/Project.css';
 const Project = () => { 
   return (
     <div className="project">
-      <p>
-        Green = entire card
-      </p>
       <div className="content">
-        <p>
-          Black = content card
-        </p>
       </div>
       <div className="sub-content">
-        <p>
-          Yellow = sub-content card
-        </p>
         <p className="title">
-          CHANGE
+          C H A N G E
         </p>
         <hr />
         <p className="subtitle">

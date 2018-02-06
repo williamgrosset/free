@@ -1,5 +1,4 @@
 .project {
-  background: green;
   line-height: 2em;
   height: 30em;
   margin-left: 20em;
@@ -10,17 +9,16 @@
   background: orange;
   z-index: 1;
   float: left;
-  height: 80%;
-  width: 55%;
+  height: 85%;
+  width: 65%;
   margin-left: 5%;
   box-shadow: -10px 20px 50px;
 }
 
 .sub-content {
-  background: yellow;
   float: left;
   height: 40%;
-  width: 30%;
+  width: 25%;
 }
 
 .title {
