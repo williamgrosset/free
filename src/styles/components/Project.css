@@ -1,0 +1,23 @@
+.project {
+  background: green;
+  line-height: 2em;
+  height: 40em;
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+.content {
+  background: blue;
+  height: 60%;
+  width: 60%;
+}
+
+.sub-content {
+  background: yellow;
+  height: 40%;
+  width: 40%;
+}
+
+.subtitle {
+  font-size: 1em;
+}

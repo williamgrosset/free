@@ -1,13 +1,29 @@
 import React from 'react';
-import '../styles/components/About.css';
+import '../styles/components/Project.css';
 
 const Project = () => { 
   return (
-    <div className="about">
+    <div className="project">
       <p>
-        I love to read, write, code, and stay active. I believe in hard work and persistence.
-        I believe in relentlessly pursuing your goals. I believe in transforming those goals with a focused vision into reality.
+        Green = entire card
       </p>
+      <div className="content">
+        <p>
+          Blue = content card
+        </p>
+      </div>
+      <div className="sub-content">
+        <p>
+          Yellow = sub-content card
+        </p>
+        <p>
+          CHANGE
+        </p>
+        <hr />
+        <p className="subtitle">
+          Software Engineer Intern | 2017
+        </p>
+      </div>
     </div>
   );
 }
