@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/components/Project.css';
-import photo from '../images/better_world.png';
+import betterWorld from '../images/better_world.png';
 
-const Project = () => { 
+const Change = () => { 
   return (
     <div className="project">
       <div className="content">
-        <img className="photo" src={photo} alt='Better world' />
+        <img className="photo" src={betterWorld} alt='Better world' />
       </div>
       <div className="sub-content">
         <p className="title">
@@ -21,4 +21,4 @@ const Project = () => {
   );
 }
 
-export default Project;
+export default Change;
