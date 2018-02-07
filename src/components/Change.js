@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/Project.css';
+import '../styles/components/Change.css';
 import betterWorld from '../images/better_world.png';
 
 const Change = () => { 
