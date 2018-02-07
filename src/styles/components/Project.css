@@ -6,18 +6,17 @@
 }
 
 .content {
-  background: orange;
   z-index: 1;
   float: left;
   height: 85%;
-  width: 65%;
+  width: 63%;
   margin-left: 5%;
-  box-shadow: -10px 13px 50px 0px;
 }
 
 .photo {
   width: auto;
-  height: 140%;
+  height: 130%;
+  box-shadow: -10px 13px 50px 0px;
 }
 
 .sub-content {
