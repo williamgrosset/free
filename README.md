@@ -1,19 +1,24 @@
 # website
 
 ### TODO
-+ Clean-up boilerplate
-+ Finish `<Welcome>` component
-+ Start on `<About>` component
-  + yellow underline
-  + sans serif
-+ Movable `<Navigation>` component
++ Write down notes for `<Project>` component
++ Finish `<Project>` component
++ Finish `<About>` component
++ Move `<Navigation>` component into header or re-adjust content
 + Stateless functional components
++ Organize repository
++ Clean-up nits (variable naming, etc.)
++ Clean-up CSS
 
 ### Requirements
 + About
 + Projects
+  + single component
+  + optional child component to be rendered
 + Writings
+  + continued scrolling with small background list
 + Contact
+  + yellow background
 
 ### Inspiration
 + https://www.axiomzen.co/

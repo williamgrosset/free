@@ -7,6 +7,7 @@ const About = () => {
   const facebookURL = "https://www.facebook.com/WilliamGrosset";
   const twitterURL = "https://twitter.com/williamhgrosset";
   const linkedinURL = "https://www.linkedin.com/in/williamgrosset";
+  const hackernewsURL = "https://news.ycombinator.com/user?id=williamgrosset";
   const githubURL = "https://github.com/williamgrosset";
   const resumeURL = "https://docs.google.com/document/d/1vaoFvK_89JEpctlfIfrw-Mb2VMdot88AVl7Mdowei44";
 
@@ -14,11 +15,11 @@ const About = () => {
     <div className="about">
       <h2 className="header code-font">William Hamilton Grosset.</h2>
       <p className="sub-about">
-        I am currently studying Computer Science
+        I am 21 years old and currently studying Computer Science
         at the <a href={uvicURL}>University of Victoria</a>. During 2017, I worked as a research assistant at the
-        University and as a software engineer at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active. My interests are in distributed
-        systems, machine learning, and building beautiful interfaces.
-        You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>LinkedIn</a>, <a href={githubURL}>GitHub</a>, or you can take a look at my <a href={resumeURL}>resume</a>.
+        University and as a software engineer at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active. My interests are in distributed systems, machine learning, and building beautiful interfaces.
+        You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>
+        LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>.
       </p>
       <p className="sub-about code-font">
         I believe in hard work and persistence.<br />I believe in
