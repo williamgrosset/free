@@ -14,8 +14,6 @@ class App extends Component {
         <Spacer />
         <Project />
         <Spacer />
-        <Project />
-        <Spacer />
       </div>
     );
   }

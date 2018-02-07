@@ -15,6 +15,11 @@
   box-shadow: -10px 13px 50px 0px;
 }
 
+.photo {
+  width: auto;
+  height: 140%;
+}
+
 .sub-content {
   text-align: right;
   float: left;
