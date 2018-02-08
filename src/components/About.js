@@ -1,4 +1,5 @@
 import React from 'react';
+import Typist from 'react-typist';
 import '../styles/components/About.css';
 
 const About = () => { 
@@ -23,10 +24,10 @@ const About = () => {
         LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>. Also, you can view
         my <a href={resumeURL}>cv</a>.
       </p>
-      <p className="sub-about code-font">
+      <Typist className="sub-about code-font">
         I believe in hard work and persistence.<br />I believe in
         relentlessly pursuing your goals.<br />I believe in transforming everything around you.
-      </p>
+      </Typist>
     </div>
   );
 }
