@@ -15,11 +15,13 @@ const About = () => {
     <div className="about">
       <h2 className="header code-font">William Hamilton Grosset.</h2>
       <p className="sub-about">
-        I am 21 years old and currently studying Computer Science
-        at the <a href={uvicURL}>University of Victoria</a>. During 2017, I worked as a research assistant at the
-        University and as a software engineer at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active. My interests are in distributed systems, machine learning, and building beautiful interfaces.
+        I am currently 21 years old and studying Computer Science at the <a href={uvicURL}>University of Victoria</a>.
+        During 2017, I worked as a research assistant at the University and as a software engineer
+        at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and
+        stay active. My interests are in distributed systems, machine learning, and building beautiful interfaces.
         You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>
-        LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>.
+        LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>. Also, you can view
+        my <a href={resumeURL}>cv</a>.
       </p>
       <p className="sub-about code-font">
         I believe in hard work and persistence.<br />I believe in

@@ -3,7 +3,6 @@ import Navigation from './components/Navigation';
 import Spacer from './components/Spacer';
 import About from './components/About';
 import Change from './components/Change';
-import Fokus from './components/Fokus';
 
 class App extends Component {
   render() {
@@ -14,8 +13,6 @@ class App extends Component {
         <About />
         <Spacer />
         <Change />
-        <Spacer />
-        <Fokus />
         <Spacer />
       </div>
     );
