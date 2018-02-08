@@ -2,9 +2,11 @@
 
 ### TODO
 + Write down notes for `<Project>` component
-+ Finish `<Project>` component
 + Finish `<About>` component
+  + Rerender with set-timeout `code` to `$1%o` (etc.)
+  + Add `React-Typist` for printing out 3 messages
 + Move `<Navigation>` component into header or re-adjust content
++ Start `<Contact>` component
 + Stateless functional components
 + Organize repository
 + Clean-up nits (variable naming, etc.)
