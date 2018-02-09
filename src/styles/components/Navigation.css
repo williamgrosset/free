@@ -1,18 +1,27 @@
-.navigation {
+.nav {
   font-family: 'Yantramanav', sans-serif;
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.5em;
   list-style: none;
   position: fixed;
   bottom: 50px;
   left: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  width: 150px;
 }
 
-.right-offset {
-  padding-right: 20em;
+.nav-hr {
+  float: left;
+  height: 2px;
+  width: 25%;
+  background-color: #ffd248;
 }
 
 li {
-  margin: 0 0 0.5em 0;
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+  width: 100%;
   cursor: pointer;
 }
