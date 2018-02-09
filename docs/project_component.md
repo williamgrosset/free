@@ -14,7 +14,7 @@
   + use browser screenshot inside computer desktop background
   + child component box: fokus logo w/ blue background
 + ripe
-  + iOS background
+  + iOS background (on scroll animation to float up)
   + child component box: MLH banner w/ 2nd place
   + child component box: Ripe icon 
 + oscar

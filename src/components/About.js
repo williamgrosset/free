@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div className="about">
-      <h2 className="title code-font">William Hamilton Grosset<span className="mustard">.</span></h2>
+      <h2 className="name code-font">William Hamilton Grosset<span className="mustard">.</span></h2>
       <p className="about-desc">
         I am currently 21 years old and studying Computer Science at the <a href={uvicURL}>University of Victoria</a>.
         During 2017, I worked as a research assistant at the University and as a software engineer
