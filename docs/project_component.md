@@ -12,11 +12,15 @@
 + change.org
 + fokus
   + use browser screenshot inside computer desktop background
-  + child component box: fokus logo
+  + child component box: fokus logo w/ blue background
 + ripe
   + iOS background
-  + child component box: MLH banner
+  + child component box: MLH banner w/ 2nd place
   + child component box: Ripe icon 
 + oscar
+  + potion cartoon img: Drugref
+  + medical building img: OSCAR
+  + UVic research assistant banner
+  + include link to [Dr. Jens Weber](https://lead-lab.atlassian.net/wiki/spaces/~admin/overview)
 + os & networks
   + terminal background with gif

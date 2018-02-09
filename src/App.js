@@ -5,9 +5,11 @@ import About from './components/About';
 import Change from './components/Change';
 
 class App extends Component {
+  // TOOD: Grab window height and pass down to components
+  // TODO: Create helper lib for CSS animation functions
   render() {
     return (
-      <div>
+      <div className="page">
         <Navigation />
         <Spacer />
         <About />

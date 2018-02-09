@@ -11,6 +11,8 @@
 + Organize repository
 + Clean-up nits (variable naming, etc.)
 + Clean-up CSS
++ Add `favicon.ico`
++ Compress images (?)
 
 ### Requirements
 + About

@@ -14,8 +14,8 @@ const About = () => {
 
   return (
     <div className="about">
-      <h2 className="header code-font">William Hamilton Grosset<span style={{ color: '#ffd248' }}>.</span></h2>
-      <p className="sub-about">
+      <h2 className="title code-font">William Hamilton Grosset<span className="mustard">.</span></h2>
+      <p className="about-desc">
         I am currently 21 years old and studying Computer Science at the <a href={uvicURL}>University of Victoria</a>.
         During 2017, I worked as a research assistant at the University and as a software engineer
         at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active.
@@ -24,7 +24,7 @@ const About = () => {
         LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>. Also, you can view
         my <a href={resumeURL}>cv</a>.
       </p>
-      <Typist className="sub-about code-font" cursor={{ show: false }} startDelay={1000} avgTypingDelay={30} stdTypingDelay={20}>
+      <Typist className="about-desc code-font" cursor={{ show: false }} startDelay={1000} avgTypingDelay={30} stdTypingDelay={20}>
         I believe in hard work and persistence.<Typist.Delay ms={1000} /><br />
         I believe in relentlessly pursuing your goals.<Typist.Delay ms={1000} /><br />
         I believe in transforming everything around you.
