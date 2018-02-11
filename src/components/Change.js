@@ -5,15 +5,15 @@ import betterWorld from '../images/better_world.png';
 const Change = () => { 
   return (
     <div className="project">
-      <div className="content">
-        <img className="photo" src={betterWorld} alt='Better world' />
+      <div className="ch-content">
+        <img className="ch-photo" src={betterWorld} alt='Better world' />
       </div>
-      <div className="sub-content">
-        <p className="title">
+      <div className="ch-sub-content">
+        <p className="ch-title">
           change.org 
         </p>
-        <hr className="project-hr" />
-        <p className="subtitle">
+        <hr className="ch-hr" />
+        <p className="ch-subtitle">
           software engineer intern — 2017
         </p>
       </div>

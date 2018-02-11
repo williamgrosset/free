@@ -5,7 +5,7 @@
   margin-right: 20em;
 }
 
-.content {
+.ch-content {
   z-index: 1;
   float: left;
   height: 85%;
@@ -13,33 +13,33 @@
   margin-left: 5%;
 }
 
-.photo {
+.ch-photo {
   width: auto;
   height: 130%;
   box-shadow: -10px 13px 50px 0px;
 }
 
-.sub-content {
+.ch-sub-content {
   text-align: right;
   float: left;
   height: 40%;
   width: 25%;
 }
 
-.title {
+.ch-title {
   font-family: 'Cutive Mono', monospace;
   font-weight: 300;
   margin-bottom: 0em;
 }
 
-.subtitle {
+.ch-subtitle {
   font-family: 'Yantramanav', sans-serif;
   font-weight: 300;
   font-size: 1em;
   margin-top: 0em;
 }
 
-.project-hr {
+.ch-hr {
   background-color: black;
   border-color: black;
   border: none;
