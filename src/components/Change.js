@@ -12,7 +12,7 @@ const Change = () => {
         <p className="title">
           change.org 
         </p>
-        <hr />
+        <hr className="project-hr" />
         <p className="subtitle">
           software engineer intern — 2017
         </p>
