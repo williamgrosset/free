@@ -16,18 +16,18 @@ const About = () => {
     <div className="about">
       <h2 className="name code-font">William Hamilton Grosset<span className="mustard">.</span></h2>
       <p className="about-desc">
-        I am currently 21 years old and studying Computer Science at the <a href={uvicURL}>University of Victoria</a>.
+        I am 21 years old and studying Computer Science at the <a href={uvicURL}>University of Victoria</a>.
         During 2017, I worked as a research assistant at the University and as a software engineer
         at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active.
         My interests are in networks, machine learning, beautiful interfaces, and building relationships.
         You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>
         LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>. Also, you can view
-        my <a href={resumeURL}>cv</a>. TODO: This needs more ermph to it and a style update.
+        my <a href={resumeURL}>cv</a>.<br /> <b>TODO:</b> This needs more ermph to it and a style update.
       </p>
       <Typist className="about-desc code-font" cursor={{ show: false }} startDelay={1000} avgTypingDelay={30} stdTypingDelay={20}>
-        I believe in hard work and persistence.<Typist.Delay ms={1000} /><br />
-        I believe in relentlessly pursuing your goals.<Typist.Delay ms={1000} /><br />
-        I believe in transforming everything around you.
+        I believe in hard work and persistence<span className="mustard">.</span><Typist.Delay ms={1000} /><br />
+        I believe in relentlessly pursuing your goals<span className="mustard">.</span><Typist.Delay ms={1000} /><br />
+        I believe in transforming everything around you<span className="mustard">.</span>
       </Typist>
     </div>
   );
