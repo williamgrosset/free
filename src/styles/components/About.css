@@ -1,21 +1,21 @@
 .about {
   height: 630px;
   text-align: left;
-  line-height: 35px;
-  margin-top: 100px;
-  margin-left: 500px;
-  margin-right: 500px;
+  line-height: 42px;
+  margin-top: 180px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .about-desc {
   margin-top: 120px;
   margin-right: 100px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .name {
   font-weight: normal;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .code-font {
