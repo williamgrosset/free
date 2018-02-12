@@ -1,21 +1,22 @@
 .project {
-  line-height: 2em;
-  height: 30em;
-  margin-left: 20em;
-  margin-right: 20em;
+  height: 600px;
+  line-height: 35px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .ch-content {
+  position: relative;
   z-index: 1;
   float: left;
-  height: 85%;
-  width: 63%;
-  margin-left: 5%;
+  height: 100%;
+  width: 60%;
+  margin-left: 3%;
 }
 
 .ch-photo {
   width: auto;
-  height: 130%;
+  height: 90%;
   box-shadow: -10px 13px 50px 0px;
 }
 
@@ -23,20 +24,20 @@
   text-align: right;
   float: left;
   height: 40%;
-  width: 25%;
+  width: 30%;
 }
 
 .ch-title {
   font-family: 'Cutive Mono', monospace;
   font-weight: 300;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 .ch-subtitle {
   font-family: 'Yantramanav', sans-serif;
   font-weight: 300;
-  font-size: 1em;
-  margin-top: 0em;
+  font-size: 16px;
+  margin-top: 0;
 }
 
 .ch-hr {
@@ -44,4 +45,5 @@
   border-color: black;
   border: none;
   height: 1px;
+  width: 100%;
 }
