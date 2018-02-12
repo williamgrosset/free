@@ -11,10 +11,10 @@
 ### projects
 + change.org
 + fokus
-  + use browser screenshot inside computer desktop background
+  + use browser screenshot inside computer desktop mockup
   + child component box: fokus logo w/ blue background
 + ripe
-  + iOS background (on scroll animation to float up)
+  + iOS mockup (on scroll animation to float up)
   + child component box: MLH banner w/ 2nd place
   + child component box: Ripe icon 
 + oscar

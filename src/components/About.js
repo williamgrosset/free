@@ -22,7 +22,7 @@ const About = () => {
         My interests are in networks, machine learning, beautiful interfaces, and building relationships.
         You can find me on <a href={facebookURL}>Facebook</a>, <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>
         LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>. Also, you can view
-        my <a href={resumeURL}>cv</a>.
+        my <a href={resumeURL}>cv</a>. TODO: This needs more ermph to it and a style update.
       </p>
       <Typist className="about-desc code-font" cursor={{ show: false }} startDelay={1000} avgTypingDelay={30} stdTypingDelay={20}>
         I believe in hard work and persistence.<Typist.Delay ms={1000} /><br />
