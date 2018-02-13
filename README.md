@@ -5,14 +5,14 @@
 + Finish `<About>` component
   + Rerender with set-timeout `code` to `$1%o` (etc.)
   + Complete content/description
-  + Add `React-Typist` for printing out 3 messages
-  + Add `<React-Typist>` blinking CSS animation
+  + Update styling
+  + Add `<React-Typist>` blinking CSS animation (?)
++ Clean-up nits (variable naming, etc.) and CSS
++ Organize repository
 + Move `<Navigation>` component into header or re-adjust content
 + Start `<Contact>` component
-+ Clean-up nits (variable naming, etc.) and CSS
 + Add `favicon.ico`
 + Compress images (?)
-+ Organize repository
 
 ### Requirements
 + About

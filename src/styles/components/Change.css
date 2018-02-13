@@ -13,6 +13,13 @@
   box-shadow: -8px 10px 50px -12px;
 }
 
+.ch-logo {
+  position: absolute;
+  bottom: 30px;
+  right: -920px;
+  zoom: 30%;
+}
+
 .ch-sub-content {
   text-align: right;
   float: left;
@@ -30,6 +37,6 @@
 }
 
 .ch-languages-pos {
-  margin-top: 280px;
+  margin-top: 150px;
   margin-right: 160px;
 }

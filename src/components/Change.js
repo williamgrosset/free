@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/Change.css';
 import betterWorld from '../images/better_world.png';
+import changeLogo from '../images/change_logo.png';
 import LanguagesList from './LanguagesList';
 
 const Change = () => { 
@@ -8,6 +9,7 @@ const Change = () => {
     <div className="project">
       <div className="ch-content">
         <img className="ch-photo" src={betterWorld} alt='Better world' />
+        <img className="ch-logo" src={changeLogo} alt='Change logo' />
       </div>
       <div className="ch-sub-content">
         <p className="project-title">

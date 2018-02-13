@@ -16,7 +16,9 @@
 + ripe
   + iOS mockup (on scroll animation to float up)
   + child component box: MLH banner w/ 2nd place
-  + child component box: Ripe icon 
+  + child component box: Ripe icon
+
+### More projects
 + oscar (**optional**)
   + potion cartoon img: Drugref
   + medical building img: OSCAR
