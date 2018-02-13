@@ -1,15 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import trophy from '../images/trophy.png';
 import '../styles/components/LanguagesList.css';
 
 const LanguagesList = ({ languages, position }) => {
+  const MLH2017URL = "http://17w.hackuvic.com/";
   return (
     <ul className={`languages-list ${position}`}>
       {languages.map((language, index) => {
-        return <li key={index}>
-          <span className={`circle ${language}`}></span>
-          <span className="code-font">{language.charAt(0).toUpperCase() + language.slice(1)}</span>
-        </li>
+        {if (language == 'trophy') {
+          return <li key={index}>
+            <span><img className="trophy" src={trophy} /></span>
+            <span className="code-font">Achieved 2nd at <a href={MLH2017URL}>MLH 2017</a></span>
+          </li>
+        } else {
+          return <li key={index}>
+            <span className={`circle ${language}`}></span>
+            <span className="code-font">{language.charAt(0).toUpperCase() + language.slice(1)}</span>
+          </li>
+        }}
       })}
     </ul>
   );

@@ -12,6 +12,11 @@
   border-radius: 50%;
 }
 
+.trophy {
+  zoom: 15%;
+  margin-right: 35px;
+}
+
 .ruby {
   background-color: #701516;
 }
