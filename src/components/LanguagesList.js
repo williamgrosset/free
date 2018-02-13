@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/components/LanguagesList.css';
 
-const LanguagesList = () => { 
+const LanguagesList = ({ position }) => {
   return (
-    <ul className="languages">
+    <ul className={`languages ${position}`}>
       <li>
         <span className="circle ruby"></span>
         <span className="code-font">Ruby</span>
