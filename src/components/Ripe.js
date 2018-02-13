@@ -18,7 +18,7 @@ const Ripe = () => {
           point-of-sale iOS app — mar. 2017
         </p>
       </div>
-      <LanguagesList languages={["ruby", "javascript"]} position="rp-languages-pos" />
+      <LanguagesList languages={["swift", "python"]} position="rp-languages-pos" />
     </div>
   );
 }

@@ -15,9 +15,9 @@ const LanguagesList = ({ languages, position }) => {
   );
 }
 
-export default LanguagesList;
-
 LanguagesList.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.string).isRequired,
   position: PropTypes.string.isRequired,
 };
+
+export default LanguagesList;
