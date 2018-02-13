@@ -3,6 +3,7 @@ import Spacer from './components/Spacer';
 import About from './components/About';
 import Change from './components/Change';
 import Fokus from './components/Fokus';
+import Ripe from './components/Ripe';
 
 class App extends Component {
   // TOOD: Grab window height and pass down to components
@@ -15,6 +16,8 @@ class App extends Component {
         <Change />
         <Spacer />
         <Fokus />
+        <Spacer />
+        <Ripe />
         <Spacer />
       </div>
     );

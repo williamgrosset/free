@@ -1,0 +1,42 @@
+.rp-content {
+  position: relative;
+  z-index: 1;
+  float: left;
+  height: 100%;
+  width: 60%;
+  margin-left: -80px;
+}
+
+.rp-photo {
+  width: auto;
+  height: 130%;
+}
+
+.rp-sub-content {
+  text-align: right;
+  float: left;
+  height: 40%;
+  width: 30%;
+  margin-left: 150px;
+}
+
+.rp-title {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.rp-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.rp-hr {
+  background-color: black;
+  border-color: black;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
