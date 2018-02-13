@@ -13,11 +13,11 @@ const Fokus = () => {
         <img className="google-logo" src={googleLogo} alt='Google logo' />
       </div>
       <div className="fk-sub-content">
-        <p className="fk-title">
+        <p className="project-title">
           fokus
         </p>
         <hr className="fk-hr" />
-        <p className="fk-subtitle">
+        <p className="project-subtitle">
           google chrome extension — jan. 2017
         </p>
       </div>

@@ -20,19 +20,6 @@
   margin-left: -15px;
 }
 
-.rp-title {
-  font-family: 'Cutive Mono', monospace;
-  font-weight: 300;
-  margin-bottom: 0;
-}
-
-.rp-subtitle {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  margin-top: 0;
-}
-
 .rp-hr {
   background-color: black;
   border-color: black;

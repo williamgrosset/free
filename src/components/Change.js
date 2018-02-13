@@ -9,11 +9,11 @@ const Change = () => {
         <img className="ch-photo" src={betterWorld} alt='Better world' />
       </div>
       <div className="ch-sub-content">
-        <p className="ch-title">
+        <p className="project-title">
           change.org 
         </p>
         <hr className="ch-hr" />
-        <p className="ch-subtitle">
+        <p className="project-subtitle">
           software engineer intern — may to dec. 2017
         </p>
       </div>
