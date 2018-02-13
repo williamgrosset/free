@@ -21,6 +21,19 @@
   box-shadow: 8px 10px 50px -12px;
 }
 
+.fk-logo {
+  position: absolute;
+  right: -105px;
+  bottom: 50px;
+}
+
+.google-logo {
+  position: absolute;
+  bottom: 55px;
+  left: -35px;
+  zoom: 83%;
+}
+
 .fk-sub-content {
   text-align: left;
   float: left;
