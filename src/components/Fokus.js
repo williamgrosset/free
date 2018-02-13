@@ -8,9 +8,9 @@ const Fokus = () => {
   return (
     <div className="project">
       <div className="fk-content">
-        <img className="fk-photo" src={fokusBrowser} alt='Fokus' />
-        <img className="fk-logo" src={fokusLogo} alt='Fokus' />
-        <img className="google-logo" src={googleLogo} alt='Fokus' />
+        <img className="fk-photo" src={fokusBrowser} alt='Fokus browser' />
+        <img className="fk-logo" src={fokusLogo} alt='Fokus logo' />
+        <img className="google-logo" src={googleLogo} alt='Google logo' />
       </div>
       <div className="fk-sub-content">
         <p className="fk-title">
