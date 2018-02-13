@@ -1,19 +1,19 @@
 import React from 'react';
 import '../styles/components/Fokus.css';
-import betterWorld from '../images/better_world.png';
+import fokusBrowser from '../images/fokus_browser.png';
 
 const Fokus = () => { 
   return (
     <div className="project">
-      <div className="ch-content">
-        <img className="ch-photo" src={betterWorld} alt='Better world' />
+      <div className="fk-content">
+        <img className="fk-photo" src={fokusBrowser} alt='Fokus' />
       </div>
-      <div className="ch-sub-content">
-        <p className="ch-title">
+      <div className="fk-sub-content">
+        <p className="fk-title">
           fokus
         </p>
-        <hr className="ch-hr" />
-        <p className="ch-subtitle">
+        <hr className="fk-hr" />
+        <p className="fk-subtitle">
           google chrome extension — 2017
         </p>
       </div>

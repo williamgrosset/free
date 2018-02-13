@@ -17,10 +17,10 @@
   + iOS mockup (on scroll animation to float up)
   + child component box: MLH banner w/ 2nd place
   + child component box: Ripe icon 
-+ oscar
++ oscar (**optional**)
   + potion cartoon img: Drugref
   + medical building img: OSCAR
   + UVic research assistant banner
   + include link to [Dr. Jens Weber](https://lead-lab.atlassian.net/wiki/spaces/~admin/overview)
-+ os & networks
++ os & networks (**optional**)
   + terminal background with gif
