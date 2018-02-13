@@ -2,17 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/components/LanguagesList.css';
 
-const LanguagesList = ({ position }) => {
+const LanguagesList = ({ languages, position }) => {
   return (
-    <ul className={`languages ${position}`}>
-      <li>
-        <span className="circle ruby"></span>
-        <span className="code-font">Ruby</span>
-      </li>
-      <li>
-        <span className="circle javascript"></span>
-        <span className="code-font">JavaScript</span>
-      </li>
+    <ul className={`languages-list ${position}`}>
+      {languages.map((language, index) => {
+        return <li key={index}>
+          <span className={`circle ${language}`}></span>
+          <span className="code-font">{language.charAt(0).toUpperCase() + language.slice(1)}</span>
+        </li>
+      })}
     </ul>
   );
 }
@@ -20,5 +18,6 @@ const LanguagesList = ({ position }) => {
 export default LanguagesList;
 
 LanguagesList.propTypes = {
+  languages: PropTypes.arrayOf(PropTypes.string).isRequired,
   position: PropTypes.string.isRequired,
 };

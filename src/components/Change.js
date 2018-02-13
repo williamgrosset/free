@@ -18,7 +18,7 @@ const Change = () => {
           software engineer intern — may to dec. 2017
         </p>
       </div>
-      <LanguagesList position="ch-languages-pos"/>
+      <LanguagesList languages={["ruby", "javascript"]} position="ch-languages-pos"/>
     </div>
   );
 }
