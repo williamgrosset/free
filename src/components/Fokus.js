@@ -22,7 +22,7 @@ const Fokus = () => {
           google chrome extension — jan. 2017
         </p>
       </div>
-      <LanguagesList languages={["javascript"]} position="fk-languages-pos"/>
+      <LanguagesList languages={["javascript", "null"]} position="fk-languages-pos"/>
     </div>
   );
 }

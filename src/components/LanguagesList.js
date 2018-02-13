@@ -4,11 +4,18 @@ import trophy from '../images/trophy.png';
 import '../styles/components/LanguagesList.css';
 
 const LanguagesList = ({ languages, position }) => {
+  const chromeStoreURL = "https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea";
   const MLH2017URL = "http://17w.hackuvic.com/";
+
   return (
     <ul className={`languages-list ${position}`}>
       {languages.map((language, index) => {
-        {if (language == 'trophy') {
+        {if (language == 'null') {
+          return <li key={index}>
+            <span className={`circle ${language}`}></span>
+            <span className="code-font">On <a href={chromeStoreURL}>store</a></span>
+          </li>
+        } else if (language == 'trophy') {
           return <li key={index}>
             <span><img className="trophy" src={trophy} /></span>
             <span className="code-font">Achieved 2nd at <a href={MLH2017URL}>MLH 2017</a></span>
