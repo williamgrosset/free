@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/Change.css';
 import betterWorld from '../images/better_world.png';
+import LanguagesList from './LanguagesList';
 
 const Change = () => { 
   return (
@@ -17,6 +18,7 @@ const Change = () => {
           software engineer intern — may to dec. 2017
         </p>
       </div>
+      <LanguagesList />
     </div>
   );
 }

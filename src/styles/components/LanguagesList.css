@@ -1,0 +1,23 @@
+.languages {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  margin-top: 280px;
+  margin-right: 160px;
+}
+
+.circle {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.ruby {
+  background-color: #701516;
+}
+
+.javascript {
+  background-color: #f1e05a;
+}
