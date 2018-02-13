@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/components/LanguagesList.css';
 
 const LanguagesList = ({ position }) => {
@@ -17,3 +18,7 @@ const LanguagesList = ({ position }) => {
 }
 
 export default LanguagesList;
+
+LanguagesList.propTypes = {
+  position: PropTypes.string.isRequired,
+};
