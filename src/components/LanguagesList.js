@@ -13,7 +13,7 @@ const LanguagesList = ({ languages, position }) => {
         {if (language == 'null') {
           return <li key={index}>
             <span className={`circle ${language}`}></span>
-            <span className="code-font">On <a href={chromeStoreURL}>store</a></span>
+            <a className="code-font" href={chromeStoreURL}>Chrome store</a>
           </li>
         } else if (language == 'trophy') {
           return <li key={index}>
