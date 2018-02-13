@@ -3,7 +3,7 @@
   z-index: 1;
   float: left;
   height: 100%;
-  width: 60%;
+  width: 30%;
   margin-left: -80px;
 }
 
@@ -16,8 +16,9 @@
   text-align: right;
   float: left;
   height: 40%;
-  width: 30%;
-  margin-left: 150px;
+  width: 60%;
+  margin-top: 160px;
+  margin-left: 0;
 }
 
 .rp-title {

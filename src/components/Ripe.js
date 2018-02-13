@@ -10,11 +10,11 @@ const Ripe = () => {
       </div>
       <div className="rp-sub-content">
         <p className="rp-title">
-          change.org 
+          ripe 
         </p>
         <hr className="rp-hr" />
         <p className="rp-subtitle">
-          software engineer intern — 2017
+          point-of-sale iOS app — 2017
         </p>
       </div>
     </div>
