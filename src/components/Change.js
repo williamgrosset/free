@@ -14,7 +14,7 @@ const Change = () => {
         </p>
         <hr className="ch-hr" />
         <p className="ch-subtitle">
-          software engineer intern — 2017
+          software engineer intern — may to dec. 2017
         </p>
       </div>
     </div>
