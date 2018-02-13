@@ -2,6 +2,13 @@
   color: #ffd248;
 }
 
+.project {
+  height: 700px;
+  line-height: 35px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: normal;
