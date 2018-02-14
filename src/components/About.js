@@ -18,7 +18,7 @@ const About = () => {
         I am 21 years old and studying Computer Science at the <a href={uvicURL}>University of Victoria</a>.
         During 2017, I worked as a research assistant at the University and as a software engineer
         at <a href={changeURL}>Change.org</a>. I love to read, write, <span className="code-font">code</span>, and stay active.
-        My interests are in networks, machine learning, creating beautiful interfaces, and building relationships.
+        My interests are in networks, machine learning, creating beautiful interfaces, and building authentic relationships.
         You can find me on <a href={twitterURL}>Twitter</a>, <a href={linkedinURL}>
         LinkedIn</a>, <a href={hackernewsURL}>Hacker News</a>, and <a href={githubURL}>GitHub</a>. Also, you can view
         my <a href={resumeURL}>cv</a>.<br /> <b>TODO:</b> This needs more ermph to it and a style update.
