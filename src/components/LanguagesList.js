@@ -22,8 +22,8 @@ const LanguagesList = ({ languages, position }) => {
           </li>
         } else {
           return <li key={index}>
-            <span className={`circle ${language}`}></span>
-            <span className="code-font">{language.charAt(0).toUpperCase() + language.slice(1)}</span>
+            <span className={`circle ${language.toLowerCase()}`}></span>
+            <span className="code-font">{language}</span>
           </li>
         }}
       })}
