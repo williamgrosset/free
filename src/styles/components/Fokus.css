@@ -17,14 +17,15 @@
 .fk-logo {
   position: absolute;
   right: -105px;
-  bottom: 50px;
+  bottom: 40px;
+  zoom: 115%;
 }
 
 .google-logo {
   position: absolute;
-  bottom: 55px;
-  left: -35px;
-  zoom: 83%;
+  bottom: 40px;
+  left: -50px;
+  zoom: 100%;
 }
 
 .fk-sub-content {
