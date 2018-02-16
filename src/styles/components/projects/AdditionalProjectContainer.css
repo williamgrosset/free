@@ -1,0 +1,35 @@
+.rp-content {
+  position: relative;
+  z-index: 1;
+  float: left;
+  height: 100%;
+  width: 35%;
+}
+
+.rp-photo {
+  width: auto;
+  height: 110%;
+}
+
+.rp-sub-content {
+  text-align: right;
+  float: left;
+  height: 40%;
+  width: 55%;
+  margin-top: 160px;
+  margin-left: -50px;
+}
+
+.rp-hr {
+  background-color: black;
+  border-color: black;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
+.rp-languages-pos {
+  margin-top: 80px;
+  margin-right: 575px;
+  margin-left: -100px;
+}
