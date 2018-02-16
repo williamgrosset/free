@@ -16,7 +16,6 @@ const LanguagesList = ({ languages, position, sourceURL }) => {
           </li>
         } else if (language == 'store') {
           return <li key={index}>
-            <span className="circle null"></span>
             <a className="code-font" href={chromeStoreURL}>Chrome store</a>
           </li>
         } else if (language == 'trophy') {
