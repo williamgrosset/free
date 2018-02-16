@@ -22,7 +22,7 @@ const Fokus = () => {
           google chrome extension — jan. 2017
         </p>
       </div>
-      <LanguagesList languages={["JavaScript", "null"]} position="fk-languages-pos"/>
+      <LanguagesList languages={["JavaScript", "store", "source"]} position="fk-languages-pos" sourceURL="https://github.com/williamgrosset/fokus"/>
     </div>
   );
 }
