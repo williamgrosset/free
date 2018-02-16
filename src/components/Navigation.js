@@ -4,10 +4,10 @@ import '../styles/components/Navigation.css';
 const Navigation = () => {
   return (
     <ul className="nav">
-      <li className="section"><hr className="nav-hr" /><span style={{ marginLeft: '0' }}>about</span></li>
-      <li className="section">projects</li>
-      <li className="section">writings</li>
-      <li className="section">contact</li>
+      <li className="section">About</li>
+      <li className="section">Projects</li>
+      <li className="section">Writings</li>
+      <li className="section">Contact</li>
     </ul>
   );
 }

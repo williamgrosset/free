@@ -1,29 +1,24 @@
 .nav {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 300;
   font-size: 23px;
   list-style: none;
+  text-align: left;
   position: fixed;
-  bottom: 50px;
-  left: 50px;
-  width: 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   padding: 0;
-  margin-left: 20px;
+  margin-top: 100px;
+  margin-left: 20%;
   margin-right: 20px;
-}
-
-.nav-hr {
-  float: left;
-  height: 2px;
-  width: 20%;
-  background-color: #ffd248;
-  border-color: #ffd248;
-  border: none;
+  z-index: 10;
 }
 
 .section {
-  text-align: center;
   width: 100%;
+  display: inline;
   cursor: pointer;
-  margin: 15px 15px 15px 15px;
+  margin-right: 100px;
 }
