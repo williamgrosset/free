@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/components/projects/AdditionalProjectContainer.css';
+import ProjectDetailsList from './ProjectDetailsList';
 
 const AdditionalProjectContainer = () => {
   const reactURL = 'https://reactjs.org/';
@@ -9,6 +10,7 @@ const AdditionalProjectContainer = () => {
       <div className="additional-project">
         <p className="project-title code-font">oscar</p>
         <p className="project-subtitle">Open source contribution.</p>
+        <ProjectDetailsList languages={["source", "Java"]} position="rp-languages-pos" sourceURL="https://github.com/williamgrosset/ripe" />
       </div>
       <div className="additional-project">
         <p className="project-title code-font">operating systems & networks</p>
