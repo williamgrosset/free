@@ -12,7 +12,6 @@ const LanguagesList = ({ languages, position, sourceURL }) => {
       {languages.map((language, index) => {
         {if (language == 'source') {
           return <li key={index}>
-            <span className="circle null"></span>
             <a className="code-font" href={sourceURL}>View source</a>
           </li>
         } else if (language == 'store') {
