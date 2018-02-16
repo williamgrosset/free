@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/components/Ripe.css';
-import ripeiOS from '../images/ripe_ios.png';
+import '../../styles/components/projects/Ripe.css';
+import ripeiOS from '../../images/ripe_ios.png';
 import ProjectDetailsList from './ProjectDetailsList';
 
 const Ripe = () => { 

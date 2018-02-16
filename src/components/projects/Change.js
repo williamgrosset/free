@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/components/Change.css';
-import betterWorld from '../images/better_world.png';
-import changeLogo from '../images/change_logo.png';
+import '../../styles/components/projects/Change.css';
+import betterWorld from '../../images/better_world.png';
+import changeLogo from '../../images/change_logo.png';
 import ProjectDetailsList from './ProjectDetailsList';
 
 const Change = () => { 

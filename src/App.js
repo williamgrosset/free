@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Navigation from './components/Navigation';
 import Spacer from './components/Spacer';
 import About from './components/About';
-import Change from './components/Change';
-import Fokus from './components/Fokus';
-import Ripe from './components/Ripe';
+import Change from './components/projects/Change';
+import Fokus from './components/projects/Fokus';
+import Ripe from './components/projects/Ripe';
 
 class App extends Component {
   // TOOD: Grab window height and pass down to components

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import trophy from '../images/trophy.png';
-import '../styles/components/LanguagesList.css';
+import trophy from '../../images/trophy.png';
+import '../../styles/components/projects/ProjectDetailsList.css';
 
 const ProjectDetailsList = ({ languages, position, sourceURL }) => {
   const chromeStoreURL = "https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea";

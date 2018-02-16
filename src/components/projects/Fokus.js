@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/components/Fokus.css';
-import fokusBrowser from '../images/fokus_browser.png';
-import fokusLogo from '../images/fokus_logo.png';
-import googleLogo from '../images/google_logo.png';
+import '../../styles/components/projects/Fokus.css';
+import fokusBrowser from '../../images/fokus_browser.png';
+import fokusLogo from '../../images/fokus_logo.png';
+import googleLogo from '../../images/google_logo.png';
 import ProjectDetailsList from './ProjectDetailsList';
 
 const Fokus = () => { 
