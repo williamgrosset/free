@@ -23,6 +23,7 @@ class App extends Component {
         <Ripe />
         <Spacer />
         <AdditionalProjectContainer />
+        <Spacer />
       </div>
     );
   }

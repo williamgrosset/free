@@ -1,26 +1,20 @@
 import React from 'react';
-import '../../styles/components/projects/Ripe.css';
-import ripeiOS from '../../images/ripe_ios.png';
-import ProjectDetailsList from './ProjectDetailsList';
+import '../../styles/components/projects/AdditionalProjectContainer.css';
 
-const Ripe = () => { 
+const AdditionalProjectContainer = () => { 
   return (
-    <div className="project">
-      <div className="rp-content">
-        <img className="rp-photo" src={ripeiOS} alt='Ripe' />
+    <div className="additional-project-container">
+      <div className="additional-project">
+        <h1>oscar</h1>
       </div>
-      <div className="rp-sub-content">
-        <p className="project-title">
-          ripe 
-        </p>
-        <hr className="rp-hr" />
-        <p className="project-subtitle">
-          point-of-sale iOS app — mar. 2017
-        </p>
+      <div className="additional-project">
+        <h1>operating systems & networks</h1>
       </div>
-      <ProjectDetailsList languages={["source", "Swift", "Python", "trophy"]} position="rp-languages-pos" sourceURL="https://github.com/williamgrosset/ripe" />
+      <div className="additional-project">
+        <h1>my portfolio website</h1>
+      </div>
     </div>
   );
 }
 
-export default Ripe;
+export default AdditionalProjectContainer;
