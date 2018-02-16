@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/components/Change.css';
 import betterWorld from '../images/better_world.png';
 import changeLogo from '../images/change_logo.png';
-import LanguagesList from './LanguagesList';
+import ProjectDetailsList from './ProjectDetailsList';
 
 const Change = () => { 
   return (
@@ -20,7 +20,7 @@ const Change = () => {
           software engineer intern — may to dec. 2017
         </p>
       </div>
-      <LanguagesList languages={["Ruby", "JavaScript"]} position="ch-languages-pos"/>
+      <ProjectDetailsList languages={["Ruby", "JavaScript"]} position="ch-languages-pos"/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import '../styles/components/Fokus.css';
 import fokusBrowser from '../images/fokus_browser.png';
 import fokusLogo from '../images/fokus_logo.png';
 import googleLogo from '../images/google_logo.png';
-import LanguagesList from './LanguagesList';
+import ProjectDetailsList from './ProjectDetailsList';
 
 const Fokus = () => { 
   return (
@@ -22,7 +22,7 @@ const Fokus = () => {
           google chrome extension — jan. 2017
         </p>
       </div>
-      <LanguagesList languages={["source", "store", "JavaScript"]} position="fk-languages-pos" sourceURL="https://github.com/williamgrosset/fokus"/>
+      <ProjectDetailsList languages={["source", "store", "JavaScript"]} position="fk-languages-pos" sourceURL="https://github.com/williamgrosset/fokus"/>
     </div>
   );
 }

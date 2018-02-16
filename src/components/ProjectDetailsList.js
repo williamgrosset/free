@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import trophy from '../images/trophy.png';
 import '../styles/components/LanguagesList.css';
 
-const LanguagesList = ({ languages, position, sourceURL }) => {
+const ProjectDetailsList = ({ languages, position, sourceURL }) => {
   const chromeStoreURL = "https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea";
   const MLH2017URL = "http://17w.hackuvic.com/";
 
@@ -34,10 +34,10 @@ const LanguagesList = ({ languages, position, sourceURL }) => {
   );
 }
 
-LanguagesList.propTypes = {
+ProjectDetailsList.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.string).isRequired,
   position: PropTypes.string.isRequired,
   sourceURL: PropTypes.string,
 };
 
-export default LanguagesList;
+export default ProjectDetailsList;
