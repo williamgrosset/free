@@ -1,10 +1,11 @@
 .additional-project-container {
-  background-color: green;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .additional-project {
-  background-color: pink;
+  vertical-align: top;
+  text-align: left;
   display: inline-block;
   width: 33%;
 }
