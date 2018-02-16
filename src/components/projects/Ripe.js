@@ -14,7 +14,7 @@ const Ripe = () => {
           ripe 
         </p>
         <hr className="rp-hr" />
-        <p className="project-subtitle">
+        <p className="project-subtitle mtz">
           point-of-sale iOS app — mar. 2017
         </p>
       </div>

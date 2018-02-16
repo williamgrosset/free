@@ -18,7 +18,7 @@ const Fokus = () => {
           fokus
         </p>
         <hr className="fk-hr" />
-        <p className="project-subtitle">
+        <p className="project-subtitle mtz">
           google chrome extension — jan. 2017
         </p>
       </div>
