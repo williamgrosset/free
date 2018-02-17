@@ -14,12 +14,12 @@ const AdditionalProjectContainer = () => {
       </div>
       <div className="additional-project">
         <p className="project-title code-font" style={{ marginRight: '10px' }}>operating systems & networks</p>
-        <p className="project-subtitle">Projects exploring processes, threads, TCP, HTTP, and more.</p>
+        <p className="project-subtitle additional-sub">Projects exploring processes, threads, TCP, HTTP, and more.</p>
         <ProjectDetailsList languages={["source", "C", "Python"]} position="os-details-pos" sourceURL="https://github.com/williamgrosset/OSCAR" />
       </div>
       <div className="additional-project">
         <p className="project-title code-font">portfolio website</p>
-        <p className="project-subtitle additional-sub">Built with <a href={reactURL}>React</a> and love.</p>
+        <p className="project-subtitle additional-sub">Built with <a href={reactURL}>React</a>.</p>
         <ProjectDetailsList languages={["source", "CSS3", "HTML5", "JavaScript"]} position="website-details-pos" sourceURL="https://github.com/williamgrosset/free" />
       </div>
     </div>
