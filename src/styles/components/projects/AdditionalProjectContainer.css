@@ -1,5 +1,5 @@
 .additional-project-container {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -8,4 +8,24 @@
   text-align: left;
   display: inline-block;
   width: 33%;
+}
+
+.additional-sub {
+  margin-top: 39px;
+}
+
+.oscar-details-pos {
+  margin-top: 84px;
+  padding: 0;
+}
+
+.os-details-pos {
+  margin-top: 53px;
+  padding: 0;
+
+}
+
+.website-details-pos {
+  margin-top: 40px;
+  padding: 0;
 }

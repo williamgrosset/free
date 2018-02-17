@@ -9,18 +9,18 @@ const AdditionalProjectContainer = () => {
     <div className="additional-project-container">
       <div className="additional-project">
         <p className="project-title code-font">oscar</p>
-        <p className="project-subtitle">Open source contribution.</p>
-        <ProjectDetailsList languages={["source", "Java"]} position="" sourceURL="https://github.com/williamgrosset/OSCAR" />
+        <p className="project-subtitle additional-sub">Contribution to the open source clinical application.</p>
+        <ProjectDetailsList languages={["source", "Java"]} position="oscar-details-pos" sourceURL="https://github.com/williamgrosset/OSCAR-ConCert" />
       </div>
       <div className="additional-project">
-        <p className="project-title code-font">operating systems & networks</p>
-        <p className="project-subtitle">Concepts and projects.</p>
-        <ProjectDetailsList languages={["source", "C", "Python"]} position="" sourceURL="https://github.com/williamgrosset/OSCAR" />
+        <p className="project-title code-font" style={{ marginRight: '10px' }}>operating systems & networks</p>
+        <p className="project-subtitle">Projects exploring processes, threads, TCP, HTTP, and more.</p>
+        <ProjectDetailsList languages={["source", "C", "Python"]} position="os-details-pos" sourceURL="https://github.com/williamgrosset/OSCAR" />
       </div>
       <div className="additional-project">
-        <p className="project-title code-font">my website</p>
-        <p className="project-subtitle">Built with <a href={reactURL}>React</a> and love.</p>
-        <ProjectDetailsList languages={["source", "CSS", "HTML", "JavaScript"]} position="" sourceURL="https://github.com/williamgrosset/free" />
+        <p className="project-title code-font">portfolio website</p>
+        <p className="project-subtitle additional-sub">Built with <a href={reactURL}>React</a> and love.</p>
+        <ProjectDetailsList languages={["source", "CSS", "HTML", "JavaScript"]} position="website-details-pos" sourceURL="https://github.com/williamgrosset/free" />
       </div>
     </div>
   );
