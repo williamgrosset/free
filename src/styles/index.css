@@ -12,6 +12,7 @@
 .project-title {
   font-family: 'Cutive Mono', monospace;
   font-weight: 300;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
@@ -19,6 +20,10 @@
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   font-size: 16px;
+}
+
+.code-font {
+  font-family: 'Cutive Mono', monospace;
 }
 
 .mtz {
