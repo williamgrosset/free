@@ -11,7 +11,7 @@ const About = () => {
         My name is William Hamilton Grosset.<br />
         I previously worked as a research assistant at the <a href={uvicURL}>University of Victoria</a> and as a
         software engineer at <a href={changeURL}>Change.org</a>.<br />I am currently studying Computer Science and
-        seeking opportunities beginning in Fall 2018.
+        seeking opportunities beginning in September 2018.
       </p>
     </div>
   );
