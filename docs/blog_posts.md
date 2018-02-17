@@ -7,6 +7,7 @@
 + What GitHub Contributions Meant To Me
 + My Interview Experience with Google
 + Working Under the Supervision of Dr. Jens Weber
++ Building My First Computer (GTX 580)
 
 ### design
 + characters randomly being modified (e.g blinking animations) (?)
