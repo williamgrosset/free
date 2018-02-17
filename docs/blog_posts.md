@@ -1,4 +1,4 @@
-## blog posts 
+## blog posts
 + My Change.org Internship
 + IFV
 + Coding In My 1st 24hr Hackathon
@@ -7,3 +7,6 @@
 + What GitHub Contributions Meant To Me
 + My Interview Experience with Google
 + Working Under the Supervision of Dr. Jens Weber
+
+### design
++ characters randomly being modified (e.g blinking animations) (?)
