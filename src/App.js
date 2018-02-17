@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './components/Navigation';
 import Spacer from './components/Spacer';
 import About from './components/About';
+import Contact from './components/Contact';
 import Change from './components/projects/Change';
 import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
@@ -23,6 +24,8 @@ class App extends Component {
         <Ripe />
         <Spacer />
         <AdditionalProjectContainer />
+        <Spacer />
+        <Contact />
         <Spacer />
       </div>
     );
