@@ -17,7 +17,7 @@ const Change = () => {
         </p>
         <hr className="ch-hr" />
         <p className="project-subtitle mtz">
-          software engineer intern — may to dec. 2017
+          software engineer intern | may to dec. 2017
         </p>
       </div>
       <ProjectDetailsList languages={["Ruby", "JavaScript"]} position="ch-languages-pos"/>
