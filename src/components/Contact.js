@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/components/Contact.css';
 
 const Contact = () => { 
-  const emailURL = 'https://www.change.org';
+  const emailURL = 'mailto:williamhgrosset@gmail.com';
   const twitterURL = 'https://twitter.com/williamhgrosset';
   const linkedinURL = 'https://www.linkedin.com/in/williamgrosset/';
   const hackernewsURL = 'https://news.ycombinator.com/user?id=williamgrosset';
@@ -12,7 +12,7 @@ const Contact = () => {
     <div className="contact">
       <p className="contact-desc">
         You can reach me at<br />
-        williamhgrosset@gmail.com<br /><br /><br />
+        <a href={emailURL}>williamhgrosset@gmail.com</a><br /><br /><br />
 
         <a href={twitterURL}>Twitter.</a>&nbsp;
         <a href={linkedinURL}>LinkedIn.</a>&nbsp;
