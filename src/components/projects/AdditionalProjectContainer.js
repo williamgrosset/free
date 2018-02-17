@@ -20,7 +20,7 @@ const AdditionalProjectContainer = () => {
       <div className="additional-project">
         <p className="project-title code-font">portfolio website</p>
         <p className="project-subtitle additional-sub">Built with <a href={reactURL}>React</a> and love.</p>
-        <ProjectDetailsList languages={["source", "CSS", "HTML", "JavaScript"]} position="website-details-pos" sourceURL="https://github.com/williamgrosset/free" />
+        <ProjectDetailsList languages={["source", "CSS3", "HTML5", "JavaScript"]} position="website-details-pos" sourceURL="https://github.com/williamgrosset/free" />
       </div>
     </div>
   );

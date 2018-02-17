@@ -24,8 +24,10 @@ const ProjectDetailsList = ({ languages, position, sourceURL }) => {
             <span className="code-font">Achieved 2nd at <a href={MLH2017URL}>MLH 2017</a></span>
           </li>
         } else {
+          const languageColor = language.toLowerCase().replace(/\d+/g, '');
+
           return <li key={index}>
-            <span className={`circle ${language.toLowerCase()}`}></span>
+            <span className={`circle ${languageColor}`}></span>
             <span className="code-font">{language}</span>
           </li>
         }}
