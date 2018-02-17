@@ -5,20 +5,10 @@
 }
 
 .about-desc {
-  line-height: 1.40;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 600;
+  line-height: 1.40;
   padding-top: 15%;
   margin-left: 20%;
-  margin-right: 25%;
-}
-
-.name {
-  font-weight: normal;
-  font-size: 70px;
-}
-
-.code-font {
-  font-family: 'Cutive Mono', monospace;
-  font-weight: 300;
+  margin-right: 30%;
 }
