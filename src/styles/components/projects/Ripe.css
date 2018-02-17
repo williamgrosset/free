@@ -3,21 +3,21 @@
   z-index: 1;
   float: left;
   height: 100%;
-  width: 35%;
+  width: 40%;
 }
 
 .rp-photo {
   width: auto;
-  height: 110%;
+  height: 100%;
 }
 
 .rp-sub-content {
   text-align: right;
   float: left;
   height: 40%;
-  width: 55%;
+  width: 45%;
   margin-top: 160px;
-  margin-left: -50px;
+  margin-left: -100px;
 }
 
 .rp-hr {
@@ -29,7 +29,7 @@
 }
 
 .rp-languages-pos {
-  margin-top: 80px;
+  margin-top: 45px;
   margin-right: 575px;
-  margin-left: -100px;
+  margin-left: -120px;
 }
