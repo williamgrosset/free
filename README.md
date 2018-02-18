@@ -1,5 +1,18 @@
 # website
 
+## TODO
++ Add project description to each project
++ Add `<hr />` element to each additional project
++ Finish locked `<Writings />` component with scrolling list
++ Finish `<Contact />` component and decide on main background color
++ Audit stylesheets
++ Clean-up nits (variable naming, etc.)
++ Compress images (?)
++ Add `favicon.ico` (?)
+
+## Overview
+This website is built from scratch using React, HTML5, and CSS3.
+
 ## Project Setup 
 1. Install the required packages:
 ```javascript
@@ -10,16 +23,6 @@
   npm start 
 ```
 3. Navigate to `http://localhost:4200/`.
-
-## TODO
-+ Add project description to each project
-+ Add `<hr />` element to each additional project
-+ Finish locked `<Writings />` component with scrolling list
-+ Finish `<Contact />` component and decide on main background color
-+ Audit stylesheets
-+ Clean-up nits (variable naming, etc.)
-+ Compress images (?)
-+ Add `favicon.ico` (?)
 
 ### High-level plan
 + Finish content and header navigation

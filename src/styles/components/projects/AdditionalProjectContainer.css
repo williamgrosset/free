@@ -12,7 +12,17 @@
 }
 
 .additional-sub {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+.additional-project-hr {
+  background-color: black;
+  border-color: black;
+  border: none;
+  height: 1px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 0;
 }
 
 .oscar-details-pos {
