@@ -16,7 +16,7 @@ const Change = () => {
           change.org 
         </p>
         <hr className="ch-hr" />
-        <p className="project-subtitle mtz">
+        <p className="project-subtitle">
           software engineer intern | may to dec. 2017
         </p>
       </div>
