@@ -9,6 +9,9 @@
 + Working Under the Supervision of Dr. Jens Weber
 + Building My First Computer (GTX 580)
 + Affirmations & Meditation
++ Exploring Security Holes
++ Headless
++ Becoming Systematic to Your Own Actions
 
 ### design
 + characters randomly being modified (e.g blinking animations) (?)
