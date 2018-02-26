@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/components/projects/Change.css';
-import betterWorld from '../../images/better_world.png';
+import betterWorldPhoto from '../../images/better_world.png';
 import changeLogo from '../../images/change_logo.png';
 import ProjectDetailsList from './ProjectDetailsList';
 
@@ -8,7 +8,7 @@ const Change = () => {
   return (
     <div className="project">
       <div className="ch-content">
-        <img className="ch-photo" src={betterWorld} alt='Better world' />
+        <img className="ch-photo" src={betterWorldPhoto} alt='Better world' />
         <img className="ch-logo" src={changeLogo} alt='Change logo' />
       </div>
       <div className="ch-sub-content">
@@ -20,7 +20,7 @@ const Change = () => {
           software engineer intern | may to dec. 2017
         </p>
       </div>
-      <ProjectDetailsList languages={["Ruby", "JavaScript"]} position="ch-languages-pos"/>
+      <ProjectDetailsList languages={["Ruby", "JavaScript"]} position="ch-details-pos"/>
     </div>
   );
 }
