@@ -12,10 +12,12 @@ const ProjectDetailsList = ({ languages, position, sourceURL }) => {
       {languages.map((language, index) => {
         {if (language == 'source') {
           return <li key={index}>
+            <span className="circle black"></span>
             <a className="code-font" href={sourceURL}>View source</a>
           </li>
         } else if (language == 'store') {
           return <li key={index}>
+            <span className="circle black"></span>
             <a className="code-font" href={chromeStoreURL}>Chrome store</a>
           </li>
         } else if (language == 'trophy') {
