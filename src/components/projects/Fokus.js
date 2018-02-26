@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/components/projects/Fokus.css';
-import fokusBrowser from '../../images/fokus_browser.png';
+import fokusBrowserPhoto from '../../images/fokus_browser.png';
 import fokusLogo from '../../images/fokus_logo.png';
 import googleLogo from '../../images/google_logo.png';
 import ProjectDetailsList from './ProjectDetailsList';
@@ -9,7 +9,7 @@ const Fokus = () => {
   return (
     <div className="project">
       <div className="fk-content">
-        <img className="fk-photo" src={fokusBrowser} alt='Fokus browser' />
+        <img className="fk-photo" src={fokusBrowserPhoto} alt='Fokus browser' />
         <img className="fk-logo" src={fokusLogo} alt='Fokus logo' />
         <img className="google-logo" src={googleLogo} alt='Google logo' />
       </div>
@@ -24,7 +24,7 @@ const Fokus = () => {
       </div>
       <ProjectDetailsList
         detailsList={["source", "store", "JavaScript"]}
-        positionClass="fk-languages-pos"
+        positionClass="fk-details-pos"
         sourceURL="https://github.com/williamgrosset/fokus"
         siteURL="https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea"
       />
