@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../styles/components/projects/Ripe.css';
-import ripeiOS from '../../images/ripe_ios.png';
+import ripePhoto from '../../images/ripe_ios.png';
 import ProjectDetailsList from './ProjectDetailsList';
 
 const Ripe = () => { 
   return (
     <div className="project">
       <div className="rp-content">
-        <img className="rp-photo" src={ripeiOS} alt='Ripe' />
+        <img className="rp-photo" src={ripePhoto} alt="Ripe iOS" />
       </div>
       <div className="rp-sub-content">
         <p className="project-title">
@@ -20,7 +20,7 @@ const Ripe = () => {
       </div>
       <ProjectDetailsList
         detailsList={["source", "Swift", "Python", "trophy"]}
-        positionClass="rp-languages-pos"
+        positionClass="rp-details-pos"
         sourceURL="https://github.com/williamgrosset/ripe"
         siteURL="http://17w.hackuvic.com/"
       />
