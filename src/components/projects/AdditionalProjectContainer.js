@@ -19,7 +19,7 @@ const AdditionalProjectContainer = () => {
         />
       </div>
       <div className="additional-project">
-        <p className="project-title code-font" style={{ marginRight: '10px' }}>operating systems & networks</p>
+        <p className="project-title code-font">operating systems & networks</p>
         <hr className="additional-project-hr" />
         <p className="project-subtitle additional-sub">Projects exploring processes, threads, TCP, HTTP, and more.</p>
         <ProjectDetailsList
