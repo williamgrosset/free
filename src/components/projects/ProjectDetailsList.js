@@ -3,37 +3,33 @@ import PropTypes from 'prop-types';
 import trophyIcon from '../../images/trophy.png';
 import '../../styles/components/projects/ProjectDetailsList.css';
 
-const ProjectDetailsList = ({ detailsList, positionClass, sourceURL, siteURL }) => {
-  return (
-    <ul className={`details-list ${positionClass}`}>
-      {detailsList.map((language, index) => {
-        if (language === 'source') {
-          return <li key={index}>
-            <span className="circle black"></span>
-            <a className="code-font" href={sourceURL}>View source</a>
-          </li>
-        } else if (language === 'store') {
-          return <li key={index}>
-            <span className="circle black"></span>
-            <a className="code-font" href={siteURL}>Chrome store</a>
-          </li>
-        } else if (language === 'trophy') {
-          return <li key={index}>
-            <span><img className="trophy" src={trophyIcon} alt="Trophy logo"/></span>
-            <span className="code-font">Achieved 2nd at <a href={siteURL}>MLH 2017</a></span>
-          </li>
-        } else {
-          const languageColor = language.toLowerCase().replace(/\d+/g, '');
-
-          return <li key={index}>
-            <span className={`circle ${languageColor}`}></span>
-            <span className="code-font">{language}</span>
-          </li>
-        }
-      })}
-    </ul>
-  );
-}
+const ProjectDetailsList = ({ detailsList, positionClass, sourceURL, siteURL }) => (
+  <ul className={`details-list ${positionClass}`}>
+    {detailsList.map((detail, index) => {
+      if (detail === 'source') {
+        return <li key={index}>
+          <span className="circle black"></span>
+          <a className="code-font" href={sourceURL}>View source</a>
+        </li>
+      } else if (detail === 'store') {
+        return <li key={index}>
+          <span className="circle black"></span>
+          <a className="code-font" href={siteURL}>Chrome store</a>
+        </li>
+      } else if (detail === 'trophy') {
+        return <li key={index}>
+          <span><img className="trophy" src={trophyIcon} alt="Trophy logo"/></span>
+          <span className="code-font">Achieved 2nd at <a href={siteURL}>MLH 2017</a></span>
+        </li>
+      } else {
+        return <li key={index}>
+          <span className={`circle ${detail.toLowerCase().replace(/\d+/g, '')}`}></span>
+          <span className="code-font">{detail}</span>
+        </li>
+      }
+    })}
+  </ul>
+);
 
 ProjectDetailsList.propTypes = {
   detailsList: PropTypes.arrayOf(PropTypes.string).isRequired,
