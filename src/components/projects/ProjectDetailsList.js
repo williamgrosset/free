@@ -3,14 +3,10 @@ import PropTypes from 'prop-types';
 import trophyIcon from '../../images/trophy.png';
 import '../../styles/components/projects/ProjectDetailsList.css';
 
-const ProjectDetailsList = ({ languages, position, sourceURL, siteURL }) => {
-  // TODO: pass URL in as prop
-  const chromeStoreURL = 'https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea';
-  const MLH2017URL = 'http://17w.hackuvic.com/';
-
+const ProjectDetailsList = ({ detailsList, positionClass, sourceURL, siteURL }) => {
   return (
-    <ul className={`details-list ${position}`}>
-      {languages.map((language, index) => {
+    <ul className={`details-list ${positionClass}`}>
+      {detailsList.map((language, index) => {
         if (language === 'source') {
           return <li key={index}>
             <span className="circle black"></span>
@@ -40,8 +36,8 @@ const ProjectDetailsList = ({ languages, position, sourceURL, siteURL }) => {
 }
 
 ProjectDetailsList.propTypes = {
-  languages: PropTypes.arrayOf(PropTypes.string).isRequired,
-  position: PropTypes.string.isRequired,
+  detailsList: PropTypes.arrayOf(PropTypes.string).isRequired,
+  positionClass: PropTypes.string.isRequired,
   sourceURL: PropTypes.string,
   siteURL: PropTypes.string,
 };

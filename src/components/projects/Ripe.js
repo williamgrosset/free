@@ -19,8 +19,8 @@ const Ripe = () => {
         </p>
       </div>
       <ProjectDetailsList
-        languages={["source", "Swift", "Python", "trophy"]}
-        position="rp-languages-pos"
+        detailsList={["source", "Swift", "Python", "trophy"]}
+        positionClass="rp-languages-pos"
         sourceURL="https://github.com/williamgrosset/ripe"
         siteURL="http://17w.hackuvic.com/"
       />

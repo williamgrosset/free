@@ -23,8 +23,8 @@ const Fokus = () => {
         </p>
       </div>
       <ProjectDetailsList
-        languages={["source", "store", "JavaScript"]}
-        position="fk-languages-pos"
+        detailsList={["source", "store", "JavaScript"]}
+        positionClass="fk-languages-pos"
         sourceURL="https://github.com/williamgrosset/fokus"
         siteURL="https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea"
       />
