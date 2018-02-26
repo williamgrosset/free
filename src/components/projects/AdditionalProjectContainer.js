@@ -9,9 +9,13 @@ const AdditionalProjectContainer = () => {
   return (
     <div className="additional-project-container">
       <div className="additional-project">
-        <p className="project-title code-font">oscar</p>
+        <p className="project-title code-font">
+          oscar
+        </p>
         <hr className="additional-project-hr" />
-        <p className="project-subtitle additional-sub">Automated auditing for the open source medical application <a href={oscarURL}>OSCAR</a>.</p>
+        <p className="project-subtitle additional-sub">
+          Automated auditing for the open source medical application <a href={oscarURL}>OSCAR</a>.
+        </p>
         <ProjectDetailsList
           detailsList={["source", "Java"]}
           positionClass="oscar-details-pos"
@@ -19,9 +23,13 @@ const AdditionalProjectContainer = () => {
         />
       </div>
       <div className="additional-project">
-        <p className="project-title code-font">operating systems & networks</p>
+        <p className="project-title code-font">
+          operating systems & networks
+        </p>
         <hr className="additional-project-hr" />
-        <p className="project-subtitle additional-sub">Projects exploring processes, threads, TCP, HTTP, and more.</p>
+        <p className="project-subtitle additional-sub">
+          Projects exploring processes, threads, TCP, HTTP, and more.
+        </p>
         <ProjectDetailsList
           detailsList={["source", "C", "Python"]}
           positionClass="os-details-pos"
@@ -29,9 +37,13 @@ const AdditionalProjectContainer = () => {
         />
       </div>
       <div className="additional-project">
-        <p className="project-title code-font">portfolio website</p>
+        <p className="project-title code-font">
+          portfolio website
+        </p>
         <hr className="additional-project-hr" />
-        <p className="project-subtitle additional-sub">Built with <a href={reactURL}>React</a>.</p>
+        <p className="project-subtitle additional-sub">
+          Built with <a href={reactURL}>React</a>.
+        </p>
         <ProjectDetailsList
           detailsList={["source", "CSS3", "HTML5", "JavaScript"]}
           positionClass="website-details-pos"
