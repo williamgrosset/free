@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import trophy from '../../images/trophy.png';
+import trophyIcon from '../../images/trophy.png';
 import '../../styles/components/projects/ProjectDetailsList.css';
 
 const ProjectDetailsList = ({ languages, position, sourceURL }) => {
@@ -8,21 +8,21 @@ const ProjectDetailsList = ({ languages, position, sourceURL }) => {
   const MLH2017URL = "http://17w.hackuvic.com/";
 
   return (
-    <ul className={`languages-list ${position}`}>
+    <ul className={`details-list ${position}`}>
       {languages.map((language, index) => {
-        {if (language == 'source') {
+        if (language === 'source') {
           return <li key={index}>
             <span className="circle black"></span>
             <a className="code-font" href={sourceURL}>View source</a>
           </li>
-        } else if (language == 'store') {
+        } else if (language === 'store') {
           return <li key={index}>
             <span className="circle black"></span>
             <a className="code-font" href={chromeStoreURL}>Chrome store</a>
           </li>
-        } else if (language == 'trophy') {
+        } else if (language === 'trophy') {
           return <li key={index}>
-            <span><img className="trophy" src={trophy} /></span>
+            <span><img className="trophy" src={trophyIcon} alt="Trophy logo"/></span>
             <span className="code-font">Achieved 2nd at <a href={MLH2017URL}>MLH 2017</a></span>
           </li>
         } else {
@@ -32,7 +32,7 @@ const ProjectDetailsList = ({ languages, position, sourceURL }) => {
             <span className={`circle ${languageColor}`}></span>
             <span className="code-font">{language}</span>
           </li>
-        }}
+        }
       })}
     </ul>
   );
