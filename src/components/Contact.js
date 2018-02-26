@@ -11,8 +11,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <p className="contact-desc">
-        You can reach me at<br />
-        <a href={emailURL}>williamhgrosset@gmail.com</a>.<br /><br /><br />
+        <a href={emailURL}>williamhgrosset@gmail.com</a><br /><br /><br />
 
         <a href={twitterURL}>Twitter.</a>&nbsp;
         <a href={linkedinURL}>LinkedIn.</a>&nbsp;

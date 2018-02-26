@@ -6,16 +6,11 @@
 }
 
 .contact-desc {
-  line-height: 1.40;
+  line-height: 1.4;
   font-size: 56px;
   font-weight: 600;
-  padding-top: 15%;
+  padding-top: 10%;
   margin-left: 20%;
   margin-right: 25%;
   margin-bottom: 10%;
-}
-
-.name {
-  font-weight: normal;
-  font-size: 70px;
 }
