@@ -1,12 +1,13 @@
 import React from 'react';
+import ReactTypist from 'react-typist';
 import '../styles/components/Writings.css';
 
 const Writings = () => { 
   return (
     <div className="writings">
-      <p className="writings-desc">
-        Writings
-      </p>
+      <ReactTypist cursor={{ show: false }} className="writings-desc">
+      Writings
+      </ReactTypist>
     </div>
   );
 }

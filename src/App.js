@@ -7,6 +7,7 @@ import Change from './components/projects/Change';
 import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
 import AdditionalProjectContainer from './components/projects/AdditionalProjectContainer';
+import Writings from './components/Writings';
 
 class App extends Component {
   // TOOD: Grab window height and pass down to components
@@ -25,6 +26,7 @@ class App extends Component {
         <Spacer />
         <AdditionalProjectContainer />
         <Spacer />
+        <Writings />
         <Contact />
       </div>
     );
