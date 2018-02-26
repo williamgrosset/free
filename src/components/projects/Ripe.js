@@ -22,6 +22,7 @@ const Ripe = () => {
         languages={["source", "Swift", "Python", "trophy"]}
         position="rp-languages-pos"
         sourceURL="https://github.com/williamgrosset/ripe"
+        siteURL="http://17w.hackuvic.com/"
       />
     </div>
   );

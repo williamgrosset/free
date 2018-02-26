@@ -26,6 +26,7 @@ const Fokus = () => {
         languages={["source", "store", "JavaScript"]}
         position="fk-languages-pos"
         sourceURL="https://github.com/williamgrosset/fokus"
+        siteURL="https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea"
       />
     </div>
   );

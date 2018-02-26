@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import trophyIcon from '../../images/trophy.png';
 import '../../styles/components/projects/ProjectDetailsList.css';
 
-const ProjectDetailsList = ({ languages, position, sourceURL }) => {
-  const chromeStoreURL = "https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea";
-  const MLH2017URL = "http://17w.hackuvic.com/";
+const ProjectDetailsList = ({ languages, position, sourceURL, siteURL }) => {
+  // TODO: pass URL in as prop
+  const chromeStoreURL = 'https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea';
+  const MLH2017URL = 'http://17w.hackuvic.com/';
 
   return (
     <ul className={`details-list ${position}`}>
@@ -18,12 +19,12 @@ const ProjectDetailsList = ({ languages, position, sourceURL }) => {
         } else if (language === 'store') {
           return <li key={index}>
             <span className="circle black"></span>
-            <a className="code-font" href={chromeStoreURL}>Chrome store</a>
+            <a className="code-font" href={siteURL}>Chrome store</a>
           </li>
         } else if (language === 'trophy') {
           return <li key={index}>
             <span><img className="trophy" src={trophyIcon} alt="Trophy logo"/></span>
-            <span className="code-font">Achieved 2nd at <a href={MLH2017URL}>MLH 2017</a></span>
+            <span className="code-font">Achieved 2nd at <a href={siteURL}>MLH 2017</a></span>
           </li>
         } else {
           const languageColor = language.toLowerCase().replace(/\d+/g, '');
@@ -42,6 +43,7 @@ ProjectDetailsList.propTypes = {
   languages: PropTypes.arrayOf(PropTypes.string).isRequired,
   position: PropTypes.string.isRequired,
   sourceURL: PropTypes.string,
+  siteURL: PropTypes.string,
 };
 
 export default ProjectDetailsList;
