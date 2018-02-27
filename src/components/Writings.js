@@ -5,7 +5,7 @@ import '../styles/components/Writings.css';
 const Writings = () => { 
   return (
     <div className="writings">
-      <ReactTypist cursor={{ show: false }} className="writings-desc">
+      <ReactTypist className="writings-desc" cursor={{ show: false }}>
       Writings
       </ReactTypist>
     </div>

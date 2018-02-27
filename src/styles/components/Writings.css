@@ -1,13 +1,14 @@
 .writings {
+  background-color: green;
   width: 100%;
   height: 100%;
   text-align: left;
 }
 
 .writings-desc {
-  font-size: 460px;
+  font-size: 400px;
   font-weight: 600;
   line-height: 1.4;
   margin-top: 0;
-  margin-left: 5%;
+  margin-left: 10%;
 }
