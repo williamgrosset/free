@@ -1,15 +1,11 @@
 import React from 'react';
-import ReactTypist from 'react-typist';
+import Typist from 'react-typist';
 import '../styles/components/Writings.css';
 
-const Writings = () => { 
-  return (
-    <div className="writings">
-      <ReactTypist className="writings-desc" cursor={{ show: false }}>
-      Writings
-      </ReactTypist>
-    </div>
-  );
-}
+const Writings = () => (
+  <Typist className="writings-desc" cursor={{ show: false }}>
+    Empathy. 
+  </Typist>
+);
 
 export default Writings;
