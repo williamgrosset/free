@@ -3,9 +3,11 @@ import Typist from 'react-typist';
 import '../styles/components/Writings.css';
 
 const Writings = () => (
-  <Typist className="writings-desc" cursor={{ show: false }}>
-    Empathy. 
-  </Typist>
+  <div className="writings">
+    <Typist className="writings-desc" cursor={{ show: false }}>
+      Empathy. 
+    </Typist>
+  </div>
 );
 
 export default Writings;
