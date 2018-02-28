@@ -12,6 +12,7 @@
 + Exploring Security Holes
 + Headless
 + Becoming Systematic to Your Own Actions
++ JS. CSS. UX.
 
 ### design
 + characters randomly being modified (e.g blinking animations) (?)
