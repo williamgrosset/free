@@ -14,11 +14,6 @@ const About = () => {
         Previously, I worked as a research assistant at the University and as a
         software engineer at <a href={changeURL}>Change.org</a>.
       </p>
-
-      <p className="about-sub-desc">
-        "And so the unfree man cotinues to dream, to condemn, and to remain where he is.
-         There must be a better way."
-      </p>
     </div>
   );
 }

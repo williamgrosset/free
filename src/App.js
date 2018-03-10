@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from './components/Navigation';
 import Spacer from './components/Spacer';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -15,7 +14,6 @@ class App extends Component {
   render() {
     return (
       <div className="page">
-        <Navigation />
         <About />
         <Spacer />
         <Change />
