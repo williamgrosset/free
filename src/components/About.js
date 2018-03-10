@@ -9,9 +9,15 @@ const About = () => {
     <div className="about">
       <p className="about-desc">
         My name is William Hamilton Grosset.<br />
-        I previously worked as a research assistant at the <a href={uvicURL}>University of Victoria</a> and as a
-        software engineer at <a href={changeURL}>Change.org</a>.<br />I am currently studying Computer Science at
-        the University.
+        Currently, I am studying Computer Science at
+        the <a href={uvicURL}>University of Victoria</a>.
+        Previously, I worked as a research assistant at the University and as a
+        software engineer at <a href={changeURL}>Change.org</a>.
+      </p>
+
+      <p className="about-sub-desc">
+        "And so the unfree man cotinues to dream, to condemn, and to remain where he is.
+         There must be a better way."
       </p>
     </div>
   );

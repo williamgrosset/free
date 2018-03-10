@@ -1,14 +1,22 @@
 .about {
   width: 100%;
   height: 100%;
+  line-height: 1.4;
+  padding-top: 15%;
   text-align: left;
 }
 
 .about-desc {
+  font-size: 58px;
+  font-weight: 600;
+  margin-left: 17%;
+  margin-right: 25%;
+}
+
+.about-sub-desc {
   font-size: 56px;
   font-weight: 600;
-  line-height: 1.4;
-  padding-top: 15%;
-  margin-left: 20%;
+  margin-left: 17%;
   margin-right: 25%;
+  margin-top: 7%;
 }
