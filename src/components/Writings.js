@@ -4,9 +4,8 @@ import '../styles/components/Writings.css';
 
 const Writings = () => (
   <div className="writings">
-    <Typist className="writings-desc" cursor={{ show: false }}>
-      Empathy. 
-    </Typist>
+    <p className="writings-desc">Writings.</p>
+    <Typist className="writings-sub-desc code-font">Coming soon</Typist>
   </div>
 );
 

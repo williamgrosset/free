@@ -9,6 +9,14 @@
 + Compress images (?)
 + Add `favicon.ico` (?)
 
+### High-level plan
++ Finish content and header navigation
++ Dynamic browser sizing (non-mobile)
++ CSS animations
++ Mobile support
++ Complete `README` writeup
++ Clean-up repository
+
 ## Overview
 This website is built from scratch using React, HTML5, and CSS3.
 
@@ -22,14 +30,6 @@ This website is built from scratch using React, HTML5, and CSS3.
   npm start 
 ```
 3. Navigate to `http://localhost:4200/`.
-
-### High-level plan
-+ Finish content and header navigation
-+ Dynamic browser sizing (non-mobile)
-+ CSS animations
-+ Mobile support
-+ Complete `README` writeup
-+ Clean-up repository
 
 ## Inspiration
 + https://www.axiomzen.co/

@@ -15,7 +15,7 @@
 + JS. CSS. UX.
 + Marathon.
 + Meditation.
-+ Polygot.
++ Polyglot.
 
 ### design
 + characters randomly being modified (e.g blinking animations) (?)

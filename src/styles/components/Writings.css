@@ -6,10 +6,19 @@
 .writings-desc {
   overflow: hidden;
   text-align: left;
-  font-size: 400px;
+  font-size: 300px;
   font-weight: 600;
   line-height: 1.4;
   margin-top: 0;
-  margin-left: 5%;
+  margin-bottom: 0;
+  margin-left: 10%;
+}
+
+.writings-sub-desc {
+  overflow: hidden;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 0;
   margin-bottom: 5%;
+  margin-left: 10%;
 }
