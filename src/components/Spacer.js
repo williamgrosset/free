@@ -1,10 +1,16 @@
 import React from 'react';
-import '../styles/components/Spacer.css';
+import PropTypes from 'prop-types';
 
-const Spacer = () => {
+const Spacer = props => {
   return (
-    <div className="spacer" />
+    <div
+      style={{ height: `${props.height}px` }}
+    />
   );
 }
+
+Spacer.propTypes = {
+  height: PropTypes.number.isRequired,
+};
 
 export default Spacer;
