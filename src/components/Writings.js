@@ -1,6 +1,7 @@
 import React from 'react';
 import Typist from 'react-typist';
 import '../styles/components/Writings.css';
+import '../styles/components/Typist.css';
 
 const Writings = () => (
   <div className="writings">
