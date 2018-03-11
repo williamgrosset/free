@@ -38,7 +38,7 @@ const AdditionalProjectContainer = () => {
       </div>
       <div className="additional-project">
         <p className="project-title code-font">
-          portfolio website
+          website portfolio
         </p>
         <hr className="additional-project-hr" />
         <p className="project-subtitle additional-sub">

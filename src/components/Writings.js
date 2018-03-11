@@ -5,8 +5,20 @@ import '../styles/components/Typist.css';
 
 const Writings = () => (
   <div className="writings">
-    <p className="writings-desc">Writings.</p>
-    <Typist className="writings-sub-desc code-font">Coming soon</Typist>
+    <Typist
+      className="writings-desc"
+      cursor={{ show: false }}
+      avgTypingDelay={80}
+    >
+      Writings.
+    </Typist>
+    <Typist
+      className="writings-sub-desc code-font"
+      startDelay={1000}
+      avgTypingDelay={120}
+    >
+      Coming soon
+    </Typist>
   </div>
 );
 
