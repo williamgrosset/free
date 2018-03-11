@@ -10,7 +10,12 @@ const Writings = () => (
       cursor={{ show: false }}
       avgTypingDelay={80}
     >
-      Writings.
+      Writings
+      <span
+        className="mustard"
+      >
+        .
+      </span>
     </Typist>
     <Typist
       className="writings-sub-desc code-font"

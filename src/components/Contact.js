@@ -13,6 +13,8 @@ const Contact = () => {
       <p className="contact-desc">
         <a href={emailURL}>williamhgrosset@gmail.com</a><br /><br /><br />
 
+        Get in touch. coffee? ball? running?<br /><br />
+
         <a href={twitterURL}>Twitter.</a>&nbsp;
         <a href={linkedinURL}>LinkedIn.</a>&nbsp;
         <a href={hackernewsURL}>Hacker News.</a>&nbsp;
