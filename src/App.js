@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Spacer from './components/Spacer';
 import About from './components/About';
-import Contact from './components/Contact';
 import Change from './components/projects/Change';
 import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
 import AdditionalProjectsContainer from './components/projects/AdditionalProjectsContainer';
 import Writings from './components/Writings';
+import Contact from './components/Contact';
 
 class App extends Component {
   // TOOD: Grab window height and pass down to components
@@ -15,17 +15,17 @@ class App extends Component {
     return (
       <div className="page">
         <About />
-        <Spacer height={220} />
+        <Spacer height={240} />
         <Change />
-        <Spacer height={220} />
+        <Spacer height={300} />
         <Fokus />
-        <Spacer height={220} />
+        <Spacer height={280} />
         <Ripe />
-        <Spacer height={220} />
+        <Spacer height={280} />
         <AdditionalProjectsContainer />
-        <Spacer height={200} />
+        <Spacer height={260} />
         <Writings />
-        <Spacer height={160} />
+        <Spacer height={240} />
         <Contact />
       </div>
     );
