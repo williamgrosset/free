@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../styles/components/projects/Change.css';
+import ProjectDetailsList from './ProjectDetailsList';
 import betterWorldPhoto from '../../images/better_world.png';
 import changeLogo from '../../images/change_logo.png';
-import ProjectDetailsList from './ProjectDetailsList';
+import '../../styles/components/projects/Change.css';
 
 const Change = () => (
   <div className="project">
@@ -22,6 +22,7 @@ const Change = () => (
     <ProjectDetailsList
       detailsList={["Ruby", "JavaScript", "resume"]}
       positionClass="ch-details-pos"
+      sourceURL="https://github.com/williamgrosset"
     />
   </div>
 );

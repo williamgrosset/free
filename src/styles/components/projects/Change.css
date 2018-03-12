@@ -1,22 +1,21 @@
 .ch-content {
   position: relative;
-  z-index: 1;
   float: left;
+  z-index: 1;
   height: 100%;
   width: 60%;
-  margin-left: -80px;
 }
 
 .ch-photo {
   width: auto;
-  height: 85%;
+  height: 90%;
   box-shadow: -8px 10px 50px -12px;
 }
 
 .ch-logo {
   position: absolute;
   bottom: 0px;
-  right: -825px;
+  right: -600px;
   zoom: 32%;
 }
 
@@ -25,7 +24,6 @@
   float: left;
   height: 40%;
   width: 35%;
-  margin-left: 95px;
   margin-top: 40px;
 }
 
@@ -39,5 +37,5 @@
 
 .ch-details-pos {
   margin-top: 80px;
-  margin-right: 250px;
+  margin-right: 400px;
 }

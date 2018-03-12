@@ -19,7 +19,7 @@ const ProjectDetailsList = ({ detailsList, positionClass, sourceURL, siteURL }) 
       } else if (detail === 'resume') {
         return <li key={index}>
           <span className="circle black"></span>
-          <a className="code-font royal-link" href={siteURL}>View resume</a>
+          <a className="code-font royal-link" href={sourceURL}>View resume</a>
         </li>
       } else if (detail === 'trophy') {
         return <li key={index}>

@@ -5,8 +5,8 @@
 .project {
   height: 700px;
   line-height: 35px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .project-title {
