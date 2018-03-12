@@ -23,9 +23,9 @@ class App extends Component {
         <Ripe />
         <Spacer height={220} />
         <AdditionalProjectContainer />
-        <Spacer height={140} />
+        <Spacer height={200} />
         <Writings />
-        <Spacer height={80} />
+        <Spacer height={160} />
         <Contact />
       </div>
     );

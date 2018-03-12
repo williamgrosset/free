@@ -10,8 +10,8 @@ const About = () => {
       <p className="about-desc">
         My name is William Hamilton Grosset.<br />
         Currently, I am studying Computer Science at the University of Victoria.
-        Previously, I worked as a research assistant at the <a href={uvicURL}>@University</a> and as a
-        software engineer at <a href={changeURL}>@Change.org</a>.
+        Previously, I worked as a research assistant at the <a href={uvicURL}>University</a> and as a
+        software engineer at <a href={changeURL}>Change.org</a>.
       </p>
     </div>
   );
