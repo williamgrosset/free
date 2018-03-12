@@ -12,7 +12,7 @@ const Writings = () => (
     >
       Writings
       <span
-        className="mustard"
+        className="royal"
       >
         .
       </span>
