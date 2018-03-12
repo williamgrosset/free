@@ -9,17 +9,17 @@ const ProjectDetailsList = ({ detailsList, positionClass, sourceURL, siteURL }) 
       if (detail === 'source') {
         return <li key={index}>
           <span className="circle black"></span>
-          <a className="code-font" href={sourceURL}>View source</a>
+          <a className="code-font royal-link" href={sourceURL}>View source</a>
         </li>
       } else if (detail === 'store') {
         return <li key={index}>
           <span className="circle black"></span>
-          <a className="code-font" href={siteURL}>Chrome store</a>
+          <a className="code-font royal-link" href={siteURL}>Chrome store</a>
         </li>
       } else if (detail === 'trophy') {
         return <li key={index}>
           <span><img className="trophy" src={trophyIcon} alt="Trophy logo"/></span>
-          <span className="code-font">Achieved 2nd at <a href={siteURL}>MLH 2017</a></span>
+          <span className="code-font">Achieved 2nd at <a className="royal-link" href={siteURL}>MLH 2017</a></span>
         </li>
       } else {
         return <li key={index}>

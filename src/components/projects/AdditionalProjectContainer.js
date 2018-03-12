@@ -14,7 +14,7 @@ const AdditionalProjectContainer = () => {
         </p>
         <hr className="additional-project-hr" />
         <p className="project-subtitle additional-sub">
-          Automated auditing for the open source medical application <a href={oscarURL}>OSCAR</a>.
+          Automated auditing for the open source medical application <a className="royal-link" href={oscarURL}>OSCAR</a>.
         </p>
         <ProjectDetailsList
           detailsList={["source", "Java"]}
@@ -42,7 +42,7 @@ const AdditionalProjectContainer = () => {
         </p>
         <hr className="additional-project-hr" />
         <p className="project-subtitle additional-sub">
-          Built with <a href={reactURL}>React</a>.
+          Built with <a className="royal-link" href={reactURL}>React</a>.
         </p>
         <ProjectDetailsList
           detailsList={["source", "CSS3", "HTML5", "JavaScript"]}

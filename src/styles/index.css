@@ -31,6 +31,33 @@
   margin-top: 0;
 }
 
+.mbs {
+  margin-bottom: 10px;
+}
+
+.mrl {
+  margin-right: 60px;
+}
+
+.royal-link {
+  color: #00e;
+  text-decoration: none;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+.royal-link:visited {
+  color: #00e;
+}
+
+.royal-link:hover {
+  color: #4d4dff;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
@@ -46,23 +73,4 @@ h1 {
 p {
   font-size: 20px;
   font-weight: 300;
-}
-
-a {
-  color: #00e;
-  text-decoration: none;
-  transition: color 0.3s linear;
-  -webkit-transition: color 0.3s linear;
-  -moz-transition: color 0.3s linear;
-  -ms-transition: color 0.3s linear;
-  -o-transition: color 0.3s linear;
-  transition: color 0.3s linear;
-}
-
-a:visited {
-  color: #00e;
-}
-
-a:hover {
-  color: #4d4dff;
 }
