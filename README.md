@@ -14,6 +14,8 @@
 + Mobile support
 + Complete `README` writeup
 + Clean-up repository
++ Update RESUME
++ Re-publish Chrome extension with fix
 
 ## Overview
 This website is built from scratch using React, HTML5, and CSS3.

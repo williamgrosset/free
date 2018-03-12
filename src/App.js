@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="page">
         <About />
-        <Spacer height={240} />
+        <Spacer height={230} />
         <Change />
         <Spacer height={300} />
         <Fokus />
