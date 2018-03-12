@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../styles/components/projects/AdditionalProjectContainer.css';
+import '../../styles/components/projects/AdditionalProjectsContainer.css';
 import ProjectDetailsList from './ProjectDetailsList';
 
-const AdditionalProjectContainer = () => {
+const AdditionalProjectsContainer = () => {
   const oscarURL = 'http://oscarcanada.org/';
   const reactURL = 'https://reactjs.org/';
 
@@ -54,4 +54,4 @@ const AdditionalProjectContainer = () => {
   );
 }
 
-export default AdditionalProjectContainer;
+export default AdditionalProjectsContainer;

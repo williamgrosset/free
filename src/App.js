@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Change from './components/projects/Change';
 import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
-import AdditionalProjectContainer from './components/projects/AdditionalProjectContainer';
+import AdditionalProjectsContainer from './components/projects/AdditionalProjectsContainer';
 import Writings from './components/Writings';
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
         <Spacer height={220} />
         <Ripe />
         <Spacer height={220} />
-        <AdditionalProjectContainer />
+        <AdditionalProjectsContainer />
         <Spacer height={200} />
         <Writings />
         <Spacer height={160} />
