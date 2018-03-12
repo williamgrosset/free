@@ -2,8 +2,6 @@
 
 ## TODO
 + Add project description to each project
-+ Finish locked `<Writings />` component with scrolling list
-+ Finish `<Contact />` component and decide on main background color
 + Audit stylesheets
 + Clean-up nits (variable naming, etc.)
 + Compress images (?)
