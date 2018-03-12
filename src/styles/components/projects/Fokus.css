@@ -1,37 +1,23 @@
 .fk-content {
   position: relative;
-  z-index: 1;
   float: right;
+  z-index: 1;
   height: 100%;
-  width: 73%;
-  margin-left: 0;
+  margin-right: 20px;
 }
 
 .fk-photo {
   background-color: #00e;
   width: auto;
-  height: 83%;
+  height: 80%;
   box-shadow: 8px 10px 50px -12px;
-}
-
-.fk-logo {
-  position: absolute;
-  right: -120px;
-  bottom: 40px;
-  zoom: 115%;
-}
-
-.google-logo {
-  position: absolute;
-  bottom: 45px;
-  left: -60px;
-  zoom: 100%;
 }
 
 .fk-sub-content {
   text-align: left;
   float: left;
-  width: 27%;
+  width: 30%;
+  margin-left: 50px;
   margin-top: 80px;
 }
 
@@ -44,6 +30,20 @@
 }
 
 .fk-details-pos {
-  margin-top: 190px;
-  margin-left: 120px;
+  margin-top: 180px;
+  margin-left: 260px;
+}
+
+.fk-logo {
+  position: absolute;
+  right: -40px;
+  bottom: 40px;
+  zoom: 120%;
+}
+
+.google-logo {
+  position: absolute;
+  bottom: 45px;
+  left: -50px;
+  zoom: 100%;
 }

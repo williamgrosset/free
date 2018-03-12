@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../styles/components/projects/Fokus.css';
+import ProjectDetailsList from './ProjectDetailsList';
 import fokusBrowserPhoto from '../../images/fokus_browser.png';
 import fokusLogo from '../../images/fokus_logo.png';
 import googleLogo from '../../images/google_logo.png';
-import ProjectDetailsList from './ProjectDetailsList';
+import '../../styles/components/projects/Fokus.css';
 
 const Fokus = () => (
   <div className="project">
