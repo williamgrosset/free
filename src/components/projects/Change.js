@@ -20,7 +20,7 @@ const Change = () => (
       </p>
     </div>
     <ProjectDetailsList
-      detailsList={["Ruby", "JavaScript"]}
+      detailsList={["Ruby", "JavaScript", "resume"]}
       positionClass="ch-details-pos"
     />
   </div>

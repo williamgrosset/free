@@ -16,6 +16,11 @@ const ProjectDetailsList = ({ detailsList, positionClass, sourceURL, siteURL }) 
           <span className="circle black"></span>
           <a className="code-font royal-link" href={siteURL}>Chrome store</a>
         </li>
+      } else if (detail === 'resume') {
+        return <li key={index}>
+          <span className="circle black"></span>
+          <a className="code-font royal-link" href={siteURL}>View resume</a>
+        </li>
       } else if (detail === 'trophy') {
         return <li key={index}>
           <span><img className="trophy" src={trophyIcon} alt="Trophy logo"/></span>

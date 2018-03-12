@@ -17,7 +17,7 @@ const AdditionalProjectContainer = () => {
           Automated auditing for the open source medical application <a className="royal-link" href={oscarURL}>OSCAR</a>.
         </p>
         <ProjectDetailsList
-          detailsList={["source", "Java"]}
+          detailsList={["Java", "source"]}
           positionClass="oscar-details-pos"
           sourceURL="https://github.com/williamgrosset/OSCAR-ConCert"
         />
@@ -31,7 +31,7 @@ const AdditionalProjectContainer = () => {
           Projects exploring processes, threads, TCP, HTTP, and more.
         </p>
         <ProjectDetailsList
-          detailsList={["source", "C", "Python"]}
+          detailsList={["C", "Python", "source"]}
           positionClass="os-details-pos"
           sourceURL="https://github.com/williamgrosset/OSCAR"
         />
@@ -45,7 +45,7 @@ const AdditionalProjectContainer = () => {
           Built with <a className="royal-link" href={reactURL}>React</a>.
         </p>
         <ProjectDetailsList
-          detailsList={["source", "CSS3", "HTML5", "JavaScript"]}
+          detailsList={["CSS3", "HTML5", "JavaScript", "source"]}
           positionClass="website-details-pos"
           sourceURL="https://github.com/williamgrosset/free"
         />

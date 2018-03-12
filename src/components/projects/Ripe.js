@@ -18,7 +18,7 @@ const Ripe = () => (
       </p>
     </div>
     <ProjectDetailsList
-      detailsList={["source", "Swift", "Python", "trophy"]}
+      detailsList={["Swift", "Python", "source", "trophy"]}
       positionClass="rp-details-pos"
       sourceURL="https://github.com/williamgrosset/ripe"
       siteURL="http://17w.hackuvic.com/"
