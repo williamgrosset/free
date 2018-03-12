@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Spacer = props => {
+const Spacer = ({ height }) => {
   return (
     <div
-      style={{ height: `${props.height}px` }}
+      style={{ height: `${height}px` }}
     />
   );
 }
