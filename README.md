@@ -4,7 +4,6 @@
 + Audit stylesheets
 + Clean-up nits (variable naming, etc.)
 + Compress images (?)
-+ Add `favicon.ico` (?)
 
 ### High-level plan
 + Dynamic browser sizing (non-mobile)
