@@ -11,8 +11,8 @@ const Fokus = () => (
       <img className="fk-photo" src={fokusBrowserPhoto} alt="Fokus browser" />
       <span className="fk-desc">
         <p className="fk-desc-txt">
-          Collabored on the revenue engineering team. Initially, I begun working on low priority assignments and
-          quickly moved to high priority features, bug fixes, and daily code reviews of other engineers.
+          A google chrome extension for domain blocking and meditation practice. When visiting blocked domains, take
+          a short break to meditate and increase your productivity level.<br /><br />
         </p>
       </span>
       <img className="fk-logo" src={fokusLogo} alt="Fokus logo" />

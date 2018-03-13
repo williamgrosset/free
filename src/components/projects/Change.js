@@ -11,7 +11,9 @@ const Change = () => (
       <span className="ch-desc">
         <p className="ch-desc-txt">
           Collabored on the revenue engineering team. Initially, I begun working on low priority assignments and
-          quickly moved to high priority features, bug fixes, and daily code reviews of other engineers.
+          quickly moved to higher priority features, bug fixes, and thorough code reviews for other engineers.<br /><br />
+          From fixing payment issues, creating features in the new React tech stack, my experience as an engineer and
+          familarity around the platform quickly matured. as I begun to voice my opinions on features and presenting at product development demos.
         </p>
       </span>
       <img className="ch-logo" src={changeLogo} alt="Change logo" />
