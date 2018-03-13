@@ -13,13 +13,9 @@ const Fokus = () => (
       <img className="google-logo" src={googleLogo} alt="Google logo" />
     </div>
     <div className="fk-sub-content">
-      <p className="project-title">
-        fokus
-      </p>
+      <p className="project-title">fokus</p>
       <hr className="project-hr" />
-      <p className="project-subtitle">
-        google chrome extension | jan. 2017
-      </p>
+      <p className="project-subtitle">google chrome extension | jan. 2017</p>
     </div>
     <ProjectDetailsList
       detailsList={['JavaScript', 'store', 'source']}

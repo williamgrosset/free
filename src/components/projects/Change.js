@@ -11,13 +11,9 @@ const Change = () => (
       <img className="ch-logo" src={changeLogo} alt="Change logo" />
     </div>
     <div className="ch-sub-content">
-      <p className="project-title">
-        change.org
-      </p>
+      <p className="project-title">change.org</p>
       <hr className="project-hr" />
-      <p className="project-subtitle">
-        software engineer intern | may to dec. 2017
-      </p>
+      <p className="project-subtitle">software engineer intern | may to dec. 2017</p>
     </div>
     <ProjectDetailsList
       detailsList={['Ruby', 'JavaScript', 'resume']}

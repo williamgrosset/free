@@ -9,13 +9,9 @@ const Ripe = () => (
       <img className="rp-photo" src={ripePhoto} alt="Ripe iOS" />
     </div>
     <div className="rp-sub-content">
-      <p className="project-title">
-        ripe
-      </p>
+      <p className="project-title">ripe</p>
       <hr className="project-hr" />
-      <p className="project-subtitle">
-        point-of-sale iOS app | mar. 2017
-      </p>
+      <p className="project-subtitle">point-of-sale iOS app | mar. 2017</p>
     </div>
     <ProjectDetailsList
       detailsList={['Swift', 'Python', 'source', 'trophy']}
