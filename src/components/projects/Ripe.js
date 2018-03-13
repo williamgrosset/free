@@ -9,8 +9,7 @@ const Ripe = () => (
       <img className="rp-photo" src={ripePhoto} alt="Ripe iOS" />
       <span className="rp-desc">
         <p className="rp-desc-txt">
-          A point-of-sale iOS application with photo image recognition for grocery owners.<br /><br />
-          Won 2nd place at Major League Hacking 2017, sponsored by GitHub, Hootsuite, and more.
+          A point-of-sale iOS application with produce image recognition for grocery owners.
         </p>
       </span>
     </div>
