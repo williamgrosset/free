@@ -40,7 +40,7 @@ const ProjectDetailsList = ({
           <li key={index}>
             <span className="circle black" />
             <a className="code-font royal-link" href={siteURL}>
-              View recommendations 
+              View recommendations
             </a>
           </li>
         );

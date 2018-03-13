@@ -8,9 +8,7 @@ const Ripe = () => (
     <div className="rp-content">
       <img className="rp-photo" src={ripePhoto} alt="Ripe iOS" />
       <span className="rp-desc">
-        <p className="rp-desc-txt">
-          A point-of-sale iOS application with produce image recognition.
-        </p>
+        <p className="rp-desc-txt">A point-of-sale iOS application with produce image recognition.</p>
       </span>
     </div>
     <div className="rp-sub-content">

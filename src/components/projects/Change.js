@@ -10,8 +10,8 @@ const Change = () => (
       <img className="ch-photo" src={betterWorldPhoto} alt="Better world" />
       <span className="ch-desc">
         <p className="ch-desc-txt">
-          Quickly exceeded expectations of the intern role and produced high priority features, bug fixes,
-          and quality code reviews on a daily basis.
+          Collabored on the revenue engineering team and produced high priority features, bug fixes, and quality code
+          reviews on a daily basis.
         </p>
       </span>
       <img className="ch-logo" src={changeLogo} alt="Change logo" />

@@ -11,8 +11,9 @@ const Fokus = () => (
       <img className="fk-photo" src={fokusBrowserPhoto} alt="Fokus browser" />
       <span className="fk-desc">
         <p className="fk-desc-txt">
-          A google chrome extension for domain blocking and meditation. When visiting a blocked domain, take
-          a short break to meditate and increase your productivity.<br /><br />
+          A google chrome extension for domain blocking and meditation. When visiting a blocked domain, take a short
+          break to meditate and increase your productivity.<br />
+          <br />
         </p>
       </span>
       <img className="fk-logo" src={fokusLogo} alt="Fokus logo" />
