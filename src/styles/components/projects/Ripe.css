@@ -3,7 +3,8 @@
   float: left;
   z-index: 1;
   height: 100%;
-  width: 45%;
+  width: 30%;
+  margin-left: 60px;
 }
 
 .rp-photo {
@@ -17,11 +18,12 @@
   height: 40%;
   width: 50%;
   margin-top: 160px;
-  margin-left: -200px;
+  margin-left: -160px;
 }
 
 .rp-details-pos {
-  margin-top: 80px;
+  z-index: 10;
+  margin-top: 100px;
   margin-right: 575px;
-  margin-left: -300px;
+  margin-left: -240px;
 }

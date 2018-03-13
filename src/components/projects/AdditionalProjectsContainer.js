@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/components/projects/AdditionalProjectsContainer.css';
 import ProjectDetailsList from './ProjectDetailsList';
+import '../../styles/components/projects/AdditionalProjectsContainer.css';
 
 const AdditionalProjectsContainer = () => {
   const oscarURL = 'http://oscarcanada.org/';
@@ -33,7 +33,7 @@ const AdditionalProjectsContainer = () => {
         <ProjectDetailsList
           detailsList={["C", "Python", "source"]}
           positionClass="os-details-pos"
-          sourceURL="https://github.com/williamgrosset/OSCAR"
+          sourceURL="https://github.com/williamgrosset?utf8=%E2%9C%93&tab=repositories&q=university&type=&language="
         />
       </div>
       <div className="additional-project">
