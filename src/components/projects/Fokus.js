@@ -8,9 +8,9 @@ import '../../styles/components/projects/Fokus.css';
 const Fokus = () => (
   <div className="project">
     <div className="fk-content">
-      <img className="fk-photo" src={fokusBrowserPhoto} alt='Fokus browser' />
-      <img className="fk-logo" src={fokusLogo} alt='Fokus logo' />
-      <img className="google-logo" src={googleLogo} alt='Google logo' />
+      <img className="fk-photo" src={fokusBrowserPhoto} alt="Fokus browser" />
+      <img className="fk-logo" src={fokusLogo} alt="Fokus logo" />
+      <img className="google-logo" src={googleLogo} alt="Google logo" />
     </div>
     <div className="fk-sub-content">
       <p className="project-title">
@@ -22,7 +22,7 @@ const Fokus = () => (
       </p>
     </div>
     <ProjectDetailsList
-      detailsList={["JavaScript", "store", "source"]}
+      detailsList={['JavaScript', 'store', 'source']}
       positionClass="fk-details-pos"
       sourceURL="https://github.com/williamgrosset/fokus"
       siteURL="https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea"

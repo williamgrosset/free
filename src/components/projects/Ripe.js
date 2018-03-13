@@ -10,7 +10,7 @@ const Ripe = () => (
     </div>
     <div className="rp-sub-content">
       <p className="project-title">
-        ripe 
+        ripe
       </p>
       <hr className="project-hr" />
       <p className="project-subtitle">
@@ -18,7 +18,7 @@ const Ripe = () => (
       </p>
     </div>
     <ProjectDetailsList
-      detailsList={["Swift", "Python", "source", "trophy"]}
+      detailsList={['Swift', 'Python', 'source', 'trophy']}
       positionClass="rp-details-pos"
       sourceURL="https://github.com/williamgrosset/ripe"
       siteURL="http://17w.hackuvic.com/"

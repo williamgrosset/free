@@ -7,12 +7,12 @@ import '../../styles/components/projects/Change.css';
 const Change = () => (
   <div className="project">
     <div className="ch-content">
-      <img className="ch-photo" src={betterWorldPhoto} alt='Better world' />
-      <img className="ch-logo" src={changeLogo} alt='Change logo' />
+      <img className="ch-photo" src={betterWorldPhoto} alt="Better world" />
+      <img className="ch-logo" src={changeLogo} alt="Change logo" />
     </div>
     <div className="ch-sub-content">
       <p className="project-title">
-        change.org 
+        change.org
       </p>
       <hr className="project-hr" />
       <p className="project-subtitle">
@@ -20,7 +20,7 @@ const Change = () => (
       </p>
     </div>
     <ProjectDetailsList
-      detailsList={["Ruby", "JavaScript", "resume"]}
+      detailsList={['Ruby', 'JavaScript', 'resume']}
       positionClass="ch-details-pos"
       sourceURL="https://github.com/williamgrosset"
     />
