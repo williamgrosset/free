@@ -35,6 +35,15 @@ const ProjectDetailsList = ({
             </a>
           </li>
         );
+      } else if (detail === 'recommendations') {
+        return (
+          <li key={index}>
+            <span className="circle black" />
+            <a className="code-font royal-link" href={siteURL}>
+              View recommendations 
+            </a>
+          </li>
+        );
       } else if (detail === 'trophy') {
         return (
           <li key={index}>

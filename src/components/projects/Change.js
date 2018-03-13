@@ -10,10 +10,8 @@ const Change = () => (
       <img className="ch-photo" src={betterWorldPhoto} alt="Better world" />
       <span className="ch-desc">
         <p className="ch-desc-txt">
-          Collabored on the revenue engineering team. Initially, I begun working on low priority assignments and
-          quickly moved to higher priority features, bug fixes, and thorough code reviews for other engineers.<br /><br />
-          From fixing payment issues, creating features in the new React tech stack, my experience as an engineer and
-          familarity around the platform quickly matured. as I begun to voice my opinions on features and presenting at product development demos.
+          Quickly exceeded expectations of the intern role and produced high priority features, bug fixes,
+          and quality code reviews on a daily basis.
         </p>
       </span>
       <img className="ch-logo" src={changeLogo} alt="Change logo" />
@@ -24,9 +22,10 @@ const Change = () => (
       <p className="project-subtitle">software engineer intern | may to dec. 2017</p>
     </div>
     <ProjectDetailsList
-      detailsList={['Ruby', 'JavaScript', 'resume']}
+      detailsList={['Ruby', 'JavaScript', 'resume', 'recommendations']}
       positionClass="ch-details-pos"
       sourceURL="https://github.com/williamgrosset"
+      siteURL="https://linkedin.com/in/williamgrosset"
     />
   </div>
 );
