@@ -4,7 +4,7 @@
   z-index: 1;
   height: 100%;
   width: 30%;
-  margin-left: 60px;
+  margin-left: 160px;
 }
 
 .rp-photo {
@@ -38,7 +38,7 @@
   color: white;
   font-size: 24px;
   font-weight: 600;
-  margin: 65% 15%;
+  margin: 70% 15%;
 }
 
 .rp-sub-content {
@@ -54,5 +54,5 @@
   z-index: 10;
   margin-top: 80px;
   margin-right: 575px;
-  margin-left: -250px;
+  margin-left: -150px;
 }

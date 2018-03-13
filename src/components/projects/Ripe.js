@@ -9,7 +9,7 @@ const Ripe = () => (
       <img className="rp-photo" src={ripePhoto} alt="Ripe iOS" />
       <span className="rp-desc">
         <p className="rp-desc-txt">
-          A point-of-sale iOS application with produce image recognition for grocery owners.
+          A point-of-sale iOS application with produce image recognition.
         </p>
       </span>
     </div>
