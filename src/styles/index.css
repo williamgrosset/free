@@ -23,6 +23,14 @@
   line-height: 1.5;
 }
 
+.project-hr {
+  background-color: black;
+  border-color: black;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
 .code-font {
   font-family: 'Cutive Mono', monospace;
 }

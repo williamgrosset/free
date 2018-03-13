@@ -1,14 +1,14 @@
 .rp-content {
   position: relative;
-  z-index: 1;
   float: left;
+  z-index: 1;
   height: 100%;
-  width: 40%;
+  width: 45%;
 }
 
 .rp-photo {
   width: auto;
-  height: 100%;
+  height: 110%;
 }
 
 .rp-sub-content {
@@ -17,19 +17,11 @@
   height: 40%;
   width: 50%;
   margin-top: 160px;
-  margin-left: -100px;
-}
-
-.rp-hr {
-  background-color: black;
-  border-color: black;
-  border: none;
-  height: 1px;
-  width: 100%;
+  margin-left: -200px;
 }
 
 .rp-details-pos {
-  margin-top: 35px;
+  margin-top: 80px;
   margin-right: 575px;
-  margin-left: -120px;
+  margin-left: -300px;
 }

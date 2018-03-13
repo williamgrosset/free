@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/components/projects/Ripe.css';
-import ripePhoto from '../../images/ripe_ios.png';
 import ProjectDetailsList from './ProjectDetailsList';
+import ripePhoto from '../../images/ripe_ios.png';
+import '../../styles/components/projects/Ripe.css';
 
 const Ripe = () => (
   <div className="project">
@@ -12,7 +12,7 @@ const Ripe = () => (
       <p className="project-title">
         ripe 
       </p>
-      <hr className="rp-hr" />
+      <hr className="project-hr" />
       <p className="project-subtitle">
         point-of-sale iOS app | mar. 2017
       </p>
