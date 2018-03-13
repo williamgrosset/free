@@ -7,6 +7,12 @@ const Ripe = () => (
   <div className="project">
     <div className="rp-content">
       <img className="rp-photo" src={ripePhoto} alt="Ripe iOS" />
+      <span className="rp-desc">
+        <p className="rp-desc-txt">
+          Collabored on the revenue engineering team. Initially, I begun working on low priority assignments and
+          quickly moved to high priority features, bug fixes, and daily code reviews of other engineers.
+        </p>
+      </span>
     </div>
     <div className="rp-sub-content">
       <p className="project-title">ripe</p>

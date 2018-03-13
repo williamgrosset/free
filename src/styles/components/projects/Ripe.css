@@ -12,6 +12,25 @@
   height: 110%;
 }
 
+.rp-desc {
+  background-color: black;
+  position: absolute;
+  text-align: left;
+  float :left;
+  top: 90px;
+  left: 63px;
+  width: 72%;
+  height: 84%; 
+  opacity: 0.8;
+}
+
+.rp-desc-txt {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15%;
+}
+
 .rp-sub-content {
   text-align: right;
   float: left;

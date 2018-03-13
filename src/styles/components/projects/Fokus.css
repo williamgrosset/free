@@ -13,6 +13,25 @@
   box-shadow: 8px 10px 50px -12px;
 }
 
+.fk-desc {
+  background-color: black;
+  position: absolute;
+  text-align: left;
+  float :left;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 80%; 
+  opacity: 0.8;
+}
+
+.fk-desc-txt {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15%;
+}
+
 .fk-sub-content {
   text-align: left;
   float: left;
