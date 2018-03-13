@@ -1,14 +1,12 @@
 # website
 
 ## TODO
-+ Add project description to each project
 + Audit stylesheets
 + Clean-up nits (variable naming, etc.)
 + Compress images (?)
 + Add `favicon.ico` (?)
 
 ### High-level plan
-+ Finish content and header navigation
 + Dynamic browser sizing (non-mobile)
 + CSS animations
 + Mobile support
