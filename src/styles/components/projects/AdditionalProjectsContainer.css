@@ -1,6 +1,7 @@
 .additional-project-container {
-  width: 60%;
-  margin-left: 21%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 5%;
 }
 
 .additional-project {
@@ -31,7 +32,7 @@
 }
 
 .os-details-pos {
-  margin-top: 53px;
+  margin-top: 52px;
   padding: 0;
 
 }

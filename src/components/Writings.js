@@ -22,7 +22,15 @@ const Writings = () => (
       startDelay={1000}
       avgTypingDelay={120}
     >
-      Coming soon
+      Coming soon&nbsp;
+        <Typist.Delay ms={1000} />
+        .
+        <Typist.Delay ms={1000} />
+        .
+        <Typist.Delay ms={1000} />
+        .
+        <Typist.Delay ms={1000} />
+        &nbsp;I • VII • MMXVIII
     </Typist>
   </div>
 );
