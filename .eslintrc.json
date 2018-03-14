@@ -2,6 +2,10 @@
   "extends": "airbnb",
   "plugins": ["prettier"],
   "rules": {
+    "max-len": [
+      "error", 
+      120
+    ],
     "prettier/prettier": ["error", {
       "printWidth": 120,
       "singleQuote": true,

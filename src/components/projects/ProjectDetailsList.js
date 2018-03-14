@@ -76,4 +76,9 @@ ProjectDetailsList.propTypes = {
   siteURL: PropTypes.string,
 };
 
+ProjectDetailsList.defaultProps = {
+  sourceURL: '',
+  siteURL: '',
+};
+
 export default ProjectDetailsList;

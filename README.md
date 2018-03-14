@@ -1,23 +1,26 @@
 # website
 
 ## TODO
-+ Audit stylesheets
-+ Clean-up nits (variable naming, etc.)
-+ Compress images (?)
-
-### High-level plan
 + Dynamic browser sizing (non-mobile)
 + CSS animations
 + Mobile support
++ Audit stylesheets
++ Clean-up nits (variable naming, etc.)
++ Compress images (?)
++ Audit browsers/devices
+
+### High-level plan
++ Complete site
 + Complete `README` writeup
-+ Clean-up repository
++ Clean-up repo
++ Include GA
 + Update RESUME
 + Re-publish Chrome extension with fix
 
 ## Overview
 This website is built from scratch using React, HTML5, and CSS3.
 
-## Project Setup 
+## Setup
 1. Install the required packages:
 ```javascript
   npm install
@@ -27,6 +30,16 @@ This website is built from scratch using React, HTML5, and CSS3.
   npm start 
 ```
 3. Navigate to `http://localhost:4200/`.
+
+### Linting
+```javascript
+  npm run lint
+```
+
+### Testing
+```javascript
+  npm run test
+```
 
 ## Inspiration
 + https://www.axiomzen.co/
