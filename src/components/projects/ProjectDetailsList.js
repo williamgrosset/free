@@ -9,12 +9,21 @@ const ProjectDetailsList = ({
   <ul className={`details-list ${positionClass}`}>
     {detailsList.map((detail, index) => {
       if (detail === 'source') {
+        if (sourceURL) {
+          return (
+            <li key={index}>
+              <span className="circle black" />
+              <a className="code-font royal-link" href={sourceURL}>
+                View source
+              </a>
+            </li>
+          );
+        }
         return (
           <li key={index}>
             <span className="circle black" />
-            <a className="code-font royal-link" href={sourceURL}>
-              View source
-            </a>
+            <span className="code-font line-through">View source</span>
+            <span className="code-font"> (soon)</span>
           </li>
         );
       } else if (detail === 'store') {

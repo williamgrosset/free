@@ -21,6 +21,10 @@
   margin-right: 0.4vw;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 .ruby {
   background-color: #701516;
 }

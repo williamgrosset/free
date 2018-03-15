@@ -40,11 +40,7 @@ const AdditionalProjectsContainer = () => (
           React
         </a>.
       </p>
-      <ProjectDetailsList
-        detailsList={['CSS3', 'HTML5', 'JavaScript', 'source']}
-        positionClass="website-details-pos"
-        sourceURL="https://github.com/williamgrosset/free"
-      />
+      <ProjectDetailsList detailsList={['CSS3', 'HTML5', 'JavaScript', 'source']} positionClass="website-details-pos" />
     </div>
   </div>
 );
