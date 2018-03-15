@@ -18,8 +18,8 @@
   text-align: left;
   float :left;
   top: 4.7vw;
-  left: 3.1vw;
-  width: 74%;
+  left: 3vw;
+  width: 75%;
   height: 85%; 
   opacity: 0;
   transition: opacity 0.2s linear;
@@ -31,7 +31,7 @@
 }
 
 .rp-desc:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .rp-desc-txt {
