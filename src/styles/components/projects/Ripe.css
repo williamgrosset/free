@@ -13,14 +13,14 @@
 }
 
 .rp-desc {
-  background-color: black;
+  background-color: white;
   position: absolute;
   text-align: left;
   float :left;
-  top: 4.8vw;
-  left: 3.2vw;
-  width: 73%;
-  height: 84%; 
+  top: 4.7vw;
+  left: 3.1vw;
+  width: 74%;
+  height: 85%; 
   opacity: 0;
   transition: opacity 0.2s linear;
   -webkit-transition: opacity 0.2s linear;
@@ -35,7 +35,7 @@
 }
 
 .rp-desc-txt {
-  color: white;
+  color: black;
   line-height: 1.5;
   font-weight: 600;
   font-size: 1.3vw;
@@ -54,6 +54,6 @@
 .rp-details-pos {
   z-index: 10;
   margin-top: 13vw;
-  margin-right: 18.5vw;
+  margin-right: 18.25vw;
   margin-left: 0;
 }

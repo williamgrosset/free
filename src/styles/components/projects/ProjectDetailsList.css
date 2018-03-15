@@ -16,8 +16,9 @@
 }
 
 .trophy {
-  zoom: 15%;
-  margin-right: 35px;
+  height: 1vw;
+  width: 1vw;
+  margin-right: 0.4vw;
 }
 
 .ruby {

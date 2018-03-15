@@ -13,7 +13,7 @@
 }
 
 .ch-desc {
-  background-color: black;
+  background-color: white;
   position: absolute;
   text-align: left;
   float :left;
@@ -35,7 +35,7 @@
 }
 
 .ch-desc-txt {
-  color: white;
+  color: black;
   line-height: 1.5;
   font-weight: 600;
   font-size: 1.3vw;
