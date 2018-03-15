@@ -8,6 +8,7 @@
 + Clean-up nits (variable naming, etc.)
 + Compress images (?)
 + Audit browsers/devices
++ Create separate simplistic version for IE (?)
 
 ### High-level plan
 + Complete site

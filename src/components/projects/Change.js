@@ -20,13 +20,13 @@ const Change = () => (
       <p className="project-title">change.org</p>
       <hr className="project-hr" />
       <p className="project-subtitle">software engineer intern | may to dec. 2017</p>
+      <ProjectDetailsList
+        detailsList={['Ruby', 'JavaScript', 'resume', 'recommendations']}
+        positionClass="ch-details-pos"
+        sourceURL="https://github.com/williamgrosset"
+        siteURL="https://linkedin.com/in/williamgrosset"
+      />
     </div>
-    <ProjectDetailsList
-      detailsList={['Ruby', 'JavaScript', 'resume', 'recommendations']}
-      positionClass="ch-details-pos"
-      sourceURL="https://github.com/williamgrosset"
-      siteURL="https://linkedin.com/in/williamgrosset"
-    />
   </div>
 );
 
