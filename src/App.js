@@ -15,17 +15,17 @@ class App extends Component {
     return (
       <div className="page">
         <About />
-        <Spacer height={230} />
+        <Spacer height={20} />
         <Change />
-        <Spacer height={300} />
+        <Spacer height={20} />
         <Fokus />
-        <Spacer height={280} />
+        <Spacer height={20} />
         <Ripe />
-        <Spacer height={320} />
+        <Spacer height={20} />
         <AdditionalProjectsContainer />
-        <Spacer height={200} />
+        <Spacer height={20} />
         <Writings />
-        <Spacer height={240} />
+        <Spacer height={20} />
         <Contact />
       </div>
     );
