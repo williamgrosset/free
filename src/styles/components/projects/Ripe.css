@@ -17,9 +17,9 @@
   position: absolute;
   text-align: left;
   float :left;
-  top: 90px;
-  left: 63px;
-  width: 72%;
+  top: 4.8vw;
+  left: 3.2vw;
+  width: 73%;
   height: 84%; 
   opacity: 0;
   transition: opacity 0.2s linear;
@@ -36,8 +36,9 @@
 
 .rp-desc-txt {
   color: white;
-  font-size: 24px;
+  line-height: 1.5;
   font-weight: 600;
+  font-size: 1.3vw;
   margin: 70% 15%;
 }
 

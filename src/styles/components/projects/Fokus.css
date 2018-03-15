@@ -37,8 +37,9 @@
 
 .fk-desc-txt {
   color: white;
-  font-size: 24px;
+  line-height: 1.5;
   font-weight: 600;
+  font-size: 1.3vw;
   margin: 22% 20% 25% 25%;
 }
 
