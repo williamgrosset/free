@@ -23,7 +23,7 @@ const AdditionalProjectsContainer = () => (
       <p className="project-title code-font">operating systems & networks</p>
       <hr className="additional-project-hr" />
       <p className="project-subtitle additional-sub">
-        Projects exploring file systems, multi-threading, IP/TCP, HTTP, and more.
+        Projects exploring file systems, multi-threading, IP/TCP/HTTP, and more.
       </p>
       <ProjectDetailsList
         detailsList={['C', 'Python', 'source']}

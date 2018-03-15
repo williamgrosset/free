@@ -2,8 +2,9 @@
 
 ## TODO
 + Dynamic browser sizing (non-mobile)
+  + Go over what should and should not be re-sized and static
 + CSS animations
-+ Mobile support
++ Mobile design
 + Audit stylesheets
 + Clean-up nits (variable naming, etc.)
 + Compress images (?)
@@ -14,9 +15,9 @@
 + Complete site
 + Complete `README` writeup
 + Clean-up repo
-+ Include GA
 + Update RESUME
 + Re-publish Chrome extension with fix
++ Include GA
 
 ## Overview
 This website is built from scratch using React, HTML5, and CSS3.
