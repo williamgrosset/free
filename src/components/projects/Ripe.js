@@ -15,13 +15,13 @@ const Ripe = () => (
       <p className="project-title">ripe</p>
       <hr className="project-hr" />
       <p className="project-subtitle">point-of-sale iOS app | mar. 2017</p>
+      <ProjectDetailsList
+        detailsList={['Swift', 'Python', 'source', 'trophy']}
+        positionClass="rp-details-pos"
+        sourceURL="https://github.com/williamgrosset/ripe"
+        siteURL="http://17w.hackuvic.com/"
+      />
     </div>
-    <ProjectDetailsList
-      detailsList={['Swift', 'Python', 'source', 'trophy']}
-      positionClass="rp-details-pos"
-      sourceURL="https://github.com/williamgrosset/ripe"
-      siteURL="http://17w.hackuvic.com/"
-    />
   </div>
 );
 

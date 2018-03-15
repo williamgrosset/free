@@ -21,7 +21,7 @@ class App extends Component {
         <Fokus />
         <Spacer height={20} />
         <Ripe />
-        <Spacer height={20} />
+        <Spacer height={30} />
         <AdditionalProjectsContainer />
         <Spacer height={20} />
         <Writings />
