@@ -43,28 +43,30 @@
 }
 
 .fk-sub-content {
+  position: absolute;
   text-align: left;
   float: left;
   width: 30%;
-  margin-left: 50px;
   margin-top: 80px;
 }
 
 .fk-details-pos {
-  margin-top: 180px;
-  margin-left: 260px;
+  margin-top: 22vw;
+  margin-left: 15vw;
 }
 
 .fk-logo {
   position: absolute;
-  right: -40px;
-  bottom: 40px;
-  zoom: 120%;
+  right: -2vw;
+  bottom: 3vw;
+  height: 6vw;
+  width: 6vw;
 }
 
 .google-logo {
   position: absolute;
-  bottom: 45px;
-  left: -50px;
-  zoom: 100%;
+  bottom: 3vw;
+  left: -2.4vw;
+  height: 6vw;
+  width: 6vw;
 }
