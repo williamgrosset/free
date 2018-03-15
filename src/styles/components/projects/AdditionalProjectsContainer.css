@@ -1,6 +1,6 @@
 .additional-project-container {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding-left: 5%;
 }
 
@@ -9,7 +9,7 @@
   vertical-align: top;
   text-align: left;
   width: 30%;
-  margin-right: 25px;
+  margin-right: 1vw;
 }
 
 .additional-sub {
@@ -27,17 +27,23 @@
 }
 
 .oscar-details-pos {
-  margin-top: 84px;
+  position: relative;
+  top: 4vw;
+  margin: 0;
   padding: 0;
 }
 
 .os-details-pos {
-  margin-top: 52px;
+  position: relative;
+  top: 2.5vw;
+  margin: 0;
   padding: 0;
 
 }
 
 .website-details-pos {
-  margin-top: 40px;
+  position: relative;
+  top: 2vw;
+  margin: 0;
   padding: 0;
 }
