@@ -8,15 +8,36 @@ import AdditionalProjectsContainer from './components/projects/AdditionalProject
 import Writings from './components/Writings';
 import Contact from './components/Contact';
 
+// TODO: Create helper lib for CSS animation functions
+
 class App extends Component {
-  // TOOD: Grab window height and pass down to components
-  // TODO: Create helper lib for CSS animation functions
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
   render() {
+    const { height, width } = this.state;
+
     return (
       <div className="page">
         <About />
         <Spacer height={15} />
-        <Change />
+        <Change windowWidth={width} windowHeight={height} />
         <Spacer height={15} />
         <Fokus />
         <Spacer height={15} />
