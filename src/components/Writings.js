@@ -10,15 +10,7 @@ const Writings = () => (
       <span className="royal">.</span>
     </Typist>
     <Typist className="writings-sub-desc code-font" startDelay={2000} avgTypingDelay={120}>
-      Coming soon&nbsp;
-      <Typist.Delay ms={1000} />
-      .
-      <Typist.Delay ms={1000} />
-      .
-      <Typist.Delay ms={1000} />
-      .
-      <Typist.Delay ms={2000} />
-      &nbsp;I • VII • MMXVIII
+      Coming soon
     </Typist>
   </div>
 );
