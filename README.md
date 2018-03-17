@@ -5,12 +5,14 @@
   + Go over what should and should not be re-sized and static
   + Increase overall font-size (?)
 + CSS animations
-+ Mobile design
-+ Audit stylesheets
-+ Clean-up nits (variable naming, etc.)
-+ Compress images (?)
+  + Trigger animations when in viewport
+  + Speed of transform: translate3d(x, y, z) based off scroll acceleration (?)
++ Mobile design (include tablet?)
 + Audit browsers/devices
 + Create separate simplistic version for IE (?)
++ Audit stylesheets
++ Clean-up nits (variable naming, etc.)
++ Compress images
 
 ### High-level plan
 + Complete site
