@@ -1,6 +1,7 @@
 # website
 
 ## TODO
++ Fix `desc` txt background issue
 + Dynamic browser sizing (non-mobile)
   + Go over what should and should not be re-sized and static
   + Increase overall font-size (?)
