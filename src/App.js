@@ -36,7 +36,7 @@ class App extends Component {
     return (
       <div className="page">
         <About />
-        <Spacer height={15} />
+        <Spacer height={14} />
         <Change windowWidth={width} windowHeight={height} />
         <Spacer height={15} />
         <Fokus />

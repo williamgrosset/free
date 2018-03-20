@@ -1,4 +1,6 @@
-# website
+# free
+
+..insert picture/icon/quote here..
 
 ## TODO
 + Fix `desc` txt background issue
@@ -13,6 +15,8 @@
 + Create separate simplistic version for IE (?)
 + Audit stylesheets
 + Clean-up nits (variable naming, etc.)
++ Research/add available Node packages
++ Update favicon
 + Compress images
 
 ### High-level plan

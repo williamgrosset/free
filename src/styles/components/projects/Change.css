@@ -8,7 +8,7 @@
 
 .ch-photo {
   width: 105%;
-  height: 90%;
+  height: 85%;
   box-shadow: -8px 10px 50px -12px;
 }
 
@@ -20,7 +20,7 @@
   top: 0;
   left: 0;
   width: 105%;
-  height: 90%;
+  height: 85%;
   opacity: 0;
   transition: opacity 0.2s linear;
   -webkit-transition: opacity 0.2s linear;
@@ -45,7 +45,7 @@
 .ch-logo {
   position: absolute;
   bottom: 0;
-  left: 49.3vw;
+  left: 46.75vw;
   height: 6.5vw;
   width: 6.5vw;
 }
@@ -59,6 +59,6 @@
 }
 
 .ch-details-pos {
-  margin-top: 13.5vw;
-  margin-right: 13vw;
+  margin-top: 15vw;
+  margin-right: 12vw;
 }
