@@ -1,8 +1,7 @@
-# free
-
-..insert picture/icon/quote here..
+...insert free icon and quote here...
 
 ## TODO
++ Revise website design
 + Fix `desc` txt background issue
 + Dynamic browser sizing (non-mobile)
   + Go over what should and should not be re-sized and static
@@ -28,7 +27,7 @@
 + Include GA
 
 ## Overview
-This website is built from scratch using React, HTML5, and CSS3.
+This is the source for my website portfolio.
 
 ## Setup
 1. Install the required packages:
