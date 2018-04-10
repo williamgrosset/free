@@ -38,7 +38,7 @@ class App extends Component {
         <About />
         <Spacer height={14} />
         <Change windowWidth={width} windowHeight={height} />
-        <Spacer height={15} />
+        <Spacer height={4} />
         <Fokus />
         <Spacer height={15} />
         <Ripe />
