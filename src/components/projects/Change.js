@@ -25,20 +25,14 @@ class Change extends Component {
   render() {
     return (
       <div className="project">
-        <div id="change" className="ch-content">
-          <img className="ch-photo" src={betterWorldPhoto} alt="Better world" />
-          <span className="ch-desc">
-            <p className="ch-desc-txt">
-              Collabored on the revenue engineering team and produced high priority features, bug fixes, and quality code
-              reviews on a daily basis.
-            </p>
-          </span>
-          <img className="ch-logo" src={changeLogo} alt="Change logo" />
-        </div>
-        <div className="ch-sub-content">
-          <p className="project-title">change.org</p>
+        <div className="ch-content">
+          <p className="project-title">Change.org</p>
           <hr className="project-hr" />
-          <p className="project-subtitle">software engineer intern | may to dec. 2017</p>
+          <p className="project-subtitle">software engineer intern — may to dec. 2017</p>
+          <p className="ch-desc-txt">
+            Collabored on the revenue engineering team and produced high priority features, bug fixes, and quality code
+            reviews on a daily basis.
+          </p>
           <ProjectDetailsList
             detailsList={['Ruby', 'JavaScript', 'resume', 'recommendations']}
             positionClass="ch-details-pos"

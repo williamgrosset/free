@@ -1,9 +1,8 @@
 .ch-content {
+  text-align: left;
   position: relative;
   float: left;
-  z-index: 1;
-  height: 100%;
-  width: 60%;
+  width: 100%;
 }
 
 .ch-photo {
@@ -35,11 +34,14 @@
 }
 
 .ch-desc-txt {
-  color: black;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 60%;
   line-height: 1.5;
   font-weight: 600;
   font-size: 1.3vw;
-  margin: 25%;
+  margin-bottom: 0;
 }
 
 .ch-logo {
@@ -50,15 +52,8 @@
   width: 6.5vw;
 }
 
-.ch-sub-content {
-  text-align: right;
-  float: left;
-  height: 40%;
-  width: 35%;
-  margin-top: 2vw;
-}
-
 .ch-details-pos {
-  margin-top: 15vw;
-  margin-right: 12vw;
+  display: inline-block;
+  float: right;
+  margin-bottom: 0;
 }
