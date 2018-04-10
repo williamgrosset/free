@@ -10,7 +10,7 @@ const Ripe = () => (
       <p className="project-subtitle">point-of-sale ios app — mar. 2017</p>
       <p className="rp-desc-txt">A point-of-sale iOS application with produce image recognition.</p>
       <ProjectDetailsList
-        detailsList={['Swift', 'Python', 'source', 'trophy']}
+        detailsList={['Swift', 'Python', 'source']}
         positionClass="rp-details-pos"
         sourceURL="https://github.com/williamgrosset/ripe"
         siteURL="http://17w.hackuvic.com/"

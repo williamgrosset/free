@@ -32,10 +32,9 @@ class Change extends Component {
             reviews on a daily basis.
           </p>
           <ProjectDetailsList
-            detailsList={['Ruby', 'JavaScript', 'resume', 'recommendations']}
+            detailsList={['Ruby', 'JavaScript', 'resume']}
             positionClass="ch-details-pos"
             sourceURL="https://github.com/williamgrosset"
-            siteURL="https://linkedin.com/in/williamgrosset"
           />
         </div>
       </div>
