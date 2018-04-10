@@ -1,8 +1,7 @@
 ...insert free icon and quote here...
 
 ## TODO
-+ Revise website design
-+ Fix `desc` txt background issue
++ Finish project content
 + Dynamic browser sizing (non-mobile)
   + Go over what should and should not be re-sized and static
   + Increase overall font-size (?)
@@ -10,13 +9,11 @@
   + Trigger animations when in viewport
   + Speed of transform: translate3d(x, y, z) based off scroll acceleration (?)
 + Mobile design (include tablet?)
-+ Audit browsers/devices
-+ Create separate simplistic version for IE (?)
 + Audit stylesheets
 + Clean-up nits (variable naming, etc.)
-+ Research/add available Node packages
++ Research/add/remove available Node packages
++ Audit browsers/devices
 + Update favicon
-+ Compress images
 
 ### High-level plan
 + Complete site

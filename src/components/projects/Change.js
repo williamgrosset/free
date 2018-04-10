@@ -8,7 +8,7 @@ import '../../styles/components/projects/Change.css';
 // TODO:
 // then trigger hr to appear and come out
 // TODO:
-// then trigger title and subtitle to appear 
+// then trigger title and subtitle to appear
 // TODO:
 // then finally trigger ProjectDetailsList to appear
 // TODO:
@@ -45,6 +45,6 @@ class Change extends Component {
 Change.propTypes = {
   windowWidth: PropTypes.number.isRequired,
   windowHeight: PropTypes.number.isRequired,
-}
+};
 
 export default Change;
