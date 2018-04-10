@@ -9,15 +9,17 @@ const Fokus = () => (
       <hr className="project-hr" />
       <p className="project-subtitle">google chrome extension — jan. 2017</p>
       <p className="fk-desc-txt">
-        Fokus is a google chrome extension for domain blocking and meditation. When distracted, take a short
+        <a className="royal-link" href="https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea">
+          Fokus
+        </a>
+        {' '}is a google chrome extension for domain blocking and meditation. When distracted, take a short
         break to meditate and increase your productivity.<br />
         <br />
       </p>
       <ProjectDetailsList
-        detailsList={['JavaScript', 'source', 'store']}
+        detailsList={['JavaScript', 'source']}
         positionClass="fk-details-pos"
         sourceURL="https://github.com/williamgrosset/fokus"
-        siteURL="https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea"
       />
     </div>
   </div>

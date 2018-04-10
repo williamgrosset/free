@@ -8,12 +8,20 @@ const Ripe = () => (
       <p className="project-title">Major League Hacking</p>
       <hr className="project-hr" />
       <p className="project-subtitle">point-of-sale ios app — mar. 2017</p>
-      <p className="rp-desc-txt">A point-of-sale iOS application with produce image recognition.</p>
+      <p className="rp-desc-txt">
+      <a className="royal-link" href="https://github.com/williamgrosset/ripe">
+        Ripe
+      </a>
+      {' '}is a point-of-sale iOS application with produce image recognition.
+      Achieved 2nd place at{' '}
+      <a className="royal-link" href="http://17w.hackuvic.com/">
+        MLH 2017
+      </a>
+      .</p>
       <ProjectDetailsList
         detailsList={['Swift', 'Python', 'source']}
         positionClass="rp-details-pos"
         sourceURL="https://github.com/williamgrosset/ripe"
-        siteURL="http://17w.hackuvic.com/"
       />
     </div>
   </div>
