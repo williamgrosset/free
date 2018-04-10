@@ -47,9 +47,9 @@ class App extends Component {
         <OSCAR />
         <Spacer height={4} />
         <OSN />
-        <Spacer height={10} />
+        <Spacer height={13} />
         <Writings />
-        <Spacer height={10} />
+        <Spacer height={13} />
         <Contact />
       </div>
     );

@@ -1,8 +1,6 @@
 .writings {
   width: 100%;
   height: 100%;
-  margin-left: 20vw;
-  margin-right: 20vw;
 }
 
 .writings-desc {
@@ -13,10 +11,13 @@
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 .writings-sub-desc {
   overflow: hidden;
   text-align: left;
   font-size: 1.5vw;
+  margin-left: 20vw;
 }
