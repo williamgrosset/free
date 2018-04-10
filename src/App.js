@@ -39,13 +39,9 @@ class App extends Component {
         <About />
         <Spacer height={7.5} />
         <Change windowWidth={width} windowHeight={height} />
-        <Spacer height={4} />
         <Fokus />
-        <Spacer height={4} />
         <Ripe />
-        <Spacer height={4} />
         <OSCAR />
-        <Spacer height={4} />
         <OSN />
         <Spacer height={13} />
         <Writings />
