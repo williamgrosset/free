@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Spacer from './components/Spacer';
 import About from './components/About';
 import Change from './components/projects/Change';
 import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
-import AdditionalProjectsContainer from './components/projects/AdditionalProjectsContainer';
 import Writings from './components/Writings';
 import Contact from './components/Contact';
+import Spacer from './components/Spacer';
+import AdditionalProjectsContainer from './components/projects/AdditionalProjectsContainer';
 
 // TODO: Create helper lib for CSS animation functions
 

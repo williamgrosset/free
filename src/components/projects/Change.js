@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Spacer from '../../components/Spacer';
 import ProjectDetailsList from './ProjectDetailsList';
-import betterWorldPhoto from '../../images/better_world.png';
-import changeLogo from '../../images/change_logo.png';
 import '../../styles/components/projects/Change.css';
 
 // create listener to see if a certain height is in the viewport
@@ -29,6 +28,7 @@ class Change extends Component {
           <p className="project-title">Change.org</p>
           <hr className="project-hr" />
           <p className="project-subtitle">software engineer intern — may to dec. 2017</p>
+          <Spacer height={4} />
           <p className="ch-desc-txt">
             Collabored on the revenue engineering team and produced high priority features, bug fixes, and quality code
             reviews on a daily basis.
