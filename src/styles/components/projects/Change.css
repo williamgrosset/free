@@ -2,6 +2,7 @@
   text-align: left;
   position: relative;
   float: left;
+  height: 100%;
   width: 100%;
 }
 
@@ -54,6 +55,9 @@
 
 .ch-details-pos {
   display: inline-block;
+  position: absolute;
   float: right;
+  bottom: 0;
+  right: 0;
   margin-bottom: 0;
 }
