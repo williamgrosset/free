@@ -5,11 +5,11 @@ import '../styles/components/Typist.css';
 
 const Writings = () => (
   <div className="writings">
-    <Typist className="writings-desc" cursor={{ show: false }} avgTypingDelay={80}>
+    <Typist className="writings-desc code-font" cursor={{ show: false }} avgTypingDelay={80}>
       Writings
       <span className="royal">.</span>
     </Typist>
-    <Typist className="writings-sub-desc code-font" startDelay={2000} avgTypingDelay={120}>
+    <Typist className="writings-sub-desc" startDelay={2000} avgTypingDelay={120}>
       Coming soon
     </Typist>
   </div>

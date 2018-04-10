@@ -5,10 +5,10 @@ import '../../styles/components/projects/OSN.css';
 const OSN = () => (
   <div className="project">
     <div className="osn-content">
-      <p className="project-title">Operating Sys. & Networks</p>
+      <p className="project-title">Systems & Networks</p>
       <hr className="project-hr" />
-      <p className="project-subtitle">open source medical software — jan. to apr. 2017</p>
-      <p className="osn-desc-txt">Projects exploring file systems, multi-threading, IP/TCP/HTTP, and more.</p>
+      <p className="project-subtitle">low-level academia projects — jan. to apr. 2018</p>
+      <p className="osn-desc-txt">Projects exploring file systems, multi-threading, and IP/TCP/HTTP.</p>
       <ProjectDetailsList
         detailsList={['C', 'Python', 'source']}
         positionClass="osn-details-pos"

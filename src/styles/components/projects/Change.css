@@ -45,14 +45,6 @@
   margin-bottom: 0;
 }
 
-.ch-logo {
-  position: absolute;
-  bottom: 0;
-  left: 46.75vw;
-  height: 6.5vw;
-  width: 6.5vw;
-}
-
 .ch-details-pos {
   display: inline-block;
   position: absolute;
