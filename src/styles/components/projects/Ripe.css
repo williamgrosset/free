@@ -1,15 +1,14 @@
 .rp-content {
+  text-align: left;
   position: relative;
   float: left;
-  z-index: 1;
-  height: 100%;
-  width: 30%;
-  margin-left: 160px;
+  width: 100%;
 }
 
 .rp-photo {
-  width: auto;
-  height: 110%;
+  width: 105%;
+  height: 85%;
+  box-shadow: -8px 10px 50px -12px;
 }
 
 .rp-desc {
@@ -17,10 +16,10 @@
   position: absolute;
   text-align: left;
   float :left;
-  top: 4.7vw;
-  left: 3vw;
-  width: 75%;
-  height: 85%; 
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 85%;
   opacity: 0;
   transition: opacity 0.2s linear;
   -webkit-transition: opacity 0.2s linear;
@@ -35,25 +34,26 @@
 }
 
 .rp-desc-txt {
-  color: black;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 60%;
   line-height: 1.5;
   font-weight: 600;
   font-size: 1.3vw;
-  margin: 70% 15%;
+  margin-bottom: 0;
 }
 
-.rp-sub-content {
-  text-align: right;
-  float: left;
-  height: 40%;
-  width: 50%;
-  margin-top: 9vw;
-  margin-left: -8.5vw;
+.rp-logo {
+  position: absolute;
+  bottom: 0;
+  left: 46.75vw;
+  height: 6.5vw;
+  width: 6.5vw;
 }
 
 .rp-details-pos {
-  z-index: 10;
-  margin-top: 13vw;
-  margin-right: 19vw;
-  margin-left: 0;
+  display: inline-block;
+  float: right;
+  margin-bottom: 0;
 }

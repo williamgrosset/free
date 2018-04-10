@@ -40,7 +40,7 @@ class App extends Component {
         <Change windowWidth={width} windowHeight={height} />
         <Spacer height={4} />
         <Fokus />
-        <Spacer height={15} />
+        <Spacer height={4} />
         <Ripe />
         <Spacer height={20} />
         <AdditionalProjectsContainer />
