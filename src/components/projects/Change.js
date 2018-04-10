@@ -26,7 +26,7 @@ class Change extends Component {
         <div className="ch-content">
           <p className="project-title">Change.org</p>
           <hr className="project-hr" />
-          <p className="project-subtitle">software engineer intern — may to dec. 2017</p>
+          <p className="project-subtitle">full-stack software engineer intern — may to dec. 2017</p>
           <p className="ch-desc-txt">
             Collabored on the revenue engineering team and produced high priority features, bug fixes, and quality code
             reviews on a daily basis.
