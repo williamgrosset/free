@@ -4,10 +4,10 @@ import Change from './components/projects/Change';
 import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
 import OSCAR from './components/projects/OSCAR';
+import OSN from './components/projects/OSN';
 import Writings from './components/Writings';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
-import AdditionalProjectsContainer from './components/projects/AdditionalProjectsContainer';
 
 // TODO: Create helper lib for CSS animation functions
 
@@ -45,8 +45,9 @@ class App extends Component {
         <Ripe />
         <Spacer height={4} />
         <OSCAR />
+        <Spacer height={4} />
+        <OSN />
         <Spacer height={20} />
-        <AdditionalProjectsContainer />
         <Spacer height={15} />
         <Writings />
         <Spacer height={15} />
