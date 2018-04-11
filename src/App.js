@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import About from './components/About';
-import Change from './components/projects/Change';
-import Fokus from './components/projects/Fokus';
-import Ripe from './components/projects/Ripe';
-import OSCAR from './components/projects/OSCAR';
-import OSN from './components/projects/OSN';
+import Project from './components/Project';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
+import data from './components/data';
 
 // TODO: Create helper lib for CSS animation functions
 
@@ -37,11 +34,51 @@ class App extends Component {
       <div className="page">
         <About />
         <Spacer height={7.5} />
-        <Change windowWidth={width} windowHeight={height} />
-        <Fokus />
-        <Ripe />
-        <OSCAR />
-        <OSN />
+        <Project
+          title={data.change.title}
+          subtitle={data.change.subtitle}
+          description={data.change.description}
+          details={data.change.details}
+          source={data.change.source}
+          windowWidth={width}
+          windowHeight={height}
+        />
+        <Project
+          title={data.fokus.title}
+          subtitle={data.fokus.subtitle}
+          description={data.fokus.description}
+          details={data.fokus.details}
+          source={data.fokus.source}
+          windowWidth={width}
+          windowHeight={height}
+        />
+        <Project
+          title={data.ripe.title}
+          subtitle={data.ripe.subtitle}
+          description={data.ripe.description}
+          details={data.ripe.details}
+          source={data.ripe.source}
+          windowWidth={width}
+          windowHeight={height}
+        />
+        <Project
+          title={data.oscar.title}
+          subtitle={data.oscar.subtitle}
+          description={data.oscar.description}
+          details={data.oscar.details}
+          source={data.oscar.source}
+          windowWidth={width}
+          windowHeight={height}
+        />
+        <Project
+          title={data.osn.title}
+          subtitle={data.osn.subtitle}
+          description={data.osn.description}
+          details={data.osn.details}
+          source={data.osn.source}
+          windowWidth={width}
+          windowHeight={height}
+        />
         <Spacer height={13} />
         <Contact />
       </div>

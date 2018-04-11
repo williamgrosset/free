@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Data from './data';
-import ProjectDetailsList from './ProjectDetailsList';
-import '../../styles/components/projects/Project.css';
+import ProjectDetailsList from './projects/ProjectDetailsList';
+import '../styles/components/Project.css';
 
 // create listener to see if a certain height is in the viewport
 // once in the viewport, trigger smooth transform: translate3d(x, y, z)
@@ -26,14 +25,14 @@ class Project extends Component {
 
     return (
       <div className="project">
-        <div className="ch-content">
+        <div className="project-content">
           <p className="project-title">{title}</p>
           <hr className="project-hr" />
           <p className="project-subtitle">{subtitle}</p>
-          <p className="ch-desc-txt">{description}</p>
+          <p className="project-desc">{description}</p>
           <ProjectDetailsList
             detailsList={details}
-            positionClass="ch-details-pos"
+            positionClass="project-details-pos"
             sourceURL={source}
           />
         </div>
@@ -42,7 +41,7 @@ class Project extends Component {
   }
 }
 
-Change.propTypes = {
+Project.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
