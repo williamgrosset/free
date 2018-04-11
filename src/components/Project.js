@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Data from './data';
 import ProjectDetailsList from './ProjectDetailsList';
-import '../../styles/components/projects/Change.css';
+import '../../styles/components/projects/Project.css';
 
 // create listener to see if a certain height is in the viewport
 // once in the viewport, trigger smooth transform: translate3d(x, y, z)
@@ -14,27 +15,26 @@ import '../../styles/components/projects/Change.css';
 // TODO:
 // leaving viewport?
 
-class Change extends Component {
+class Project extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
+    const { title, subtitle, description, details, source } = this.props;
+
     return (
       <div className="project">
         <div className="ch-content">
-          <p className="project-title">Change.org</p>
+          <p className="project-title">{title}</p>
           <hr className="project-hr" />
-          <p className="project-subtitle">full-stack software engineer — may to dec. 2017</p>
-          <p className="ch-desc-txt">
-            Collaborated with the revenue engineering team and produced high priority features, bug fixes, and team code
-            reviews on a daily basis.
-          </p>
+          <p className="project-subtitle">{subtitle}</p>
+          <p className="ch-desc-txt">{description}</p>
           <ProjectDetailsList
-            detailsList={['Ruby', 'JavaScript', 'resume']}
+            detailsList={details}
             positionClass="ch-details-pos"
-            sourceURL="https://github.com/williamgrosset"
+            sourceURL={source}
           />
         </div>
       </div>
@@ -43,8 +43,13 @@ class Change extends Component {
 }
 
 Change.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  details: PropTypes.arrayOf(PropTypes.string).isRequired,
+  source: PropTypes.string.isRequired,
   windowWidth: PropTypes.number.isRequired,
   windowHeight: PropTypes.number.isRequired,
 };
 
-export default Change;
+export default Project;

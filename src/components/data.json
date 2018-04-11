@@ -1,0 +1,37 @@
+{
+  "change": {
+    "title": "Change.org",
+    "subtitle": "full-stack software engineer — may to dec. 2017",
+    "description": "Collaborated with the revenue engineering team and produced high priority features, bug fixes, and team code reviews on a daily basis.",
+    "details": ["Ruby", "JavaScript", "resume"],
+    "source": "https://github.com/williamgrosset"
+  },
+  "fokus": {
+    "title": "Google",
+    "subtitle": "chrome extension — jan. 2017",
+    "description": "<a className=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a>{' '} is a chrome extension for domain blocking and meditation. Block distracting websites, take a short break to meditate, and increase your productivity and well-being.",
+    "details": ["JavaScript", "source"],
+    "source": "https://github.com/williamgrosset/fokus"
+  },
+  "ripe": {
+    "title": "Major League Hacking",
+    "subtitle": "ios application — mar. 2017",
+    "description": "<a className=\"royal-link\" href=\"https://github.com/williamgrosset/ripe\">Ripe</a>{' '}is a checkout, point-of-sale iOS application with image recognition for produce. Achieved 2nd place at{' '}<a className=\"royal-link\" href=\"http://17w.hackuvic.com/\">Major League Hacking 2017</a>.",
+    "details": ["Swift", "Python", "source"],
+    "source": "https://github.com/williamgrosset/ripe"
+  },
+  "oscar": {
+    "title": "OSCAR Medical",
+    "subtitle": "open source medical software — jan. to apr. 2017",
+    "description": "Contributed to the open source medical application{' '}<a className=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>.{' '}<a className=\"royal-link\" href=\"https://github.com/williamgrosset/OSCAR-ConCert\">ConCert</a>{' '}focuses on the automation of required medical system auditing.",
+    "details": ["Java", "source"],
+    "source": "https://github.com/williamgrosset/OSCAR-ConCert"
+  },
+  "osn": {
+    "title": "Systems & Networks",
+    "subtitle": "research academia projects — jan. to apr. 2018",
+    "description": "Research exploring file systems, multi-threading, and IP/TCP/UDP/HTTP protocols.",
+    "details": ["C", "Python", "source"],
+    "source": "https://github.com/williamgrosset?utf8=%E2%9C%93&tab=repositories&q=university&type=&language="
+  }
+}

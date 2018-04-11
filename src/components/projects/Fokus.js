@@ -7,7 +7,7 @@ const Fokus = () => (
     <div className="fk-content">
       <p className="project-title">Google</p>
       <hr className="project-hr" />
-      <p className="project-subtitle">google chrome extension — jan. 2017</p>
+      <p className="project-subtitle">chrome extension — jan. 2017</p>
       <p className="fk-desc-txt">
         <a
           className="royal-link"
@@ -16,8 +16,7 @@ const Fokus = () => (
           Fokus
         </a>{' '}
         is a chrome extension for domain blocking and meditation. Block distracting websites, take a short break to meditate,
-        and increase your productivity and well-being.<br />
-        <br />
+        and increase your productivity and well-being.
       </p>
       <ProjectDetailsList
         detailsList={['JavaScript', 'source']}

@@ -12,7 +12,7 @@ const Ripe = () => (
         <a className="royal-link" href="https://github.com/williamgrosset/ripe">
           Ripe
         </a>{' '}
-        is a checkout, point-of-sale iOS application with produce image recognition. Achieved 2nd place at{' '}
+        is a checkout, point-of-sale iOS application with image recognition for produce. Achieved 2nd place at{' '}
         <a className="royal-link" href="http://17w.hackuvic.com/">
           Major League Hacking 2017
         </a>
