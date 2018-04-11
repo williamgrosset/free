@@ -8,7 +8,7 @@ const OSN = () => (
       <p className="project-title">Systems & Networks</p>
       <hr className="project-hr" />
       <p className="project-subtitle">low-level academia projects — jan. to apr. 2018</p>
-      <p className="osn-desc-txt">Projects exploring file systems, multi-threading, and IP/TCP/HTTP.</p>
+      <p className="osn-desc-txt">Research exploring file systems, multi-threading, and IP/TCP/UDP/HTTP protocols.</p>
       <ProjectDetailsList
         detailsList={['C', 'Python', 'source']}
         positionClass="osn-details-pos"

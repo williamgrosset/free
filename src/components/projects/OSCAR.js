@@ -9,10 +9,15 @@ const OSCAR = () => (
       <hr className="project-hr" />
       <p className="project-subtitle">open source medical software — jan. to apr. 2017</p>
       <p className="osc-desc-txt">
-        Automated auditing for the open source medical application{' '}
+        Contributed to the open source medical application{' '}
         <a className="royal-link" href="http://oscarcanada.org/">
           OSCAR
         </a>.
+        {' '}
+        <a className="royal-link" href="https://github.com/williamgrosset/OSCAR-ConCert">
+          ConCert 
+        </a>
+        {' '}focuses on the automation of required medical system auditing.
       </p>
       <ProjectDetailsList
         detailsList={['Java', 'source']}

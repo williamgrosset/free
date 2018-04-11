@@ -15,8 +15,8 @@ const Fokus = () => (
         >
           Fokus
         </a>{' '}
-        is a google chrome extension for domain blocking and meditation. When distracted, take a short break to meditate
-        and increase your productivity.<br />
+        is a chrome extension for domain blocking and meditation. Block distracting websites, take a short break to meditate,
+        and increase your productivity and well-being.<br />
         <br />
       </p>
       <ProjectDetailsList

@@ -28,7 +28,7 @@ class Change extends Component {
           <hr className="project-hr" />
           <p className="project-subtitle">full-stack software engineer intern — may to dec. 2017</p>
           <p className="ch-desc-txt">
-            Collabored on the revenue engineering team and produced high priority features, bug fixes, and quality code
+            Collaborated with the revenue engineering team and produced high priority features, bug fixes, and team code
             reviews on a daily basis.
           </p>
           <ProjectDetailsList
