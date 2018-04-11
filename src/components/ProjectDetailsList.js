@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import trophyIcon from '../../images/trophy.png';
-import '../../styles/components/projects/ProjectDetailsList.css';
+import '../styles/components/projects/ProjectDetailsList.css';
 
 const ProjectDetailsList = ({
  detailsList, positionClass, sourceURL, siteURL 
@@ -51,20 +50,6 @@ const ProjectDetailsList = ({
             <a className="code-font royal-link" href={siteURL}>
               View recommendations
             </a>
-          </li>
-        );
-      } else if (detail === 'trophy') {
-        return (
-          <li key={index}>
-            <span>
-              <img className="trophy" src={trophyIcon} alt="Trophy logo" />
-            </span>
-            <span className="code-font">
-              Achieved 2nd at{' '}
-              <a className="royal-link" href={siteURL}>
-                MLH 2017
-              </a>
-            </span>
           </li>
         );
       }

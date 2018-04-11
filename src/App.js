@@ -3,7 +3,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
-import data from './components/data';
+import project from './data/project';
 
 // TODO: Create helper lib for CSS animation functions
 
@@ -35,47 +35,47 @@ class App extends Component {
         <About />
         <Spacer height={7.5} />
         <Project
-          title={data.change.title}
-          subtitle={data.change.subtitle}
-          description={data.change.description}
-          details={data.change.details}
-          source={data.change.source}
+          title={project.change.title}
+          subtitle={project.change.subtitle}
+          description={project.change.description}
+          details={project.change.details}
+          source={project.change.source}
           windowWidth={width}
           windowHeight={height}
         />
         <Project
-          title={data.fokus.title}
-          subtitle={data.fokus.subtitle}
-          description={data.fokus.description}
-          details={data.fokus.details}
-          source={data.fokus.source}
+          title={project.fokus.title}
+          subtitle={project.fokus.subtitle}
+          description={project.fokus.description}
+          details={project.fokus.details}
+          source={project.fokus.source}
           windowWidth={width}
           windowHeight={height}
         />
         <Project
-          title={data.ripe.title}
-          subtitle={data.ripe.subtitle}
-          description={data.ripe.description}
-          details={data.ripe.details}
-          source={data.ripe.source}
+          title={project.ripe.title}
+          subtitle={project.ripe.subtitle}
+          description={project.ripe.description}
+          details={project.ripe.details}
+          source={project.ripe.source}
           windowWidth={width}
           windowHeight={height}
         />
         <Project
-          title={data.oscar.title}
-          subtitle={data.oscar.subtitle}
-          description={data.oscar.description}
-          details={data.oscar.details}
-          source={data.oscar.source}
+          title={project.oscar.title}
+          subtitle={project.oscar.subtitle}
+          description={project.oscar.description}
+          details={project.oscar.details}
+          source={project.oscar.source}
           windowWidth={width}
           windowHeight={height}
         />
         <Project
-          title={data.osn.title}
-          subtitle={data.osn.subtitle}
-          description={data.osn.description}
-          details={data.osn.details}
-          source={data.osn.source}
+          title={project.osn.title}
+          subtitle={project.osn.subtitle}
+          description={project.osn.description}
+          details={project.osn.details}
+          source={project.osn.source}
           windowWidth={width}
           windowHeight={height}
         />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ProjectDetailsList from './projects/ProjectDetailsList';
+import ProjectDetailsList from './ProjectDetailsList';
 import '../styles/components/Project.css';
 
 // create listener to see if a certain height is in the viewport
