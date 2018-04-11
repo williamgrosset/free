@@ -5,7 +5,6 @@ import Fokus from './components/projects/Fokus';
 import Ripe from './components/projects/Ripe';
 import OSCAR from './components/projects/OSCAR';
 import OSN from './components/projects/OSN';
-import Writings from './components/Writings';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
 
@@ -43,8 +42,6 @@ class App extends Component {
         <Ripe />
         <OSCAR />
         <OSN />
-        <Spacer height={13} />
-        <Writings />
         <Spacer height={13} />
         <Contact />
       </div>
