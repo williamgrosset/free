@@ -5,7 +5,7 @@ import '../styles/components/ProjectDetailsList.css';
 const ProjectDetailsList = ({
  detailsList, positionClass, sourceURL, siteURL 
 }) => (
-  <ul className={`details-list ${positionClass}`}>
+  <ul className="details-list project-details-list">
     {detailsList.map((detail, index) => {
       if (detail === 'source') {
         if (sourceURL) {

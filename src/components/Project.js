@@ -30,11 +30,7 @@ class Project extends Component {
           <hr className="project-hr" />
           <p className="project-subtitle">{subtitle}</p>
           <p className="project-desc" dangerouslySetInnerHTML={{__html: description}} />
-          <ProjectDetailsList
-            detailsList={details}
-            positionClass="project-details-pos"
-            sourceURL={source}
-          />
+          <ProjectDetailsList detailsList={details} sourceURL={source} />
         </div>
       </div>
     );
