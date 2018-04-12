@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../styles/components/projects/ProjectDetailsList.css';
+import '../styles/components/ProjectDetailsList.css';
 
 const ProjectDetailsList = ({
  detailsList, positionClass, sourceURL, siteURL 
