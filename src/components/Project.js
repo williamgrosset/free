@@ -7,11 +7,8 @@ import '../styles/components/Project.css';
 // once in the viewport, trigger smooth transform: translate3d(x, y, z)
 // TODO:
 // then trigger hr to appear and come out
-// TODO:
 // then trigger title and subtitle to appear
-// TODO:
 // then finally trigger ProjectDetailsList to appear
-// TODO:
 // leaving viewport?
 
 class Project extends Component {
