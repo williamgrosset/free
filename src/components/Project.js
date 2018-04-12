@@ -26,7 +26,7 @@ class Project extends Component {
           <p className="project-title">{title}</p>
           <hr className="project-hr" />
           <p className="project-subtitle">{subtitle}</p>
-          <p className="project-desc" dangerouslySetInnerHTML={{__html: description}} />
+          <p className="project-desc" dangerouslySetInnerHTML={{ __html: description }} />
           <ProjectDetailsList detailsList={details} sourceURL={source} />
         </div>
       </div>

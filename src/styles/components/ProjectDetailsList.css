@@ -14,16 +14,6 @@
   border-radius: 50%;
 }
 
-.trophy {
-  height: 1vw;
-  width: 1vw;
-  margin-right: 0.4vw;
-}
-
-.line-through {
-  text-decoration: line-through;
-}
-
 .ruby {
   background-color: #701516;
 }

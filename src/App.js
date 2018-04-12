@@ -3,7 +3,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
-import project from './data/project';
+import project from './data/project.json';
 
 // TODO: Create helper lib for CSS animation functions
 

@@ -2,7 +2,7 @@
   height: 25vw;
   line-height: 2;
   margin-left: 20vw;
-  margin-right: 20vw;
+  margin-right: 25vw;
 }
 
 .project-title {
@@ -28,8 +28,8 @@
 }
 
 .project-content {
-  text-align: left;
   position: relative;
+  text-align: left;
   float: left;
   height: 100%;
   width: 100%;
