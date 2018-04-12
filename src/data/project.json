@@ -1,7 +1,7 @@
 {
   "change": {
     "title": "Change.org",
-    "subtitle": "full-stack software engineer — may to dec. 2017",
+    "subtitle": "full-stack software engineer intern — may to dec. 2017",
     "description": "Collaborated with the revenue engineering team and produced high priority features, bug fixes, and team code reviews on a daily basis.",
     "details": ["Ruby", "JavaScript", "resume"],
     "source": "https://github.com/williamgrosset"
@@ -9,7 +9,7 @@
   "fokus": {
     "title": "Google",
     "subtitle": "chrome extension — jan. 2017",
-    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a> is a chrome extension for domain blocking and meditation. When distracted, take a short break and meditate to increase your productivity and well-being.",
+    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a> is a chrome extension for domain blocking and meditation. When distracted, take a short break and meditate to increase your productivity.",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },

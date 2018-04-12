@@ -8,8 +8,8 @@
 
 .circle {
   display: inline-block;
-  height: 0.6vw;
-  width: 0.6vw;
+  height: 0.65vw;
+  width: 0.65vw;
   margin-right: 0.7vw;
   border-radius: 50%;
 }

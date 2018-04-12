@@ -1,7 +1,6 @@
 ...insert free icon and quote here...
 
 ## TODO
-+ Finish project content
 + Dynamic browser sizing (non-mobile)
   + Go over what should and should not be re-sized and static
   + Increase overall font-size (?)
