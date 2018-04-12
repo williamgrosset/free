@@ -9,7 +9,7 @@
   "fokus": {
     "title": "Google",
     "subtitle": "chrome extension — jan. 2017",
-    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a> is a chrome extension for domain blocking and meditation. Block distracting websites, take a short break to meditate, and increase your productivity and well-being.",
+    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a> is a chrome extension for domain blocking and meditation. When distracted, take a short break and meditate to increase your productivity and well-being.",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },
