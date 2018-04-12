@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div className="page">
         <About />
-        <Spacer height={7.5} />
+        <Spacer height={8} />
         <Project
           title={project.change.title}
           subtitle={project.change.subtitle}
@@ -79,7 +79,7 @@ class App extends Component {
           windowWidth={width}
           windowHeight={height}
         />
-        <Spacer height={13} />
+        <Spacer height={16} />
         <Contact />
       </div>
     );
