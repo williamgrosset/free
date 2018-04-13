@@ -3,18 +3,9 @@ import PropTypes from 'prop-types';
 import ProjectDetailsList from './ProjectDetailsList';
 import '../styles/components/Project.css';
 
-// create listener to see if a certain height is in the viewport
-// once in the viewport, trigger smooth transform: translate3d(x, y, z)
-// TODO:
-// then trigger hr to appear and come out
-// then trigger title and subtitle to appear
-// then finally trigger ProjectDetailsList to appear
-// leaving viewport?
-
 class Project extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
   }
 
   render() {

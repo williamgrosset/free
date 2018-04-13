@@ -5,12 +5,13 @@ import Contact from './components/Contact';
 import Spacer from './components/Spacer';
 import project from './data/project.json';
 
-// TODO: Create helper lib for CSS animation functions
-
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { width: 0, height: 0 };
+    this.state = {
+      height: 0,
+      width: 0,
+    };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
@@ -24,7 +25,10 @@ class App extends Component {
   }
 
   updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
+    this.setState({
+      height: window.innerHeight,
+      width: window.innerWidth,
+    });
   }
 
   render() {
