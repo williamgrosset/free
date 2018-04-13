@@ -8,7 +8,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
       if (detail === 'source') {
         return (
           <li key={index}>
-            <span className="circle black" />
+            <span className="details-circle black" />
             <a className="code-font royal-link" href={sourceURL}>
               View source
             </a>
@@ -17,7 +17,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
       } else if (detail === 'resume') {
         return (
           <li key={index}>
-            <span className="circle black" />
+            <span className="details-circle black" />
             <a className="code-font royal-link" href={sourceURL}>
               View resume
             </a>
@@ -26,7 +26,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
       }
       return (
         <li key={index}>
-          <span className={`circle ${detail.toLowerCase().replace(/\d+/g, '')}`} />
+          <span className={`details-circle ${detail.toLowerCase().replace(/\d+/g, '')}`} />
           <span className="code-font">{detail}</span>
         </li>
       );
