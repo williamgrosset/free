@@ -1,26 +1,24 @@
 ...insert free icon and quote here...
 
 ## TODO
-+ Dynamic browser sizing (non-mobile)
-  + Go over what should and should not be re-sized and static
-  + Increase overall font-size (?)
-+ CSS animations
-  + Trigger animations when in viewport
-  + Speed of transform: translate3d(x, y, z) based off scroll acceleration (?)
-+ Mobile design (include tablet?)
-+ Audit stylesheets
++ CSS animations for project unfolding (fade-in/fade-out)
+  + Trigger animations when inside viewport
++ Mobile design
++ Tablet design
++ Audit/re-factor stylesheets
 + Clean-up nits (variable naming, etc.)
++ Remove test suite
 + Research/add/remove available Node packages
 + Audit browsers/devices
-+ Update favicon
 
 ### High-level plan
-+ Complete site
++ Complete design 
 + Complete `README` writeup
 + Clean-up repo
-+ Update RESUME
++ Update RESUME and fix link
 + Re-publish Chrome extension with fix
 + Include GA
++ Publish site
 
 ## Overview
 This is the source for my website portfolio.
