@@ -1,8 +1,14 @@
 .project {
-  height: 25vw;
+  height: 425px;
   line-height: 2;
-  margin-left: 20vw;
-  margin-right: 25vw;
+}
+
+.project-content {
+  position: relative;
+  text-align: left;
+  height: 100%;
+  width: 900px;
+  margin: auto;
 }
 
 .project-title {
@@ -15,7 +21,7 @@
 .project-subtitle {
   font-family: 'Cutive Mono', monospace;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -27,16 +33,7 @@
   width: 100%;
 }
 
-.project-content {
-  position: relative;
-  text-align: left;
-  float: left;
-  height: 100%;
-  width: 100%;
-}
-
 .project-desc {
-  display: inline-block;
   position: absolute;
   bottom: 0;
   width: 60%;
@@ -47,7 +44,6 @@
 }
 
 .project-details-pos {
-  display: inline-block;
   position: absolute;
   float: right;
   bottom: 0;
