@@ -21,7 +21,7 @@ class Project extends Component {
     const { title, subtitle, description, details, source } = this.props;
 
     return (
-      <div className="project">
+      <div className="project fade-in">
         <div className="project-content">
           <p className="project-title">{title}</p>
           <hr className="project-hr" />
