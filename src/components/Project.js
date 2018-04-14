@@ -10,17 +10,17 @@ class Project extends Component {
     this.state = {
       isInWaypoint: false,
     };
-    this.showProject = this.showProject.bind(this);
-    this.hideProject = this.hideProject.bind(this);
+    this.showProjectPrimary = this.showProjectPrimary.bind(this);
+    this.hideProjectPrimary = this.hideProjectPrimary.bind(this);
   }
 
-  showProject() {
+  showProjectPrimary() {
     this.setState({
       isInWaypoint: true,
     });
   }
 
-  hideProject() {
+  hideProjectPrimary() {
     this.setState({
       isInWaypoint: false,
     });
@@ -31,7 +31,7 @@ class Project extends Component {
     const { isInWaypoint } = this.state;
 
     return (
-      <Waypoint topOffset="300px" bottomOffset="450px" onEnter={this.showProject} onLeave={this.hideProject}>
+      <Waypoint topOffset="300px" bottomOffset="350px" onEnter={this.showProjectPrimary} onLeave={this.hideProjectPrimary}>
         <div className="project">
           <div className="project-content">
             <p className="project-title">{title}</p>
