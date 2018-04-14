@@ -3,11 +3,11 @@
 ## TODO
 + CSS animations for project unfolding (fade-in/fade-out)
   + Trigger animations when inside viewport
+  + Use `react-waypoint`
 + Mobile design
 + Tablet design
 + Audit/re-factor stylesheets
 + Clean-up nits (variable naming, etc.)
-+ Remove test suite
 + Research/add/remove available Node packages
 + Audit browsers/devices
 
@@ -37,11 +37,6 @@ This is the source for my website portfolio.
 ### Linting
 ```javascript
   npm run lint
-```
-
-### Testing
-```javascript
-  npm run test
 ```
 
 ## Inspiration
