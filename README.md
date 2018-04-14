@@ -4,8 +4,9 @@
 + CSS animations for project unfolding (fade-in/fade-out)
   + Trigger animations when inside viewport
   + Use `react-waypoint`
-+ Mobile design
++ View source link at bottom of `<Contact>` or Project
 + Tablet design
++ Mobile design
 + Audit/re-factor stylesheets and components
 + Clean-up nits (variable naming, etc.)
 + Research/add/remove available Node packages
