@@ -11,6 +11,7 @@
 + Clean-up nits (variable naming, etc.)
 + Research/add/remove available Node packages
 + Audit browsers/devices
++ Parallax wrapper component around all `<Project>`(s)
 
 ### High-level plan
 + Complete design 
