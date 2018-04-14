@@ -10,7 +10,7 @@ class Project extends Component {
   }
 
   render() {
-    const { title, subtitle, description, details, source } = this.props;
+    const { title, subtitle, description, details, source, windowHeight } = this.props;
 
     return (
       <div className="project fade-in">
@@ -35,7 +35,6 @@ Project.propTypes = {
   details: PropTypes.arrayOf(PropTypes.string).isRequired,
   source: PropTypes.string.isRequired,
   windowHeight: PropTypes.number.isRequired,
-  windowWidth: PropTypes.number.isRequired,
 };
 
 export default Project;

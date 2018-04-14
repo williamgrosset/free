@@ -10,7 +10,6 @@ class App extends Component {
     super(props);
     this.state = {
       height: 0,
-      width: 0,
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
@@ -27,12 +26,11 @@ class App extends Component {
   updateWindowDimensions() {
     this.setState({
       height: window.innerHeight,
-      width: window.innerWidth,
     });
   }
 
   render() {
-    const { height, width } = this.state;
+    const { height } = this.state;
 
     return (
       <div className="page">
@@ -44,7 +42,6 @@ class App extends Component {
           description={project.change.description}
           details={project.change.details}
           source={project.change.source}
-          windowWidth={width}
           windowHeight={height}
         />
         <Project
@@ -53,7 +50,6 @@ class App extends Component {
           description={project.fokus.description}
           details={project.fokus.details}
           source={project.fokus.source}
-          windowWidth={width}
           windowHeight={height}
         />
         <Project
@@ -62,7 +58,6 @@ class App extends Component {
           description={project.ripe.description}
           details={project.ripe.details}
           source={project.ripe.source}
-          windowWidth={width}
           windowHeight={height}
         />
         <Project
@@ -71,7 +66,6 @@ class App extends Component {
           description={project.oscar.description}
           details={project.oscar.details}
           source={project.oscar.source}
-          windowWidth={width}
           windowHeight={height}
         />
         <Project
@@ -80,7 +74,6 @@ class App extends Component {
           description={project.osn.description}
           details={project.osn.details}
           source={project.osn.source}
-          windowWidth={width}
           windowHeight={height}
         />
         <Spacer height={16} />
