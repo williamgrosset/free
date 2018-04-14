@@ -6,6 +6,7 @@ import '../styles/components/Project.css';
 class Project extends Component {
   constructor(props) {
     super(props);
+    this.state = {};
   }
 
   render() {
@@ -16,9 +17,11 @@ class Project extends Component {
         <div className="project-content">
           <p className="project-title">{title}</p>
           <hr className="project-hr" />
-          <p className="project-subtitle">{subtitle}</p>
-          <p className="project-desc" dangerouslySetInnerHTML={{ __html: description }} />
-          <ProjectDetailsList detailsList={details} sourceURL={source} />
+          <div className="project-primary">
+            <p className="project-subtitle">{subtitle}</p>
+            <p className="project-desc" dangerouslySetInnerHTML={{ __html: description }} />
+            <ProjectDetailsList detailsList={details} sourceURL={source} />
+          </div>
         </div>
       </div>
     );
@@ -31,8 +34,8 @@ Project.propTypes = {
   description: PropTypes.string.isRequired,
   details: PropTypes.arrayOf(PropTypes.string).isRequired,
   source: PropTypes.string.isRequired,
-  windowWidth: PropTypes.number.isRequired,
   windowHeight: PropTypes.number.isRequired,
+  windowWidth: PropTypes.number.isRequired,
 };
 
 export default Project;

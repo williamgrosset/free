@@ -1,5 +1,4 @@
 .project {
-  height: 425px;
   line-height: 2;
 }
 
@@ -16,6 +15,24 @@
   font-weight: 300;
   font-size: 50px;
   margin-bottom: 0;
+}
+
+.project-primary {
+  height: 0;
+  -webkit-transition: all 0.85s ease-in-out;
+  -moz-transition: all 0.85s ease-in-out;
+  -o-transition: all 0.85s ease-in-out;
+  -ms-transition: all 0.85s ease-in-out;
+  transition: all 0.85s ease-in-out;
+}
+
+.project-primary:hover {
+  height: 200px;
+  -webkit-transition: all 0.85s ease-in-out;
+  -moz-transition: all 0.85s ease-in-out;
+  -o-transition: all 0.85s ease-in-out;
+  -ms-transition: all 0.85s ease-in-out;
+  transition: all 0.85s ease-in-out;
 }
 
 .project-subtitle {
