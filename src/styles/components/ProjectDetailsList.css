@@ -4,6 +4,11 @@
   list-style: none;
   line-height: 2.1;
   font-size: 18px;
+  position: absolute;
+  float: right;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
 }
 
 .details-circle {

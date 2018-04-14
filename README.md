@@ -6,7 +6,7 @@
   + Use `react-waypoint`
 + Mobile design
 + Tablet design
-+ Audit/re-factor stylesheets
++ Audit/re-factor stylesheets and components
 + Clean-up nits (variable naming, etc.)
 + Research/add/remove available Node packages
 + Audit browsers/devices

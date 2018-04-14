@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../styles/components/ProjectDetailsList.css';
 
 const ProjectDetailsList = ({ detailsList, sourceURL }) => (
-  <ul className="details-list project-details-pos">
+  <ul className="details-list">
     {detailsList.map((detail, index) => {
       if (detail === 'source' || detail === 'resume') {
         return (
