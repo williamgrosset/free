@@ -8,9 +8,9 @@
 
 .details-circle {
   display: inline-block;
-  height: 0.65vw;
-  width: 0.65vw;
-  margin-right: 0.7vw;
+  height: 12px;
+  width: 12px;
+  margin-right: 13px;
   border-radius: 50%;
 }
 
