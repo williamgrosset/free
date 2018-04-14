@@ -5,21 +5,12 @@ import '../styles/components/ProjectDetailsList.css';
 const ProjectDetailsList = ({ detailsList, sourceURL }) => (
   <ul className="details-list project-details-pos">
     {detailsList.map((detail, index) => {
-      if (detail === 'source') {
+      if (detail === 'source' || detail === 'resume') {
         return (
           <li key={index}>
             <span className="details-circle black" />
             <a className="code-font royal-link" href={sourceURL}>
-              View source
-            </a>
-          </li>
-        );
-      } else if (detail === 'resume') {
-        return (
-          <li key={index}>
-            <span className="details-circle black" />
-            <a className="code-font royal-link" href={sourceURL}>
-              View resume
+              {detail === 'resume' ? 'View resume' : 'View source'}
             </a>
           </li>
         );
