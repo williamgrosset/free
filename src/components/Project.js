@@ -1,3 +1,5 @@
+/* eslint-disable react/no-danger */
+/* (only static content) */
 import React, { Component } from 'react';
 import Waypoint from 'react-waypoint';
 import PropTypes from 'prop-types';
