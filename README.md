@@ -1,7 +1,6 @@
 ...insert free icon and quote here...
 
 ## TODO
-+ Fix any rendering issues
 + Tablet design
 + Mobile design
 + Audit/re-factor stylesheets and components
