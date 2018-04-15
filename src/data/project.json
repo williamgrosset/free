@@ -37,8 +37,8 @@
   "site_source": {
     "title": "Source",
     "subtitle": "website portfolio — apr. 2018",
-    "description": "Built with React and CSS3.",
-    "details": ["CSS", "HTML", "JavaScript", "source"],
+    "description": "Built with React.",
+    "details": ["CSS3", "HTML5", "JavaScript", "source"],
     "source": "https://github.com/williamgrosset/free"
   }
 }
