@@ -7,23 +7,17 @@ import '../styles/components/Project.css';
 class Project extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      isInWaypoint: false,
-    };
+    this.state = { isInWaypoint: false };
     this.showProjectPrimary = this.showProjectPrimary.bind(this);
     this.hideProjectPrimary = this.hideProjectPrimary.bind(this);
   }
 
   showProjectPrimary() {
-    this.setState({
-      isInWaypoint: true,
-    });
+    this.setState({ isInWaypoint: true });
   }
 
   hideProjectPrimary() {
-    this.setState({
-      isInWaypoint: false,
-    });
+    this.setState({ isInWaypoint: false });
   }
 
   render() {

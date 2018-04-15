@@ -30,8 +30,6 @@ ProjectDetailsList.propTypes = {
   sourceURL: PropTypes.string,
 };
 
-ProjectDetailsList.defaultProps = {
-  sourceURL: '',
-};
+ProjectDetailsList.defaultProps = { sourceURL: '' };
 
 export default ProjectDetailsList;
