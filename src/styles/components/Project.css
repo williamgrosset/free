@@ -11,10 +11,10 @@
 }
 
 .project-title {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lora', serif;
   font-weight: 300;
   font-size: 50px;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .project-subtitle {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lora', serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
