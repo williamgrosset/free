@@ -1,10 +1,7 @@
 ...insert free icon and quote here...
 
 ## TODO
-+ CSS animations for project unfolding (fade-in/fade-out)
-  + Trigger animations when inside viewport
-  + Use `react-waypoint`
-+ View source link at bottom of `<Contact>` or Project
++ Fix any rendering issues
 + Tablet design
 + Mobile design
 + Audit/re-factor stylesheets and components

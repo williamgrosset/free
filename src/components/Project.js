@@ -27,7 +27,7 @@ class Project extends Component {
   }
 
   render() {
-    const { title, subtitle, description, details, source, windowHeight } = this.props;
+    const { title, subtitle, description, details, source } = this.props;
     const { isInWaypoint } = this.state;
 
     return (
@@ -54,7 +54,6 @@ Project.propTypes = {
   description: PropTypes.string.isRequired,
   details: PropTypes.arrayOf(PropTypes.string).isRequired,
   source: PropTypes.string.isRequired,
-  windowHeight: PropTypes.number.isRequired,
 };
 
 export default Project;
