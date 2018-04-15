@@ -1,4 +1,6 @@
-...insert free icon and quote here...
+<p align="center">
+  <img alt="free" src="https://user-images.githubusercontent.com/16131737/38784498-7065bdca-40c7-11e8-88e5-5985d3bb6f58.png" />
+</p>
 
 ## TODO
 + Animate content underneath `<hr>`
@@ -17,7 +19,7 @@
 + Publish site
 
 ## Overview
-This is the source for my website portfolio.
+This website portfolio was built from scratch so I can create and write about anything. The interface was built with [React](https://reactjs.org).
 
 ## Setup
 1. Install the required packages:
