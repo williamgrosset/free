@@ -45,11 +45,11 @@ const App = () => (
         source={projectData.osn.source}
       />
       <Project
-        title={projectData.source.title}
-        subtitle={projectData.source.subtitle}
-        description={projectData.source.description}
-        details={projectData.source.details}
-        source={projectData.source.source}
+        title={projectData.site_source.title}
+        subtitle={projectData.site_source.subtitle}
+        description={projectData.site_source.description}
+        details={projectData.site_source.details}
+        source={projectData.site_source.source}
       />
       <Spacer height={360} />
       <Contact />

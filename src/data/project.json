@@ -34,7 +34,7 @@
     "details": ["C", "Python", "source"],
     "source": "https://github.com/williamgrosset?utf8=%E2%9C%93&tab=repositories&q=university&type=&language="
   },
-  "source": {
+  "site_source": {
     "title": "Source",
     "subtitle": "website portfolio — apr. 2018",
     "description": "Built with React and CSS3.",
