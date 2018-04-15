@@ -36,18 +36,3 @@ This is the source for my website portfolio.
 ```javascript
   npm run lint
 ```
-
-## Inspiration
-+ https://www.axiomzen.co/
-+ https://www.sketchgif.me/
-+ http://www.popularpays.com/2017-year-in-review/
-+ https://presnt.jp/
-+ https://www.hampshirelight.net/
-+ http://www.laurecaye.fr/
-+ https://www.olivier-guilleux.com/
-+ https://juliebonnemoy.com/
-+ http://dorianlods.fr/
-+ https://afriendofmine.nl/
-+ http://up-studio.lu/
-+ http://www.andreadlabarile.it/work (?)
-+ http://matthew-ferry.com/
