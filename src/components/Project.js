@@ -31,7 +31,12 @@ class Project extends Component {
     const { isInWaypoint } = this.state;
 
     return (
-      <Waypoint topOffset="300px" bottomOffset="350px" onEnter={this.showProjectPrimary} onLeave={this.hideProjectPrimary}>
+      <Waypoint
+        topOffset="300px"
+        bottomOffset="350px"
+        onEnter={this.showProjectPrimary}
+        onLeave={this.hideProjectPrimary}
+      >
         <div className="project fade-in">
           <div className="project-content">
             <p className="project-title">{title}</p>
