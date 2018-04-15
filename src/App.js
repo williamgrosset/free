@@ -76,6 +76,14 @@ class App extends Component {
           source={project.osn.source}
           windowHeight={height}
         />
+        <Project
+          title={project.source.title}
+          subtitle={project.source.subtitle}
+          description={project.source.description}
+          details={project.source.details}
+          source={project.source.source}
+          windowHeight={height}
+        />
         <Spacer height={360} />
         <Contact />
       </div>

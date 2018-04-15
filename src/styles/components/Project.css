@@ -55,10 +55,10 @@
 
 .project-desc {
   position: absolute;
-  bottom: -100px;
+  bottom: 0px;
   width: 60%;
   line-height: 1.5;
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 0;
+  margin-bottom: -100px;
 }

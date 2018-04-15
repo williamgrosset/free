@@ -6,9 +6,9 @@
   font-size: 18px;
   position: absolute;
   float: right;
-  bottom: -105px;
+  bottom: 0;
   right: 0;
-  margin-bottom: 0;
+  margin-bottom: -100px;
 }
 
 .details-circle {
