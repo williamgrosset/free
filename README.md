@@ -1,13 +1,11 @@
 ...insert free icon and quote here...
 
 ## TODO
++ Animate content underneath `<hr>`
 + Tablet design
 + Mobile design
 + Audit/re-factor stylesheets and components
-+ Clean-up nits (variable naming, etc.)
-+ Research/add/remove available Node packages
-+ Audit browsers/devices
-+ Parallax wrapper component around all `<Project>`(s)
+  + Clean-up nits (variable naming, etc.)
 
 ### High-level plan
 + Complete design 

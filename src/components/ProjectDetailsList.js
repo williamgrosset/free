@@ -11,7 +11,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
         return (
           <li key={index}>
             <span className="details-circle black" />
-            <a className="code-font royal-link" href={sourceURL}>
+            <a className="royal-link" href={sourceURL}>
               {detail === 'resume' ? 'View resume' : 'View source'}
             </a>
           </li>
@@ -20,7 +20,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
       return (
         <li key={index}>
           <span className={`details-circle ${detail.toLowerCase().replace(/\d+/g, '')}`} />
-          <span className="code-font">{detail}</span>
+          <span>{detail}</span>
         </li>
       );
     })}

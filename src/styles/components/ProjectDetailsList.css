@@ -1,14 +1,14 @@
 .details-list {
-  display: inline-block;
+  position: absolute;
   text-align: left;
   list-style: none;
-  line-height: 2.1;
-  font-size: 18px;
-  position: absolute;
   float: right;
+  line-height: 2;
+  font-size: 18px;
   bottom: 0;
   right: 0;
   margin-bottom: 0;
+  font-family: 'Cutive Mono', monospace;
 }
 
 .details-circle {
@@ -16,7 +16,7 @@
   height: 12px;
   width: 12px;
   margin-right: 13px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .ruby {
