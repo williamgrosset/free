@@ -3,92 +3,57 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
-import project from './data/project.json';
+import projectData from './data/project.json';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      height: 0,
-    };
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-  }
-
-  componentDidMount() {
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
-  }
-
-  updateWindowDimensions() {
-    this.setState({
-      height: window.innerHeight,
-    });
-  }
-
-  render() {
-    const { height } = this.state;
-
-    return (
-      <div className="page">
-        <About />
-        <Spacer height={120} />
-        <Project
-          title={project.change.title}
-          subtitle={project.change.subtitle}
-          description={project.change.description}
-          details={project.change.details}
-          source={project.change.source}
-          windowHeight={height}
-        />
-        <Project
-          title={project.fokus.title}
-          subtitle={project.fokus.subtitle}
-          description={project.fokus.description}
-          details={project.fokus.details}
-          source={project.fokus.source}
-          windowHeight={height}
-        />
-        <Project
-          title={project.ripe.title}
-          subtitle={project.ripe.subtitle}
-          description={project.ripe.description}
-          details={project.ripe.details}
-          source={project.ripe.source}
-          windowHeight={height}
-        />
-        <Project
-          title={project.oscar.title}
-          subtitle={project.oscar.subtitle}
-          description={project.oscar.description}
-          details={project.oscar.details}
-          source={project.oscar.source}
-          windowHeight={height}
-        />
-        <Project
-          title={project.osn.title}
-          subtitle={project.osn.subtitle}
-          description={project.osn.description}
-          details={project.osn.details}
-          source={project.osn.source}
-          windowHeight={height}
-        />
-        <Project
-          title={project.source.title}
-          subtitle={project.source.subtitle}
-          description={project.source.description}
-          details={project.source.details}
-          source={project.source.source}
-          windowHeight={height}
-        />
-        <Spacer height={360} />
-        <Contact />
-      </div>
-    );
-  }
-}
+const App = () => (
+    <div className="page">
+      <About />
+      <Spacer height={120} />
+      <Project
+        title={projectData.change.title}
+        subtitle={projectData.change.subtitle}
+        description={projectData.change.description}
+        details={projectData.change.details}
+        source={projectData.change.source}
+      />
+      <Project
+        title={projectData.fokus.title}
+        subtitle={projectData.fokus.subtitle}
+        description={projectData.fokus.description}
+        details={projectData.fokus.details}
+        source={projectData.fokus.source}
+      />
+      <Project
+        title={projectData.ripe.title}
+        subtitle={projectData.ripe.subtitle}
+        description={projectData.ripe.description}
+        details={projectData.ripe.details}
+        source={projectData.ripe.source}
+      />
+      <Project
+        title={projectData.oscar.title}
+        subtitle={projectData.oscar.subtitle}
+        description={projectData.oscar.description}
+        details={projectData.oscar.details}
+        source={projectData.oscar.source}
+      />
+      <Project
+        title={projectData.osn.title}
+        subtitle={projectData.osn.subtitle}
+        description={projectData.osn.description}
+        details={projectData.osn.details}
+        source={projectData.osn.source}
+      />
+      <Project
+        title={projectData.source.title}
+        subtitle={projectData.source.subtitle}
+        description={projectData.source.description}
+        details={projectData.source.details}
+        source={projectData.source.source}
+      />
+      <Spacer height={360} />
+      <Contact />
+    </div>
+);
 
 export default App;
