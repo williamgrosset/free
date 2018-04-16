@@ -3,13 +3,10 @@
 </p>
 
 ## Overview
-A place where I create and write about things. The interface was built with [React](https://reactjs.org).
+A place where I create and write about things. Interface built with [React](https://reactjs.org).
 
 ## TODO 
 + Animate content underneath `<hr>`
-+ Tablet design
-+ Mobile design
-+ Complete `README` writeup
 + Clean-up repo and add badges
 + Update RESUME and fix link
 + Re-publish Chrome extension with fix
