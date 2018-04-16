@@ -3,7 +3,7 @@ import '../styles/components/About.css';
 
 const About = () => (
   <div className="about">
-    <p className="about-desc fade-in">
+    <p className="about-desc about-media-content fade-in">
       My name is William Hamilton Grosset.<br />
       Currently, I am studying Computer Science at the University of Victoria.<br />
       Previously, I worked as a research assistant at the{' '}
