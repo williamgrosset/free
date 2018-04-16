@@ -42,13 +42,13 @@
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .contact-media-content {
     font-size: 40px;
-    width: 70%;
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .contact-media-content {
     font-size: 20px;
-    width: 70%;
+    width: 80%;
   }
 }
