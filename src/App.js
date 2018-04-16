@@ -44,13 +44,6 @@ const App = () => (
       details={projectData.osn.details}
       source={projectData.osn.source}
     />
-    <Project
-      title={projectData.site_source.title}
-      subtitle={projectData.site_source.subtitle}
-      description={projectData.site_source.description}
-      details={projectData.site_source.details}
-      source={projectData.site_source.source}
-    />
     <Spacer height={11} />
     <Contact />
   </div>
