@@ -3,14 +3,14 @@
 </p>
 
 ## Overview
-This website portfolio was built from scratch so I can create and write about anything. The interface was built with [React](https://reactjs.org).
+A place where I create and write about things. The interface was built with [React](https://reactjs.org).
 
 ## TODO 
 + Animate content underneath `<hr>`
 + Tablet design
 + Mobile design
 + Complete `README` writeup
-+ Clean-up repo
++ Clean-up repo and add badges
 + Update RESUME and fix link
 + Re-publish Chrome extension with fix
 + Include GA script
