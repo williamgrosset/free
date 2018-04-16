@@ -11,8 +11,8 @@
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
-  padding-top: 15%;
+  margin-bottom: 3em;
+  padding-top: 4em;
 }
 
 .contact-link {
@@ -42,13 +42,13 @@
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .contact-media-content {
     font-size: 40px;
-    width: 80%;
+    width: 85%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .contact-media-content {
     font-size: 20px;
-    width: 80%;
+    width: 85%;
   }
 }
