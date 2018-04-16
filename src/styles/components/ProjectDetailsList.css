@@ -4,7 +4,6 @@
   text-align: left;
   list-style: none;
   line-height: 2;
-  font-size: 18px;
   bottom: 0;
   right: 0;
   margin-bottom: 0;
@@ -16,6 +15,22 @@
   width: 12px;
   margin-right: 13px;
   border-radius: 100%;
+}
+
+.details-list-media {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .details-list-media {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .details-list-media  {
+    font-size: 16px;
+  }
 }
 
 .ruby {
