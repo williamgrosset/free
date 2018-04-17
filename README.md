@@ -8,9 +8,8 @@ A place where I create and write about things. The interface is built with [Reac
 ## TODO 
 + Update spacing between elements for desktop/tablet/mobile
 + Support tablet/mobile offsets for `<Waypoint>`
-+ Animate content underneath `<hr>`
-  + Stick to animations that use `opacity` or `transform`
-  + Use `will-change`
++ Add fixed height to `<Project>` instead of adding margin-top to `title`
++ Audit devices
 + Update RESUME and fix link
 + Re-publish Chrome extension with fix
 + Include GA script

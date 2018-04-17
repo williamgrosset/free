@@ -38,7 +38,7 @@ class Project extends Component {
             <p className="project-title project-media-title">{title}</p>
             <hr className="project-hr" />
             <p className={`project-subtitle project-media-subtitle ${isInWaypoint ? 'project-subtitle-enter' : 'project-subtitle-leave'}`}>{subtitle}</p>
-            <div className={`${isInWaypoint ? 'project-primary-enter' : 'project-primary-leave'}`}>
+            <div className={`${isInWaypoint ? 'project-primary-media-enter' : 'project-primary-leave'}`}>
               <p className="project-desc project-media-desc" dangerouslySetInnerHTML={{ __html: description }} />
               <ProjectDetailsList detailsList={details} sourceURL={source} />
             </div>
