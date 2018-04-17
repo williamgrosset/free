@@ -8,7 +8,7 @@ import projectData from './data/project.json';
 const App = () => (
   <div className="page">
     <About />
-    <Spacer height={4} />
+    <Spacer height={3} />
     <Project
       title={projectData.change.title}
       subtitle={projectData.change.subtitle}
@@ -44,7 +44,7 @@ const App = () => (
       details={projectData.osn.details}
       source={projectData.osn.source}
     />
-    <Spacer height={14} />
+    <Spacer height={15} />
     <Contact />
   </div>
 );
