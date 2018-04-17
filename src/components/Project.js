@@ -28,8 +28,8 @@ class Project extends Component {
 
     return (
       <Waypoint
-        topOffset="250px"
-        bottomOffset="250px"
+        topOffset="300px"
+        bottomOffset="300px"
         onEnter={this.showProjectPrimary}
         onLeave={this.hideProjectPrimary}
       >
@@ -37,8 +37,8 @@ class Project extends Component {
           <div className="project-content project-media-content">
             <p className="project-title project-media-title">{title}</p>
             <hr className="project-hr" />
+            <p className={`project-subtitle project-media-subtitle ${isInWaypoint ? 'project-subtitle-enter' : 'project-subtitle-leave'}`}>{subtitle}</p>
             <div className={`${isInWaypoint ? 'project-primary-enter' : 'project-primary-leave'}`}>
-              <p className="project-subtitle project-media-subtitle">{subtitle}</p>
               <p className="project-desc project-media-desc" dangerouslySetInnerHTML={{ __html: description }} />
               <ProjectDetailsList detailsList={details} sourceURL={source} />
             </div>

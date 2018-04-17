@@ -6,7 +6,11 @@
 A place where I create and write about things. The interface is built with [React](https://reactjs.org) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
 
 ## TODO 
++ Update README img
++ Update spacing between elements for desktop/tablet/mobile
 + Animate content underneath `<hr>`
+  + Stick to animations that use `opacity` or `transform`
+  + Use `will-change`
 + Update RESUME and fix link
 + Re-publish Chrome extension with fix
 + Include GA script
