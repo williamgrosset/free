@@ -6,7 +6,6 @@
 A place where I create and write about things. The interface is built with [React](https://reactjs.org) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
 
 ## TODO 
-+ Support tablet/mobile offsets for `<Waypoint>`
 + Audit devices
 + Update RESUME and fix link
 + Re-publish Chrome extension with fix
