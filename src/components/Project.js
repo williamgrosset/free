@@ -28,8 +28,8 @@ class Project extends Component {
 
     return (
       <Waypoint
-        topOffset="300px"
-        bottomOffset="300px"
+        topOffset="250px"
+        bottomOffset="250px"
         onEnter={this.showProjectPrimary}
         onLeave={this.hideProjectPrimary}
       >
