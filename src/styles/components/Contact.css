@@ -34,20 +34,20 @@
   color: #b3b3ff;
 }
 
-.contact-media-content {
+.contact-desc-media {
   font-size: 50px;
   width: 900px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-  .contact-media-content {
+  .contact-desc-media {
     font-size: 40px;
     width: 85%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .contact-media-content {
+  .contact-desc-media {
     font-size: 20px;
     width: 85%;
   }

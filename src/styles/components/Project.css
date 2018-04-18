@@ -16,20 +16,18 @@
   margin-bottom: 0;
 }
 
+.project-hr {
+  background-color: black;
+  border-color: black;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
 .project-subtitle {
   font-family: 'Lora', serif;
   line-height: 1.5;
   font-weight: 300;
-}
-
-.project-subtitle-leave {
-  opacity: 0;
-  -webkit-transition: opacity 300ms linear;
-  -moz-transition: opacity 300ms linear;
-  -o-transition: opacity 300ms linear;
-  -ms-transition: opacity 300ms linear;
-  transition: opacity 300ms linear, opacity 300ms linear;
-  will-change: opacity;
 }
 
 .project-subtitle-enter {
@@ -42,12 +40,26 @@
   will-change: opacity;
 }
 
-.project-hr {
-  background-color: black;
-  border-color: black;
-  border: none;
-  height: 1px;
-  width: 100%;
+.project-subtitle-leave {
+  opacity: 0;
+  -webkit-transition: opacity 300ms linear;
+  -moz-transition: opacity 300ms linear;
+  -o-transition: opacity 300ms linear;
+  -ms-transition: opacity 300ms linear;
+  transition: opacity 300ms linear, opacity 300ms linear;
+  will-change: opacity;
+}
+
+
+.project-primary-leave {
+  opacity: 0;
+  transform: translateY(0);
+  -webkit-transition: transform 300ms linear;
+  -moz-transition: transform 300ms linear;
+  -o-transition: transform 300ms linear;
+  -ms-transition: transform 300ms linear;
+  transition: transform 300ms linear, opacity 300ms linear;
+  will-change: transform, opacity;
 }
 
 .project-desc {
@@ -58,20 +70,20 @@
   margin-bottom: 0;
 }
 
-.project-media-content {
+.project-content-media {
   height: 350px;
   width: 900px;
 }
 
-.project-media-title {
+.project-title-media {
   font-size: 50px;
 }
 
-.project-media-subtitle {
+.project-subtitle-media {
   font-size: 20px;
 }
 
-.project-primary-media-enter {
+.project-primary-enter-media {
   opacity: 100%;
   transform: translateY(40px);
   -webkit-transition: transform 300ms linear;
@@ -79,40 +91,29 @@
   -o-transition: transform 300ms linear;
   -ms-transition: transform 300ms linear;
   transition: transform 300ms linear, opacity 300ms linear;
-  will-change: transform;
+  will-change: transform, opacity;
 }
 
-.project-primary-leave {
-  opacity: 0;
-  transform: translateY(0);
-  -webkit-transition: transform 300ms linear;
-  -moz-transition: transform 300ms linear;
-  -o-transition: transform 300ms linear;
-  -ms-transition: transform 300ms linear;
-  transition: transform 300ms linear, opacity 300ms linear;
-  will-change: transform;
-}
-
-.project-media-desc {
+.project-desc-media {
   font-size: 24px;
   width: 60%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-  .project-media-content {
+  .project-content-media {
     height: 290px;
     width: 85%;
   }
 
-  .project-media-title {
+  .project-title-media {
     font-size: 40px;
   }
 
-  .project-media-subtitle {
+  .project-subtitle-media {
     font-size: 16px;
   }
 
-  .project-primary-media-enter {
+  .project-primary-enter-media {
     opacity: 100%;
     transform: translateY(25px);
     -webkit-transition: transform 300ms linear;
@@ -120,31 +121,31 @@
     -o-transition: transform 300ms linear;
     -ms-transition: transform 300ms linear;
     transition: transform 300ms linear, opacity 300ms linear;
-    will-change: transform;
+    will-change: transform, opacity;
   }
 
 
-  .project-media-desc {
+  .project-desc-media {
     font-size: 20px;
     width: 70%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .project-media-content {
+  .project-content-media {
     height: 230px;
     width: 85%;
   }
 
-  .project-media-title {
+  .project-title-media {
     font-size: 20px;
   }
 
-  .project-media-subtitle {
+  .project-subtitle-media {
     font-size: 15px;
   }
 
-  .project-primary-media-enter {
+  .project-primary-enter-media {
     opacity: 100%;
     transform: translateY(10px);
     -webkit-transition: transform 300ms linear;
@@ -155,7 +156,7 @@
     will-change: transform;
   }
 
-  .project-media-desc {
+  .project-desc-media {
     font-size: 15px;
     width: 100%;
   }

@@ -5,26 +5,26 @@
 
 .about-desc {
   padding-top: 16vw;
-  text-align: left;
   line-height: 1.4;
   font-weight: 600;
+  text-align: left;
   margin: auto;
 }
 
-.about-media-content {
+.about-desc-media {
   font-size: 50px;
   width: 900px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-  .about-media-content {
+  .about-desc-media {
     font-size: 40px;
     width: 85%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .about-media-content {
+  .about-desc-media {
     font-size: 20px;
     width: 85%;
   }

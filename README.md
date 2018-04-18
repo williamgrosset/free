@@ -8,8 +8,7 @@ A place where I create and write about things. The interface is built with [Reac
 ## TODO 
 + Audit devices
 + Update RESUME and fix link
-+ Re-publish Chrome extension with fix
-+ Include GA script
++ Audit components/stylesheets and clean-up vars
 + Publish site
 
 ## Setup

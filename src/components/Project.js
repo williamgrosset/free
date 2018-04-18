@@ -34,18 +34,18 @@ class Project extends Component {
         onLeave={this.hideProjectPrimary}
       >
         <div className="project fade-in">
-          <div className="project-content project-media-content">
-            <p className="project-title project-media-title">{title}</p>
+          <div className="project-content project-content-media">
+            <p className="project-title project-title-media">{title}</p>
             <hr className="project-hr" />
             <p
-              className={`project-subtitle project-media-subtitle ${
+              className={`project-subtitle project-subtitle-media ${
                 isInWaypoint ? 'project-subtitle-enter' : 'project-subtitle-leave'
               }`}
             >
               {subtitle}
             </p>
-            <div className={`${isInWaypoint ? 'project-primary-media-enter' : 'project-primary-leave'}`}>
-              <p className="project-desc project-media-desc" dangerouslySetInnerHTML={{ __html: description }} />
+            <div className={`${isInWaypoint ? 'project-primary-enter-media' : 'project-primary-leave'}`}>
+              <p className="project-desc project-desc-media" dangerouslySetInnerHTML={{ __html: description }} />
               <ProjectDetailsList detailsList={details} sourceURL={source} />
             </div>
           </div>
