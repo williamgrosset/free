@@ -14,7 +14,7 @@ A place where I create and write about things. The interface is built with [Reac
 ```javascript
   npm start 
 ```
-3. Navigate to `http://localhost:4200/`.
+3. Navigate to `http://localhost:8080/`.
 
 ### Linting
 ```javascript
