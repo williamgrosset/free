@@ -9,7 +9,7 @@
   "fokus": {
     "title": "Google",
     "subtitle": "chrome extension — jan. 2017",
-    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a> is a chrome extension for domain blocking and meditation. When distracted, take a short break and meditate to increase your productivity.",
+    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Fokus</a> is a chrome extension for domain blocking and meditation. Take a short break and meditate to increase your productivity.",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },
@@ -23,7 +23,7 @@
   "oscar": {
     "title": "OSCAR Medical",
     "subtitle": "open source medical software — jan. to apr. 2017",
-    "description": "Contributed to the open source medical application <a class=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>. <a class=\"royal-link\" href=\"https://github.com/williamgrosset/OSCAR-ConCert\">ConCert</a> focuses on the automation of required medical system auditing.",
+    "description": "Contributed to the open source medical application <a class=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>. <a class=\"royal-link\" href=\"https://github.com/williamgrosset/OSCAR-ConCert/tree/master/ConCert\">ConCert</a> focuses on the automation of required medical system auditing.",
     "details": ["Java", "source"],
     "source": "https://github.com/williamgrosset/OSCAR-ConCert/tree/master/ConCert"
   },
