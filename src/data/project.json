@@ -25,7 +25,7 @@
     "subtitle": "open source medical software — jan. to apr. 2017",
     "description": "Contributed to the open source medical application <a class=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>. <a class=\"royal-link\" href=\"https://github.com/williamgrosset/OSCAR-ConCert\">ConCert</a> focuses on the automation of required medical system auditing.",
     "details": ["Java", "source"],
-    "source": "https://github.com/williamgrosset/OSCAR-ConCert"
+    "source": "https://github.com/williamgrosset/OSCAR-ConCert/tree/master/ConCert"
   },
   "osn": {
     "title": "Systems & Networks",
