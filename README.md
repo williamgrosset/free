@@ -2,6 +2,10 @@
   <img alt="free" src="https://user-images.githubusercontent.com/16131737/38890565-a338c8e4-4236-11e8-955a-a0f3170246a6.png" />
 </p>
 
+## TODO
++ Add favicons for browsers (desktop/mobile)
++ Audit browsers
+
 ## Overview
 A place where I create and write about things. The interface is built with [React](https://reactjs.org) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
 
