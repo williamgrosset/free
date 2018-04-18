@@ -5,12 +5,6 @@
 ## Overview
 A place where I create and write about things. The interface is built with [React](https://reactjs.org) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
 
-## TODO 
-+ Audit devices
-+ Update RESUME and fix link
-+ Audit components/stylesheets and clean-up vars
-+ Publish site
-
 ## Setup
 1. Install the required packages:
 ```javascript
