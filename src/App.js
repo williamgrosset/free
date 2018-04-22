@@ -3,46 +3,46 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
-import projectData from './data/project.json';
+import projects from './data/projects.json';
 
 const App = () => (
   <div className="page">
     <About />
     <Spacer height={14} />
     <Project
-      title={projectData.change.title}
-      subtitle={projectData.change.subtitle}
-      description={projectData.change.description}
-      details={projectData.change.details}
-      source={projectData.change.source}
+      title={projects.change.title}
+      subtitle={projects.change.subtitle}
+      description={projects.change.description}
+      details={projects.change.details}
+      source={projects.change.source}
     />
     <Project
-      title={projectData.fokus.title}
-      subtitle={projectData.fokus.subtitle}
-      description={projectData.fokus.description}
-      details={projectData.fokus.details}
-      source={projectData.fokus.source}
+      title={projects.fokus.title}
+      subtitle={projects.fokus.subtitle}
+      description={projects.fokus.description}
+      details={projects.fokus.details}
+      source={projects.fokus.source}
     />
     <Project
-      title={projectData.ripe.title}
-      subtitle={projectData.ripe.subtitle}
-      description={projectData.ripe.description}
-      details={projectData.ripe.details}
-      source={projectData.ripe.source}
+      title={projects.ripe.title}
+      subtitle={projects.ripe.subtitle}
+      description={projects.ripe.description}
+      details={projects.ripe.details}
+      source={projects.ripe.source}
     />
     <Project
-      title={projectData.oscar.title}
-      subtitle={projectData.oscar.subtitle}
-      description={projectData.oscar.description}
-      details={projectData.oscar.details}
-      source={projectData.oscar.source}
+      title={projects.oscar.title}
+      subtitle={projects.oscar.subtitle}
+      description={projects.oscar.description}
+      details={projects.oscar.details}
+      source={projects.oscar.source}
     />
     <Project
-      title={projectData.osn.title}
-      subtitle={projectData.osn.subtitle}
-      description={projectData.osn.description}
-      details={projectData.osn.details}
-      source={projectData.osn.source}
+      title={projects.osn.title}
+      subtitle={projects.osn.subtitle}
+      description={projects.osn.description}
+      details={projects.osn.details}
+      source={projects.osn.source}
     />
     <Spacer height={11} />
     <Contact />
