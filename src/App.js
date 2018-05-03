@@ -8,7 +8,7 @@ import projects from './data/projects.json';
 const App = () => (
   <div className="page">
     <About />
-    <Spacer height={14} />
+    <Spacer height={11} />
     <Project
       title={projects.change.title}
       subtitle={projects.change.subtitle}
