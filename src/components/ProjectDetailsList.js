@@ -19,7 +19,11 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
       }
       return (
         <li key={index}>
-          <span className={`details-circle ${detail.toLowerCase().replace(/\d+/g, '')}`} />
+          <span
+            className={`details-circle ${
+              detail.includes('++') ? detail.toLowerCase().replace('++', 'plusplus') : detail.toLowerCase()
+            }`}
+          />
           <span>{detail}</span>
         </li>
       );
