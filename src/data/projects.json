@@ -15,7 +15,7 @@
   },
   "ripe": {
     "title": "Major League Hacking",
-    "subtitle": "ios application — mar. 2017",
+    "subtitle": "hackathon & iOS application — mar. 2017",
     "description": "<a class=\"royal-link\" href=\"https://github.com/williamgrosset/ripe\">Ripe</a> is a checkout, point-of-sale iOS application with image recognition for produce. Achieved 2nd place at <a class=\"royal-link\" href=\"http://17w.hackuvic.com/\">Major League Hacking 2017</a>.",
     "details": ["Swift", "Python", "source"],
     "source": "https://github.com/williamgrosset/ripe"
@@ -37,7 +37,7 @@
   "source": {
     "title": "Personal Website",
     "subtitle": "online portfolio — apr. 2018",
-    "description": "A place where I create and write about things. Interface built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a> and CSS3.",
+    "description": "A place where I create and write about things.<br />Built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a> and CSS3.",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/free"
   }
