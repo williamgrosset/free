@@ -12,7 +12,6 @@ const Contact = () => (
       <br />
       <br />
       <a className="contact-link socicon-linkedin mrl" href="https://www.linkedin.com/in/williamgrosset/" />
-      <a className="contact-link socicon-hackernews mrl" href="https://news.ycombinator.com/user?id=williamgrosset" />
       <a className="contact-link socicon-twitter mrl" href="https://twitter.com/williamhgrosset" />
       <a className="contact-link socicon-github mrl" href="https://github.com/williamgrosset" />
     </p>
