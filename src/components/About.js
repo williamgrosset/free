@@ -8,7 +8,7 @@ const About = () => (
       Currently, I am studying Computer Science at the{' '}
       <a className="royal-link" href="https://en.wikipedia.org/wiki/University_of_Victoria">
         University of Victoria
-      </a>. Previously I worked as a research assistant at the University and as a software engineer at{' '}
+      </a>. Previously, I worked as a research assistant at the University and as a software engineer at{' '}
       <a className="royal-link" href="https://www.change.org">
         Change.org
       </a>.
