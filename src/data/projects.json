@@ -43,8 +43,8 @@
   },
   "source": {
     "title": "Source",
-    "subtitle": "online portfolio — apr. 2018",
-    "description": "Personal site built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a>.",
+    "subtitle": "portfolio — apr. 2018",
+    "description": "Personal portfolio built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a>.",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/free"
   }

@@ -3,7 +3,7 @@
 </p>
 
 ## Overview
-A place where I create and write. Built with [React](https://reactjs.org) and [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
+Personal portfolio built with [React](https://reactjs.org).
 
 ## Setup
 1. Install the required packages:
