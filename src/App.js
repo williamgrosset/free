@@ -38,6 +38,13 @@ const App = () => (
       source={projects.oscar.source}
     />
     <Project
+      title={projects.chapter.title}
+      subtitle={projects.chapter.subtitle}
+      description={projects.chapter.description}
+      details={projects.chapter.details}
+      source={projects.chapter.source}
+    />
+    <Project
       title={projects.osn.title}
       subtitle={projects.osn.subtitle}
       description={projects.osn.description}
