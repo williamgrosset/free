@@ -35,10 +35,17 @@
     "source": "https://github.com/williamgrosset?utf8=%E2%9C%93&tab=repositories&q=university&type=&language="
   },
   "source": {
-    "title": "Personal Website",
+    "title": "Source",
     "subtitle": "online portfolio — apr. 2018",
     "description": "A place where I create and write.<br />Built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a> and CSS3.",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/free"
+  },
+  "source": {
+    "title": "Git",
+    "subtitle": "commit message auditor — jun. 2018",
+    "description": "Conventions and rules for Git commit messages.",
+    "details": ["C++", "source"],
+    "source": "https://github.com/williamgrosset/chapter"
   }
 }
