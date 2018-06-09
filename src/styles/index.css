@@ -13,16 +13,12 @@ html, body {
   width: 100%;
 }
 
-.royal {
-  color: #00e;
-}
-
 .mrl {
   margin-right: 2em;
 }
 
 .royal-link {
-  color: #00e;
+  color: #0F00FF;
   text-decoration: none;
   transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;

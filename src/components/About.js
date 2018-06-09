@@ -4,14 +4,18 @@ import '../styles/components/About.css';
 const About = () => (
   <div className="about">
     <p className="about-desc about-desc-media fade-in">
-      My name is William Grosset.<br />
-      Currently, I am studying Computer Science at the{' '}
-      <a className="royal-link" href="https://en.wikipedia.org/wiki/University_of_Victoria">
-        University of Victoria
-      </a>. Previously, I worked as a research assistant at the University and as a software engineer at{' '}
-      <a className="royal-link" href="https://www.change.org">
-        Change.org
-      </a>.
+      <p className="name">
+        William<br />Grosset
+      </p>
+      <span className="about-desc-sub">
+        Computer Science student at the{' '}
+        <a className="royal-link" href="https://en.wikipedia.org/wiki/University_of_Victoria">
+          University of Victoria
+        </a>.<br />Previously research assistant and software engineer at{' '}
+        <a className="royal-link" href="https://www.change.org">
+          Change.org
+        </a>.
+      </span>
     </p>
   </div>
 );

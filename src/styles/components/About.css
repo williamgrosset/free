@@ -3,16 +3,27 @@
   height: 100%;
 }
 
+.name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
 .about-desc {
   padding-top: 13vw;
-  line-height: 1.4;
-  font-weight: 600;
+  line-height: 1.2;
   text-align: center;
   margin: auto;
 }
 
+.about-desc-sub {
+  line-height: 1.5;
+}
+
 .about-desc-media {
-  font-size: 50px;
+  font-size: 24px;
   width: 900px;
 }
 
