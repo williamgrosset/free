@@ -4,7 +4,7 @@ import '../styles/components/About.css';
 const About = () => (
   <div className="about">
     <p className="about-desc about-desc-media fade-in">
-      <p className="name">
+      <p className="about-name about-name-media">
         William<br />Grosset
       </p>
       <span className="about-desc-sub">
