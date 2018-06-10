@@ -5,7 +5,13 @@ import '../styles/components/Contact.css';
 const Contact = () => (
   <div className="contact">
     <p className="contact-desc contact-desc-media fade-in">
-      <span>Get in touch. 🍻</span>
+      <span>
+        Get in touch.
+        <span role="img" aria-label="''">
+          {' '}
+          🍻
+        </span>
+      </span>
       <br />
       <a className="contact-link" href="mailto:williamhgrosset@gmail.com">
         williamhgrosset@gmail.com

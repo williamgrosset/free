@@ -2,49 +2,49 @@
   "change": {
     "title": "Change.org",
     "subtitle": "software engineer intern — may to dec. 2017",
-    "description": "Collaborated with the revenue engineering team on the world's largest <a class=\"royal-link\" href=\"https://www.change.org\">social change platform</a>. 🌎",
+    "description": "Collaborated with the revenue engineering team on the world's largest <a class=\"royal-link\" href=\"https://www.change.org\">social change platform</a>. <span role=\"img\" aria-label=\"'\">🌎</span>",
     "details": ["Ruby", "JavaScript", "resume"],
     "source": "https://drive.google.com/file/d/1sUMWmFlnIfnQK8gyc3ZWhpKKPfbr6hMo/view?usp=sharing"
   },
   "fokus": {
     "title": "Fokus",
     "subtitle": "google chrome extension — jan. 2017",
-    "description": "Chrome extension for domain blocking and meditation practice. 💂‍♂️",
+    "description": "Chrome extension for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️</span>",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },
   "ripe": {
     "title": "Ripe",
     "subtitle": "hackathon iOS application — mar. 2017",
-    "description": "Point-of-sale iOS application with photo recognition for produce. Achieved 🥈 at <a class=\"royal-link\" href=\"http://17w.hackuvic.com/\">Major League Hacking</a>.",
+    "description": "Point-of-sale iOS application with photo recognition for produce. Achieved <span role=\"img\" aria-label=\"'\">🥈</span> at <a class=\"royal-link\" href=\"http://17w.hackuvic.com/\">Major League Hacking</a>.",
     "details": ["Swift", "Python", "source"],
     "source": "https://github.com/williamgrosset/ripe"
   },
   "oscar": {
     "title": "ConCert",
     "subtitle": "open source contribution — jan. to apr. 2017",
-    "description": "Automated auditing for the open source medical application <a class=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>. 🏥",
+    "description": "Automated auditing for the open source medical application <a class=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>. <span role=\"img\" aria-label=\"'\">🏥</span>",
     "details": ["Java", "source"],
     "source": "https://github.com/williamgrosset/OSCAR-ConCert/tree/master/ConCert"
   },
   "osn": {
     "title": "Systems & Networks",
     "subtitle": "academia projects — jan. to apr. 2018",
-    "description": "Implementation of file systems, multi-threading, and HTTP/TCP/UDP/IP protocols. 📖",
+    "description": "Implementation of file systems, multi-threading, and HTTP/TCP/UDP/IP protocols. <span role=\"img\" aria-label=\"'\">📖</span>",
     "details": ["C", "C++", "Python", "source"],
     "source": "https://github.com/williamgrosset?utf8=%E2%9C%93&tab=repositories&q=university&type=&language="
   },
   "chapter": {
     "title": "Chapter",
     "subtitle": "git commit message auditor — jun. 2018",
-    "description": "Conventions and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. 📝",
+    "description": "Conventions and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
     "details": ["C++", "source"],
     "source": "https://github.com/williamgrosset/chapter"
   },
   "source": {
     "title": "Source",
     "subtitle": "portfolio — apr. 2018",
-    "description": "Personal portfolio built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a>. ⚔️",
+    "description": "Personal portfolio built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a>. <span role=\"img\" aria-label=\"'\">⚔️</span>",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/free"
   }
