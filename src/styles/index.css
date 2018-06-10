@@ -18,7 +18,7 @@ html, body {
 }
 
 .royal-link {
-  color: #0F00FF;
+  color: #4f2be2;
   text-decoration: none;
   transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
@@ -29,7 +29,7 @@ html, body {
 }
 
 .royal-link:visited {
-  color: #00e;
+  color: #4f2be2;
 }
 
 .royal-link:hover {
