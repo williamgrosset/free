@@ -1,13 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
-import Emoji from './Emoji';
 import '../styles/components/Contact.css';
 
 const Contact = () => (
   <div className="contact">
     <p className="contact-desc contact-desc-media fade-in">
-      <span>Get in touch. </span>
-      <Emoji symbol="🍻" />
+      <span>Get in touch. 🍻</span>
       <br />
       <a className="contact-link" href="mailto:williamhgrosset@gmail.com">
         williamhgrosset@gmail.com
