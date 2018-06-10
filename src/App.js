@@ -9,7 +9,7 @@ const App = () => (
   <div className="page">
     <About />
     <Spacer height={11} />
-    {projects.map((project) =>
+    {projects.map(project => (
       <Project
         title={project.title}
         subtitle={project.subtitle}
@@ -17,7 +17,7 @@ const App = () => (
         details={project.details}
         source={project.source}
       />
-    )}
+    ))}
     <Spacer height={11} />
     <Contact />
   </div>

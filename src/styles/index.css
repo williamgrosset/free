@@ -36,6 +36,10 @@ html, body {
   color: #b3b3ff;
 }
 
+.opaque {
+  color: #919191;
+}
+
 .fade-in {
   animation: fadein 1.8s;
   -moz-animation: fadein 1.8s;

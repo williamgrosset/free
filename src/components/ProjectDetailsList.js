@@ -6,7 +6,14 @@ import '../styles/components/ProjectDetailsList.css';
 const ProjectDetailsList = ({ detailsList, sourceURL }) => (
   <ul className="details-list details-list-media">
     {detailsList.map((detail, index) => {
-      if (detail === 'source' || detail === 'resume') {
+      if (!sourceURL && detail === 'source') {
+        return (
+          <li key={index}>
+            <span className="details-circle black" />
+            <span className="opaque">View source</span>
+          </li>
+        );
+      } else if (detail === 'source' || detail === 'resume') {
         return (
           <li key={index}>
             <span className="details-circle black" />
