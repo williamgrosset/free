@@ -29,7 +29,7 @@
   },
   {
     "title": "Chapter",
-    "subtitle": "git commit message auditor — jun. 2018",
+    "subtitle": "git commit message auditor — work in progress",
     "description": "Proofreading, conventions, and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
     "details": ["C++", "source"]
   },
