@@ -9,7 +9,7 @@
   {
     "title": "Fokus",
     "subtitle": "google chrome extension — jan. 2017",
-    "description": "Chrome extension for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️</span>",
+    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Chrome extension</a> for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️</span>",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },
@@ -23,7 +23,7 @@
   {
     "title": "ConCert",
     "subtitle": "open source contribution — jan. to apr. 2017",
-    "description": "Automated auditing for the open source medical application <a class=\"royal-link\" href=\"http://oscarcanada.org/\">OSCAR</a>. <span role=\"img\" aria-label=\"'\">🏥</span>",
+    "description": "Automated auditing for the open source medical application <a class=\"royal-link\" href=\"https://oscar-emr.com/about-us/\">OSCAR</a>. <span role=\"img\" aria-label=\"'\">🏥</span>",
     "details": ["Java", "source"],
     "source": "https://github.com/williamgrosset/OSCAR-ConCert/tree/master/ConCert"
   },
@@ -37,7 +37,7 @@
   {
     "title": "Chapter",
     "subtitle": "git commit message auditor — jun. 2018",
-    "description": "Conventions and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
+    "description": "Proofreading, conventions, and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
     "details": ["C++", "source"],
     "source": "https://github.com/williamgrosset/chapter"
   },
