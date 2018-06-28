@@ -9,7 +9,7 @@
   {
     "title": "Fokus",
     "subtitle": "google chrome extension — jan. 2017",
-    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Chrome extension</a> for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️</span>",
+    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Chrome extension</a> for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️ Built with <a class=\"royal-link\" href=\"https://reactjs.org\">React</a>.</span>",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },
