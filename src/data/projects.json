@@ -31,7 +31,8 @@
     "title": "Chapter",
     "subtitle": "git commit message auditor — developing",
     "description": "Conventions and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
-    "details": ["C++", "source"]
+    "details": ["C++", "source"],
+    "source": "https://github.com/williamgrosset/chapter"
   },
   {
     "title": "Systems & Networks",
