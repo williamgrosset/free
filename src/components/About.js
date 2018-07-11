@@ -11,7 +11,7 @@ const About = () => (
         Computer Science student at the{' '}
         <a className="royal-link" href="https://en.wikipedia.org/wiki/University_of_Victoria">
           University of Victoria
-        </a>.<br />Previously research assistant and software engineer at{' '}
+        </a>.<br />Previously research assistant at the University and software engineer at{' '}
         <a className="royal-link" href="https://www.change.org">
           Change.org
         </a>.
