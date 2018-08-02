@@ -9,7 +9,7 @@
   {
     "title": "Fokus",
     "subtitle": "google chrome extension — jan. 2017",
-    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Chrome extension</a> (ES6 and React) for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️ ",
+    "description": "<a class=\"royal-link\" href=\"https://chrome.google.com/webstore/detail/fokus/kapnmpfkldbacoamceiggkcoaepfgiea\">Chrome extension</a> for domain blocking and meditation practice. <span role=\"img\" aria-label=\"'\">💂‍♂️ ",
     "details": ["JavaScript", "source"],
     "source": "https://github.com/williamgrosset/fokus"
   },
@@ -30,14 +30,14 @@
   {
     "title": "Chapter",
     "subtitle": "git commit message auditor — developing",
-    "description": "Conventions and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
+    "description": "Custom conventions and rules for <a class=\"royal-link\" href=\"https://git-scm.com/\">Git</a> commit messages. <span role=\"img\" aria-label=\"'\">📝</span>",
     "details": ["C++", "source"],
     "source": "https://github.com/williamgrosset/chapter"
   },
   {
     "title": "Systems & Networks",
     "subtitle": "academia projects — jan. to apr. 2018",
-    "description": "Academia projects exploring file systems, multithreading, web sockets, and HTTP/TCP/UDP/IP protocols. <span role=\"img\" aria-label=\"'\">📖</span>",
+    "description": "Exploration of file systems, multithreading, web sockets, and HTTP/TCP/UDP/IP protocols. <span role=\"img\" aria-label=\"'\">📖</span>",
     "details": ["C", "Python", "source"],
     "source": "https://github.com/williamgrosset?utf8=%E2%9C%93&tab=repositories&q=university&type=&language="
   },
