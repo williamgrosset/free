@@ -8,7 +8,7 @@ import projects from './data/projects.json';
 const App = () => (
   <div className="page">
     <About />
-    <Spacer height={11} />
+    <Spacer height={10} />
     {projects.map(project => (
       <Project
         title={project.title}
