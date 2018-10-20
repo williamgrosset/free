@@ -4,7 +4,18 @@ import '../styles/components/About.css';
 const About = () => (
   <div className="about">
     <p className="about-desc about-desc-media fade-in">
-      <p className="about-name about-name-media">William Grosset.</p>
+      <div className="profile-row">
+        <div className="column">
+          <p className="about-name about-name-media">William Grosset.</p>
+        </div>
+        <div className="column">
+          <img
+            className="profile-photo"
+            src="https://avatars3.githubusercontent.com/u/16131737?s=460&v=4"
+            alt="William Grosset"
+          />
+        </div>
+      </div>
       <span className="about-desc-sub">
         Creator of{' '}
         <a className="royal-link" href="https://github.com/williamgrosset/chapter">
