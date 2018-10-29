@@ -17,10 +17,6 @@ const About = () => (
         </div>
       </div>
       <span className="about-desc-sub">
-        Creator of{' '}
-        <a className="royal-link" href="https://github.com/williamgrosset/chapter">
-          Chapter
-        </a>.<br />
         Computer Science student at the{' '}
         <a className="royal-link" href="https://en.wikipedia.org/wiki/University_of_Victoria">
           University of Victoria
