@@ -26,7 +26,7 @@ class App extends Component {
           />
         ))}
         <Spacer height={11} />
-        <Contact />
+        <Contact trackClickEvent={this.trackClickEvent} />
       </div>
     );
   }
