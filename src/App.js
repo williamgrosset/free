@@ -8,16 +8,17 @@ import projects from './data/projects.json';
 class App extends Component {
   constructor(props) {
     super(props);
+    this.trackClickEvent = this.trackClickEvent.bind(this);
   }
 
-  trackClickEvent() {
-    window.analytics.track('Test event');
+  trackClickEvent(event) {
+    window.analytics.track(event);
   }
 
   render() {
     return (
       <div className="page">
-        <About />
+        <About trackClickEvent={this.trackClickEvent} />
         <Spacer height={10} />
         {projects.map(project => (
           <Project
