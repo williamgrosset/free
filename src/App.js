@@ -1,26 +1,35 @@
-import React from 'react';
+import React, { Component } from 'react';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Spacer from './components/Spacer';
 import projects from './data/projects.json';
 
-const App = () => (
-  <div className="page">
-    <About />
-    <Spacer height={10} />
-    {projects.map(project => (
-      <Project
-        title={project.title}
-        subtitle={project.subtitle}
-        description={project.description}
-        details={project.details}
-        source={project.source}
-      />
-    ))}
-    <Spacer height={11} />
-    <Contact />
-  </div>
-);
+class App extends Component {
+  trackClickEvent = (event) => {
+    window.analytics.track(event);
+  }
+
+  render() {
+    return (
+      <div className="page">
+        <About trackClickEvent={this.trackClickEvent} />
+        <Spacer height={10} />
+        {projects.map(project => (
+          <Project
+            title={project.title}
+            subtitle={project.subtitle}
+            description={project.description}
+            details={project.details}
+            source={project.source}
+            trackClickEvent={this.trackClickEvent}
+          />
+        ))}
+        <Spacer height={11} />
+        <Contact trackClickEvent={this.trackClickEvent} />
+      </div>
+    );
+  }
+}
 
 export default App;

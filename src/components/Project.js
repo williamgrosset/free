@@ -23,7 +23,7 @@ class Project extends Component {
   }
 
   render() {
-    const { title, subtitle, description, details, source } = this.props;
+    const { title, subtitle, description, details, source, trackClickEvent } = this.props;
     const { isInWaypoint } = this.state;
 
     return (
@@ -41,7 +41,7 @@ class Project extends Component {
             </p>
             <div className={`${isInWaypoint ? 'project-primary-enter-media' : 'project-primary-leave'}`}>
               <p className="project-desc project-desc-media" dangerouslySetInnerHTML={{ __html: description }} />
-              <ProjectDetailsList detailsList={details} sourceURL={source} />
+              <ProjectDetailsList detailsList={details} sourceURL={source} trackClickEvent={trackClickEvent} />
             </div>
           </div>
         </div>
@@ -56,6 +56,7 @@ Project.propTypes = {
   description: PropTypes.string.isRequired,
   details: PropTypes.arrayOf(PropTypes.string).isRequired,
   source: PropTypes.string.isRequired,
+  trackClickEvent: PropTypes.func.isRequired,
 };
 
 export default Project;

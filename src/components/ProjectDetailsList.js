@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/components/ProjectDetailsList.css';
 
-const ProjectDetailsList = ({ detailsList, sourceURL }) => (
+const ProjectDetailsList = ({ detailsList, sourceURL, trackClickEvent }) => (
   <ul className="details-list details-list-media">
     {detailsList.map((detail, index) => {
       if (!sourceURL && detail === 'source') {
@@ -18,7 +18,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
         return (
           <li key={index}>
             <span className="details-circle black" />
-            <a className="royal-link" href={sourceURL}>
+            <a className="royal-link" href={sourceURL} target="_blank" onClick={() => trackClickEvent(sourceURL)}>
               {detail === 'resume' ? 'View resume' : 'View source'}
             </a>
           </li>
@@ -41,6 +41,7 @@ const ProjectDetailsList = ({ detailsList, sourceURL }) => (
 ProjectDetailsList.propTypes = {
   detailsList: PropTypes.arrayOf(PropTypes.string).isRequired,
   sourceURL: PropTypes.string,
+  trackClickEvent: PropTypes.func.isRequired,
 };
 
 ProjectDetailsList.defaultProps = { sourceURL: '' };
