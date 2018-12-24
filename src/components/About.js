@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/components/About.css';
 
-const About = (props) => {
+const About = props => {
   const { trackClickEvent } = props;
 
   return (
@@ -22,7 +22,13 @@ const About = (props) => {
         </div>
         <span className="about-desc-sub">
           Computer Science student at the{' '}
-          <a className="royal-link" href="https://en.wikipedia.org/wiki/University_of_Victoria" onClick={trackClickEvent.bind(this, 'UVic link')}>
+          <a
+            className="royal-link"
+            href="https://en.wikipedia.org/wiki/University_of_Victoria"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackClickEvent('UVic link')}
+          >
             University of Victoria
           </a>.<br />Previously research assistant and software engineer at{' '}
           <a className="royal-link" href="https://www.change.org">
@@ -31,11 +37,9 @@ const About = (props) => {
         </span>
       </p>
     </div>
-  )
+  );
 };
 
-About.propTypes = {
-  trackClickEvent: PropTypes.func.isRequired,
-};
+About.propTypes = { trackClickEvent: PropTypes.func.isRequired };
 
 export default About;
