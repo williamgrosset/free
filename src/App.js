@@ -6,12 +6,7 @@ import Spacer from './components/Spacer';
 import projects from './data/projects.json';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.trackClickEvent = this.trackClickEvent.bind(this);
-  }
-
-  trackClickEvent(event) {
+  trackClickEvent = (event) => {
     window.analytics.track(event);
   }
 
@@ -27,6 +22,7 @@ class App extends Component {
             description={project.description}
             details={project.details}
             source={project.source}
+            trackClickEvent={this.trackClickEvent}
           />
         ))}
         <Spacer height={11} />
