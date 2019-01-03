@@ -18,7 +18,17 @@ const About = ({ trackClickEvent }) => (
         </div>
       </div>
       <span className="about-desc-sub">
-        Computer Science student at the{' '}
+        Software Engineer Intern at{' '}
+        <a
+          className="royal-link"
+          href="https://segment.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => trackClickEvent('Segment link')}
+        >
+          Segment
+        </a>.<br />
+        Computer Science Student at the{' '}
         <a
           className="royal-link"
           href="https://en.wikipedia.org/wiki/University_of_Victoria"
@@ -27,7 +37,7 @@ const About = ({ trackClickEvent }) => (
           onClick={() => trackClickEvent('UVic link')}
         >
           University of Victoria
-        </a>.<br />Previously research assistant and software engineer at{' '}
+        </a>.<br />Previously Research Assistant at UVic and Software Engineer at{' '}
         <a
           className="royal-link"
           href="https://www.change.org"
