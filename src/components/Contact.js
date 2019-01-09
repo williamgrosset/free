@@ -44,7 +44,7 @@ const Contact = ({ trackClickEvent }) => (
         href="https://github.com/williamgrosset"
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackClickEvent('Clicked Github Social')}
+        onClick={() => trackClickEvent('Clicked GitHub Link')}
       />
     </p>
   </div>
