@@ -19,7 +19,7 @@ const Contact = ({ trackClickEvent }) => (
         href="mailto:williamhgrosset@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackClickEvent('Email')}
+        onClick={() => trackClickEvent('Clicked Email Link')}
       >
         williamhgrosset@gmail.com
       </a>
@@ -30,21 +30,21 @@ const Contact = ({ trackClickEvent }) => (
         href="https://www.linkedin.com/in/williamgrosset/"
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackClickEvent('LinkedIn social')}
+        onClick={() => trackClickEvent('Clicked LinkedIn Link')}
       />
       <a
         className="contact-link socicon-twitter mrl"
         href="https://twitter.com/williamhgrosset"
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackClickEvent('Twitter social')}
+        onClick={() => trackClickEvent('Clicked Twitter Link')}
       />
       <a
         className="contact-link socicon-github"
         href="https://github.com/williamgrosset"
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackClickEvent('Github social')}
+        onClick={() => trackClickEvent('Clicked Github Social')}
       />
     </p>
   </div>

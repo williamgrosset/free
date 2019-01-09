@@ -24,7 +24,7 @@ const About = ({ trackClickEvent }) => (
           href="https://segment.com"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackClickEvent('Segment link')}
+          onClick={() => trackClickEvent('Clicked Segment Link')}
         >
           Segment
         </a>.<br />
@@ -34,7 +34,7 @@ const About = ({ trackClickEvent }) => (
           href="https://en.wikipedia.org/wiki/University_of_Victoria"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackClickEvent('UVic link')}
+          onClick={() => trackClickEvent('Clicked UVic Link')}
         >
           University of Victoria
         </a>.<br />Previously Research Assistant at UVic and Software Engineer at{' '}
@@ -43,7 +43,7 @@ const About = ({ trackClickEvent }) => (
           href="https://www.change.org"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackClickEvent('Change.org link')}
+          onClick={() => trackClickEvent('Clicked Change.org Link')}
         >
           Change.org
         </a>.

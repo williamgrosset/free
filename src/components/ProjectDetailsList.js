@@ -18,7 +18,12 @@ const ProjectDetailsList = ({ detailsList, sourceURL, trackClickEvent }) => (
         return (
           <li key={index}>
             <span className="details-circle black" />
-            <a className="royal-link" href={sourceURL} target="_blank" onClick={() => trackClickEvent(sourceURL)}>
+            <a
+              className="royal-link"
+              href={sourceURL}
+              target="_blank"
+              onClick={() => trackClickEvent(`Clicked Project Link: ${sourceURL}`)}
+            >
               {detail === 'resume' ? 'View resume' : 'View source'}
             </a>
           </li>
