@@ -18,7 +18,7 @@ const About = ({ trackClickEvent }) => (
         </div>
       </div>
       <span className="about-desc-sub">
-        Software Engineer Intern at{' '}
+        Software Engineer at{' '}
         <a
           className="royal-link"
           href="https://segment.com"
